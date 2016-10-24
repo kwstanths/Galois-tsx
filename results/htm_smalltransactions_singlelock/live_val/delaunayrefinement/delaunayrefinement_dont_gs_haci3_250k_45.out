@@ -1,0 +1,350 @@
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Mesh Refinement
+Refines a Delaunay triangulation mesh such that no angle in the mesh is less than 30 degrees
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_mesh_refinement
+
+INFO: CommandLine ./delaunayrefinement_dont_gs -t 1 /home/users/kkazatzis/GaloisInput-2.0/input/delaunayrefinement/250k.2
+INFO: Hostname haci3
+Using bin for node
+Using bin for ele
+Using bin for poly
+configuration: 549998 total triangles, 261100 bad triangles
+Total Time: 3.73 s
+2313444 total triangles
+Refinement OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0
+STAT,(NULL),Conflicts,1,0,0
+STAT,(NULL),Iterations,1,261100,261100
+STAT,(NULL),MeminfoMid,1,704,704
+STAT,(NULL),MeminfoPost,1,704,704
+STAT,(NULL),MeminfoPre1,1,64,64
+STAT,(NULL),MeminfoPre2,1,704,704
+STAT,(NULL),OuterRoundsExecuted,1,7,7
+STAT,(NULL),RoundsExecuted,1,7,7
+STAT,(NULL),Threads,1,1,1
+STAT,(NULL),Time,1,3733,3733
+STAT,(NULL),refine,1,3700,3700
+STAT,allocate,LoopTime,1,40,40
+STAT,count_if,LoopTime,1,351,351
+STAT,findbad,LoopTime,1,32,32
+STAT,refine,Conflicts,1,0,0
+STAT,refine,Iterations,1,1556311,1556311
+STAT,refine,LoopTime,1,3594,3594
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Mesh Refinement
+Refines a Delaunay triangulation mesh such that no angle in the mesh is less than 30 degrees
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_mesh_refinement
+
+INFO: CommandLine ./delaunayrefinement_dont_gs -t 2 /home/users/kkazatzis/GaloisInput-2.0/input/delaunayrefinement/250k.2
+INFO: Hostname haci3
+Using bin for node
+Using bin for ele
+Using bin for poly
+configuration: 549998 total triangles, 261100 bad triangles
+Total Time: 18.77 s
+2313562 total triangles
+Refinement OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1
+STAT,(NULL),Conflicts,2,0,0,0
+STAT,(NULL),Iterations,2,261100,130582,130518
+STAT,(NULL),MeminfoMid,2,715,357,358
+STAT,(NULL),MeminfoPost,2,715,357,358
+STAT,(NULL),MeminfoPre1,2,65,32,33
+STAT,(NULL),MeminfoPre2,2,715,357,358
+STAT,(NULL),OuterRoundsExecuted,2,7,7,0
+STAT,(NULL),RoundsExecuted,2,7,7,0
+STAT,(NULL),Threads,2,2,2,0
+STAT,(NULL),Time,2,9380,9380,0
+STAT,(NULL),refine,2,9364,9364,0
+STAT,allocate,LoopTime,2,28,28,0
+STAT,count_if,LoopTime,2,374,374,0
+STAT,findbad,LoopTime,2,16,16,0
+STAT,refine,Conflicts,2,0,0,0
+STAT,refine,Iterations,2,1556256,747299,808957
+STAT,refine,LoopTime,2,9307,9307,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Mesh Refinement
+Refines a Delaunay triangulation mesh such that no angle in the mesh is less than 30 degrees
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_mesh_refinement
+
+INFO: CommandLine ./delaunayrefinement_dont_gs -t 4 /home/users/kkazatzis/GaloisInput-2.0/input/delaunayrefinement/250k.2
+INFO: Hostname haci3
+Using bin for node
+Using bin for ele
+Using bin for poly
+configuration: 549998 total triangles, 261100 bad triangles
+Total Time: 23.08 s
+2313862 total triangles
+Refinement OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3
+STAT,(NULL),Conflicts,4,0,0,0,0,0
+STAT,(NULL),Iterations,4,261100,65243,65083,65275,65499
+STAT,(NULL),MeminfoMid,4,748,187,187,187,187
+STAT,(NULL),MeminfoPost,4,748,187,187,187,187
+STAT,(NULL),MeminfoPre1,4,68,17,17,17,17
+STAT,(NULL),MeminfoPre2,4,748,187,187,187,187
+STAT,(NULL),OuterRoundsExecuted,4,7,7,0,0,0
+STAT,(NULL),RoundsExecuted,4,7,7,0,0,0
+STAT,(NULL),Threads,4,4,4,0,0,0
+STAT,(NULL),Time,4,5768,5768,0,0,0
+STAT,(NULL),refine,4,5759,5759,0,0,0
+STAT,allocate,LoopTime,4,29,29,0,0,0
+STAT,count_if,LoopTime,4,374,374,0,0,0
+STAT,findbad,LoopTime,4,8,8,0,0,0
+STAT,refine,Conflicts,4,0,0,0,0,0
+STAT,refine,Iterations,4,1556686,376542,391395,393749,395000
+STAT,refine,LoopTime,4,5729,5729,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Mesh Refinement
+Refines a Delaunay triangulation mesh such that no angle in the mesh is less than 30 degrees
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_mesh_refinement
+
+INFO: CommandLine ./delaunayrefinement_dont_gs -t 8 /home/users/kkazatzis/GaloisInput-2.0/input/delaunayrefinement/250k.2
+INFO: Hostname haci3
+Using bin for node
+Using bin for ele
+Using bin for poly
+configuration: 549998 total triangles, 261100 bad triangles
+Total Time: 25.20 s
+2313442 total triangles
+Refinement OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7
+STAT,(NULL),Conflicts,8,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Iterations,8,261100,32382,32254,32286,32478,32861,32765,33021,33053
+STAT,(NULL),MeminfoMid,8,792,99,99,99,99,99,99,99,99
+STAT,(NULL),MeminfoPost,8,792,99,99,99,99,99,99,99,99
+STAT,(NULL),MeminfoPre1,8,72,9,9,9,9,9,9,9,9
+STAT,(NULL),MeminfoPre2,8,792,99,99,99,99,99,99,99,99
+STAT,(NULL),OuterRoundsExecuted,8,7,7,0,0,0,0,0,0,0
+STAT,(NULL),RoundsExecuted,8,7,7,0,0,0,0,0,0,0
+STAT,(NULL),Threads,8,8,8,0,0,0,0,0,0,0
+STAT,(NULL),Time,8,3148,3148,0,0,0,0,0,0,0
+STAT,(NULL),refine,8,3144,3144,0,0,0,0,0,0,0
+STAT,allocate,LoopTime,8,33,33,0,0,0,0,0,0,0
+STAT,count_if,LoopTime,8,390,390,0,0,0,0,0,0,0
+STAT,findbad,LoopTime,8,4,4,0,0,0,0,0,0,0
+STAT,refine,Conflicts,8,0,0,0,0,0,0,0,0,0
+STAT,refine,Iterations,8,1556321,174128,196918,196270,191280,198497,205690,196802,196736
+STAT,refine,LoopTime,8,3128,3128,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Mesh Refinement
+Refines a Delaunay triangulation mesh such that no angle in the mesh is less than 30 degrees
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_mesh_refinement
+
+INFO: CommandLine ./delaunayrefinement_dont_gs -t 16 /home/users/kkazatzis/GaloisInput-2.0/input/delaunayrefinement/250k.2
+INFO: Hostname haci3
+Using bin for node
+Using bin for ele
+Using bin for poly
+configuration: 549998 total triangles, 261100 bad triangles
+Total Time: 53.16 s
+2312394 total triangles
+Refinement OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15
+STAT,(NULL),Conflicts,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Iterations,16,261100,16543,16095,16223,16447,15679,15487,16031,15871,15359,15583,15167,15039,14974,14910,20894,20798
+STAT,(NULL),MeminfoMid,16,880,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55
+STAT,(NULL),MeminfoPost,16,880,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55
+STAT,(NULL),MeminfoPre1,16,80,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+STAT,(NULL),MeminfoPre2,16,880,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55
+STAT,(NULL),OuterRoundsExecuted,16,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),RoundsExecuted,16,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,16,16,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,16,3321,3321,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),refine,16,3318,3318,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,allocate,LoopTime,16,32,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,count_if,LoopTime,16,489,489,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,findbad,LoopTime,16,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,refine,Conflicts,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,refine,Iterations,16,1555330,79440,94933,91258,95689,93155,95960,95209,91575,93340,95549,100027,95838,97089,94691,121133,120444
+STAT,refine,LoopTime,16,3306,3306,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Mesh Refinement
+Refines a Delaunay triangulation mesh such that no angle in the mesh is less than 30 degrees
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_mesh_refinement
+
+INFO: CommandLine ./delaunayrefinement_dont_gs -t 24 /home/users/kkazatzis/GaloisInput-2.0/input/delaunayrefinement/250k.2
+INFO: Hostname haci3
+Using bin for node
+Using bin for ele
+Using bin for poly
+configuration: 549998 total triangles, 261100 bad triangles
+Total Time: 91.42 s
+2312744 total triangles
+Refinement OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23
+STAT,(NULL),Conflicts,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Iterations,24,261100,9184,8672,9056,8608,8607,8607,9311,9215,7679,8575,8863,8991,8287,8671,13983,13471,13727,14143,13855,13823,13855,13887,13919,14111
+STAT,(NULL),MeminfoMid,24,792,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33
+STAT,(NULL),MeminfoPost,24,792,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33
+STAT,(NULL),MeminfoPre1,24,72,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+STAT,(NULL),MeminfoPre2,24,792,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33
+STAT,(NULL),OuterRoundsExecuted,24,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),RoundsExecuted,24,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,24,24,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,24,3807,3807,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),refine,24,3806,3806,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,allocate,LoopTime,24,32,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,count_if,LoopTime,24,522,522,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,findbad,LoopTime,24,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,refine,Conflicts,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,refine,Iterations,24,1555399,55259,63920,59417,60002,62297,61586,61011,64324,56393,63119,59503,59826,60203,60663,71688,72060,68305,72296,68339,70840,69041,70262,71391,73654
+STAT,refine,LoopTime,24,3795,3795,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Mesh Refinement
+Refines a Delaunay triangulation mesh such that no angle in the mesh is less than 30 degrees
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_mesh_refinement
+
+INFO: CommandLine ./delaunayrefinement_dont_gs -t 32 /home/users/kkazatzis/GaloisInput-2.0/input/delaunayrefinement/250k.2
+INFO: Hostname haci3
+Using bin for node
+Using bin for ele
+Using bin for poly
+configuration: 549998 total triangles, 261100 bad triangles
+Total Time: 162.61 s
+2313202 total triangles
+Refinement OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31
+STAT,(NULL),Conflicts,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Iterations,32,261100,5504,5280,5504,5664,7008,7168,6848,7648,7872,7520,7744,7648,7743,7583,9887,9695,10111,10495,10271,10463,10623,10047,10399,10367,10591,9759,9887,9471,5439,5375,5695,5791
+STAT,(NULL),MeminfoMid,32,1056,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33
+STAT,(NULL),MeminfoPost,32,1056,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33
+STAT,(NULL),MeminfoPre1,32,96,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+STAT,(NULL),MeminfoPre2,32,1056,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33
+STAT,(NULL),OuterRoundsExecuted,32,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),RoundsExecuted,32,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,32,32,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,32,5079,5079,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),refine,32,5077,5077,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,allocate,LoopTime,32,45,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,count_if,LoopTime,32,596,596,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,findbad,LoopTime,32,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,refine,Conflicts,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,refine,Iterations,32,1555691,49368,49323,50414,46410,46869,46797,48034,49021,48318,47649,50142,46020,47813,45149,49982,46682,48191,48548,51894,49233,50357,51639,46418,51441,48386,49045,46682,47118,46363,52098,48920,51367
+STAT,refine,LoopTime,32,5067,5067,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Mesh Refinement
+Refines a Delaunay triangulation mesh such that no angle in the mesh is less than 30 degrees
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_mesh_refinement
+
+INFO: CommandLine ./delaunayrefinement_dont_gs -t 40 /home/users/kkazatzis/GaloisInput-2.0/input/delaunayrefinement/250k.2
+INFO: Hostname haci3
+Using bin for node
+Using bin for ele
+Using bin for poly
+configuration: 549998 total triangles, 261100 bad triangles
+Total Time: 221.37 s
+2314376 total triangles
+Refinement OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31,T32,T33,T34,T35,T36,T37,T38,T39
+STAT,(NULL),Conflicts,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Iterations,40,261100,3744,2784,3744,3616,3808,3392,3936,3296,3936,2880,4800,4768,6080,6176,11104,10304,10464,11072,11296,11424,11359,11551,11903,11967,11583,11935,11327,10911,3391,3487,3807,3743,3455,3583,3807,3231,4031,3551,4351,5503
+STAT,(NULL),MeminfoMid,40,1320,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33
+STAT,(NULL),MeminfoPost,40,1320,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33
+STAT,(NULL),MeminfoPre1,40,120,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+STAT,(NULL),MeminfoPre2,40,1320,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33
+STAT,(NULL),OuterRoundsExecuted,40,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),RoundsExecuted,40,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,40,40,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,40,5532,5532,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),refine,40,5530,5530,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,allocate,LoopTime,40,59,59,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,count_if,LoopTime,40,580,580,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,findbad,LoopTime,40,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,refine,Conflicts,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,refine,Iterations,40,1557125,39618,37194,36348,36642,37106,37313,37158,39535,39692,40765,39420,36528,41912,42648,40567,39169,39062,38316,37864,38915,38344,37814,39054,41071,38934,41446,40899,40046,35856,39214,35754,37164,37868,38795,39569,36301,41809,41847,38222,41346
+STAT,refine,LoopTime,40,5515,5515,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Mesh Refinement
+Refines a Delaunay triangulation mesh such that no angle in the mesh is less than 30 degrees
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_mesh_refinement
+
+INFO: CommandLine ./delaunayrefinement_dont_gs -t 48 /home/users/kkazatzis/GaloisInput-2.0/input/delaunayrefinement/250k.2
+INFO: Hostname haci3
+Using bin for node
+Using bin for ele
+Using bin for poly
+configuration: 549998 total triangles, 261100 bad triangles
+Total Time: 270.57 s
+2312562 total triangles
+Refinement OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31,T32,T33,T34,T35,T36,T37,T38,T39,T40,T41,T42,T43,T44,T45,T46,T47
+STAT,(NULL),Conflicts,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Iterations,48,261100,3392,2880,3168,3520,3424,3264,3584,3872,2880,4032,3424,3616,3200,3776,7104,7360,6720,7648,8000,7712,9408,9856,9696,9216,9568,9184,8992,8896,3039,2815,3455,3615,3871,3135,3583,4383,2847,4127,3327,3583,3295,3839,7167,7519,6943,7615,7807,7743
+STAT,(NULL),MeminfoMid,48,1056,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22
+STAT,(NULL),MeminfoPost,48,1056,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22
+STAT,(NULL),MeminfoPre1,48,96,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+STAT,(NULL),MeminfoPre2,48,1056,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22
+STAT,(NULL),OuterRoundsExecuted,48,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),RoundsExecuted,48,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,48,5634,5634,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),refine,48,5633,5633,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,allocate,LoopTime,48,37,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,count_if,LoopTime,48,801,801,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,findbad,LoopTime,48,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,refine,Conflicts,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,refine,Iterations,48,1555011,35753,32046,34004,34452,34428,36070,33128,31998,32140,32660,30397,32007,32297,30432,28584,30992,30831,29591,31206,32812,35552,33424,33206,33361,32466,31296,31818,30920,33527,31461,30998,33966,37602,34051,34214,35753,33467,31263,32218,30335,30701,31409,27136,29775,31744,30639,32445,34436
+STAT,refine,LoopTime,48,5620,5620,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Mesh Refinement
+Refines a Delaunay triangulation mesh such that no angle in the mesh is less than 30 degrees
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_mesh_refinement
+
+INFO: CommandLine ./delaunayrefinement_dont_gs -t 56 /home/users/kkazatzis/GaloisInput-2.0/input/delaunayrefinement/250k.2
+INFO: Hostname haci3
+Using bin for node
+Using bin for ele
+Using bin for poly
+configuration: 549998 total triangles, 261100 bad triangles
+Total Time: 331.99 s
+2311534 total triangles
+Refinement OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31,T32,T33,T34,T35,T36,T37,T38,T39,T40,T41,T42,T43,T44,T45,T46,T47,T48,T49,T50,T51,T52,T53,T54,T55
+STAT,(NULL),Conflicts,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Iterations,56,261100,3927,4055,3479,4663,3639,3703,3831,4215,4055,4087,3639,3671,4503,4151,5047,5335,5431,5847,5399,5111,5655,5751,5367,4983,5463,5303,5303,5399,3894,3958,3606,4342,3830,4182,3894,4374,3894,3926,3606,3702,3990,3542,5110,5014,5462,6006,5430,5462,5686,5558,5654,4726,5686,5398,4758,5398
+STAT,(NULL),MeminfoMid,56,1232,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22
+STAT,(NULL),MeminfoPost,56,1232,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22
+STAT,(NULL),MeminfoPre1,56,112,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+STAT,(NULL),MeminfoPre2,56,1232,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22
+STAT,(NULL),OuterRoundsExecuted,56,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),RoundsExecuted,56,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,56,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,56,5926,5926,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),refine,56,5924,5924,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,allocate,LoopTime,56,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,count_if,LoopTime,56,794,794,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,findbad,LoopTime,56,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,refine,Conflicts,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,refine,Iterations,56,1554489,26042,24145,25760,26319,26280,24209,23796,27520,27125,28132,27659,28222,27924,29908,32586,26106,27015,31378,31864,30087,27718,28338,30368,29740,26752,27651,28094,26561,22888,24004,24149,24208,26845,25322,23330,27455,30495,29254,26840,27435,29003,30656,28022,25785,30568,28722,28863,28198,29072,30520,28967,28419,27784,29087,30609,30690
+STAT,refine,LoopTime,56,5914,5914,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

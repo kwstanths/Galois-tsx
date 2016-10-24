@@ -1,0 +1,85 @@
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Triangulation
+Produces a Delaunay triangulation for a set of points
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_triangulation
+
+INFO: CommandLine ./delaunaytriangulation -t 1 /home/users/kkazatzis/Galois-2.2.1/inputs/meshes/r100k.node
+INFO: Hostname haci1
+configuration: 100003 points
+mesh size: 200004
+Triangulation OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0
+STAT,(NULL),Conflicts,1,0,0
+STAT,(NULL),Iterations,1,100000,100000
+STAT,(NULL),LoopTime,1,233,233
+STAT,(NULL),MeminfoPost,1,75,75
+STAT,(NULL),MeminfoPre,1,75,75
+STAT,(NULL),Threads,1,1,1
+STAT,(NULL),Time,1,232,232
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Triangulation
+Produces a Delaunay triangulation for a set of points
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_triangulation
+
+INFO: CommandLine ./delaunaytriangulation -t 2 /home/users/kkazatzis/Galois-2.2.1/inputs/meshes/r100k.node
+INFO: Hostname haci1
+configuration: 100003 points
+mesh size: 200004
+Triangulation OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1
+STAT,(NULL),Conflicts,2,664,348,316
+STAT,(NULL),Iterations,2,100664,51006,49658
+STAT,(NULL),LoopTime,2,133,133,0
+STAT,(NULL),MeminfoPost,2,78,39,39
+STAT,(NULL),MeminfoPre,2,78,39,39
+STAT,(NULL),Threads,2,2,2,0
+STAT,(NULL),Time,2,133,133,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Triangulation
+Produces a Delaunay triangulation for a set of points
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_triangulation
+
+INFO: CommandLine ./delaunaytriangulation -t 4 /home/users/kkazatzis/Galois-2.2.1/inputs/meshes/r100k.node
+INFO: Hostname haci1
+configuration: 100003 points
+mesh size: 200004
+Triangulation OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3
+STAT,(NULL),Conflicts,4,3438,887,1107,1080,364
+STAT,(NULL),Iterations,4,103438,25982,26490,26018,24948
+STAT,(NULL),LoopTime,4,66,66,0,0,0
+STAT,(NULL),MeminfoPost,4,84,21,21,21,21
+STAT,(NULL),MeminfoPre,4,84,21,21,21,21
+STAT,(NULL),Threads,4,4,4,0,0,0
+STAT,(NULL),Time,4,66,66,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Triangulation
+Produces a Delaunay triangulation for a set of points
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_triangulation
+
+INFO: CommandLine ./delaunaytriangulation -t 8 /home/users/kkazatzis/Galois-2.2.1/inputs/meshes/r100k.node
+INFO: Hostname haci1
+configuration: 100003 points
+mesh size: 200004
+Triangulation OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7
+STAT,(NULL),Conflicts,8,12660,878,949,1456,1258,1722,1497,2443,2457
+STAT,(NULL),Iterations,8,112660,13511,13360,14126,13598,14222,14038,14959,14846
+STAT,(NULL),LoopTime,8,51,51,0,0,0,0,0,0,0
+STAT,(NULL),MeminfoPost,8,96,12,12,12,12,12,12,12,12
+STAT,(NULL),MeminfoPre,8,96,12,12,12,12,12,12,12,12
+STAT,(NULL),Threads,8,8,8,0,0,0,0,0,0,0
+STAT,(NULL),Time,8,51,51,0,0,0,0,0,0,0
+

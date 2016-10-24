@@ -1,0 +1,279 @@
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Triangulation
+Produces a Delaunay triangulation for a set of points
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_triangulation
+
+INFO: CommandLine ./delaunaytriangulation_gs -t 1 /home/users/kkazatzis/Galois-2.2.1/inputs/meshes/r100k.node
+INFO: Hostname broady
+configuration: 100003 points
+Number of aborts: 15
+mesh size: 200004
+	Total transactions completed: 398742
+	Conflict aborts: 562
+	Capacity aborts: 27802
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 32154
+
+Triangulation OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0
+STAT,(NULL),Conflicts,1,0,0
+STAT,(NULL),Iterations,1,100000,100000
+STAT,(NULL),LoopTime,1,509,509
+STAT,(NULL),MeminfoPost,1,75,75
+STAT,(NULL),MeminfoPre,1,75,75
+STAT,(NULL),Threads,1,1,1
+STAT,(NULL),Time,1,508,508
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Triangulation
+Produces a Delaunay triangulation for a set of points
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_triangulation
+
+INFO: CommandLine ./delaunaytriangulation_gs -t 2 /home/users/kkazatzis/Galois-2.2.1/inputs/meshes/r100k.node
+INFO: Hostname broady
+configuration: 100003 points
+Number of aborts: 15
+mesh size: 200004
+	Total transactions completed: 396581
+	Conflict aborts: 225280
+	Capacity aborts: 24717
+	Retry aborts: 0
+	Explicit aborts: 1
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 250944
+
+Triangulation OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1
+STAT,(NULL),Conflicts,2,0,0,0
+STAT,(NULL),Iterations,2,100000,56176,43824
+STAT,(NULL),LoopTime,2,410,410,0
+STAT,(NULL),MeminfoPost,2,78,39,39
+STAT,(NULL),MeminfoPre,2,78,39,39
+STAT,(NULL),Threads,2,2,2,0
+STAT,(NULL),Time,2,410,410,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Triangulation
+Produces a Delaunay triangulation for a set of points
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_triangulation
+
+INFO: CommandLine ./delaunaytriangulation_gs -t 4 /home/users/kkazatzis/Galois-2.2.1/inputs/meshes/r100k.node
+INFO: Hostname broady
+configuration: 100003 points
+Number of aborts: 15
+mesh size: 200004
+	Total transactions completed: 382238
+	Conflict aborts: 766294
+	Capacity aborts: 23212
+	Retry aborts: 0
+	Explicit aborts: 30
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 790426
+
+Triangulation OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3
+STAT,(NULL),Conflicts,4,0,0,0,0,0
+STAT,(NULL),Iterations,4,100000,21480,26664,25896,25960
+STAT,(NULL),LoopTime,4,356,356,0,0,0
+STAT,(NULL),MeminfoPost,4,84,21,21,21,21
+STAT,(NULL),MeminfoPre,4,84,21,21,21,21
+STAT,(NULL),Threads,4,4,4,0,0,0
+STAT,(NULL),Time,4,356,356,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Triangulation
+Produces a Delaunay triangulation for a set of points
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_triangulation
+
+INFO: CommandLine ./delaunaytriangulation_gs -t 8 /home/users/kkazatzis/Galois-2.2.1/inputs/meshes/r100k.node
+INFO: Hostname broady
+configuration: 100003 points
+Number of aborts: 15
+mesh size: 200004
+	Total transactions completed: 326034
+	Conflict aborts: 1842496
+	Capacity aborts: 14990
+	Retry aborts: 0
+	Explicit aborts: 1016
+	Debug aborts: 0
+	Nested aborts: 3
+	Total aborts: 1859277
+
+Triangulation OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7
+STAT,(NULL),Conflicts,8,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Iterations,8,100000,10164,12756,13140,12852,12660,12596,12724,13108
+STAT,(NULL),LoopTime,8,309,309,0,0,0,0,0,0,0
+STAT,(NULL),MeminfoPost,8,96,12,12,12,12,12,12,12,12
+STAT,(NULL),MeminfoPre,8,96,12,12,12,12,12,12,12,12
+STAT,(NULL),Threads,8,8,8,0,0,0,0,0,0,0
+STAT,(NULL),Time,8,309,309,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Triangulation
+Produces a Delaunay triangulation for a set of points
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_triangulation
+
+INFO: CommandLine ./delaunaytriangulation_gs -t 16 /home/users/kkazatzis/Galois-2.2.1/inputs/meshes/r100k.node
+INFO: Hostname broady
+configuration: 100003 points
+Number of aborts: 15
+mesh size: 200004
+	Total transactions completed: 12622
+	Conflict aborts: 6237783
+	Capacity aborts: 4544
+	Retry aborts: 0
+	Explicit aborts: 2200
+	Debug aborts: 0
+	Nested aborts: 19
+	Total aborts: 6244784
+
+Triangulation OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15
+STAT,(NULL),Conflicts,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Iterations,16,100000,6442,6090,6602,6250,6218,6282,6602,6666,6314,6090,6250,6122,6026,6090,5802,6154
+STAT,(NULL),LoopTime,16,613,613,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),MeminfoPost,16,131,8,8,9,8,8,8,9,9,8,8,8,8,8,8,8,8
+STAT,(NULL),MeminfoPre,16,112,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7
+STAT,(NULL),Threads,16,16,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,16,613,613,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Triangulation
+Produces a Delaunay triangulation for a set of points
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_triangulation
+
+INFO: CommandLine ./delaunaytriangulation_gs -t 24 /home/users/kkazatzis/Galois-2.2.1/inputs/meshes/r100k.node
+INFO: Hostname broady
+configuration: 100003 points
+Number of aborts: 15
+mesh size: 200002
+	Total transactions completed: 23280
+	Conflict aborts: 6241102
+	Capacity aborts: 4368
+	Retry aborts: 0
+	Explicit aborts: 2288
+	Debug aborts: 0
+	Nested aborts: 5
+	Total aborts: 6247959
+
+Triangulation OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23
+STAT,(NULL),Conflicts,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Iterations,24,100000,3111,3303,3303,3367,3463,3687,3335,3335,3367,3303,3591,4007,3687,3719,3399,3335,3367,3559,3687,3751,3399,3367,12967,10591
+STAT,(NULL),LoopTime,24,861,861,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),MeminfoPost,24,175,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,11,10
+STAT,(NULL),MeminfoPre,24,144,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6
+STAT,(NULL),Threads,24,24,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,24,861,861,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Triangulation
+Produces a Delaunay triangulation for a set of points
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_triangulation
+
+INFO: CommandLine ./delaunaytriangulation_gs -t 32 /home/users/kkazatzis/Galois-2.2.1/inputs/meshes/r100k.node
+INFO: Hostname broady
+configuration: 100003 points
+Number of aborts: 15
+mesh size: 199996
+	Total transactions completed: 13426
+	Conflict aborts: 6354981
+	Capacity aborts: 3443
+	Retry aborts: 0
+	Explicit aborts: 1842
+	Debug aborts: 0
+	Nested aborts: 8
+	Total aborts: 6360498
+
+Triangulation OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31
+STAT,(NULL),Conflicts,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Iterations,32,100000,2613,2773,2805,2581,2645,2645,2837,2837,2677,2613,2645,2677,2741,2677,3253,3221,2869,2677,2805,2837,3221,3093,4789,3477,3669,3957,3733,3605,3573,3669,3797,3989
+STAT,(NULL),LoopTime,32,981,981,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),MeminfoPost,32,225,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,7,7,7,7,7,7,7,7,7
+STAT,(NULL),MeminfoPre,32,160,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+STAT,(NULL),Threads,32,32,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,32,981,981,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Triangulation
+Produces a Delaunay triangulation for a set of points
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_triangulation
+
+INFO: CommandLine ./delaunaytriangulation_gs -t 40 /home/users/kkazatzis/Galois-2.2.1/inputs/meshes/r100k.node
+INFO: Hostname broady
+configuration: 100003 points
+Number of aborts: 15
+mesh size: 200004
+	Total transactions completed: 12726
+	Conflict aborts: 6318921
+	Capacity aborts: 3406
+	Retry aborts: 0
+	Explicit aborts: 1709
+	Debug aborts: 0
+	Nested aborts: 5
+	Total aborts: 6324278
+
+Triangulation OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31,T32,T33,T34,T35,T36,T37,T38,T39
+STAT,(NULL),Conflicts,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Iterations,40,100000,2404,2532,2532,2468,2340,2468,2500,2500,2500,2404,2372,2916,2756,2500,2308,2436,2500,2724,2468,2436,2436,2468,2308,2372,2500,2596,2596,2500,2372,2436,2532,2564,2532,2436,2468,2628,2564,2628,2564,2436
+STAT,(NULL),LoopTime,40,1173,1173,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),MeminfoPost,40,280,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7
+STAT,(NULL),MeminfoPre,40,160,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+STAT,(NULL),Threads,40,40,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,40,1173,1173,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Triangulation
+Produces a Delaunay triangulation for a set of points
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_triangulation
+
+INFO: CommandLine ./delaunaytriangulation_gs -t 44 /home/users/kkazatzis/Galois-2.2.1/inputs/meshes/r100k.node
+INFO: Hostname broady
+configuration: 100003 points
+Number of aborts: 15
+mesh size: 200004
+	Total transactions completed: 15200
+	Conflict aborts: 6300462
+	Capacity aborts: 3067
+	Retry aborts: 0
+	Explicit aborts: 1413
+	Debug aborts: 0
+	Nested aborts: 8
+	Total aborts: 6305258
+
+Triangulation OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31,T32,T33,T34,T35,T36,T37,T38,T39,T40,T41,T42,T43
+STAT,(NULL),Conflicts,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Iterations,44,100000,2209,2113,2177,2081,2241,2177,2241,2209,2145,2145,2209,2369,2305,2241,2401,2401,2401,2241,2241,2209,2401,2337,2337,1825,2081,2401,2561,2273,2049,2017,2401,2433,2433,2145,2081,2177,2561,2593,2593,2017,2081,2209,2593,2645
+STAT,(NULL),LoopTime,44,1212,1212,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),MeminfoPost,44,291,7,6,6,6,7,6,7,7,6,6,7,7,7,7,7,7,7,7,7,6,7,7,7,6,6,7,7,7,6,6,7,7,7,6,6,6,7,7,7,6,6,6,7,7
+STAT,(NULL),MeminfoPre,44,176,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+STAT,(NULL),Threads,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,44,1212,1212,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

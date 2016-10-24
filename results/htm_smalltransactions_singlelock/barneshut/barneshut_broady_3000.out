@@ -1,0 +1,4691 @@
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 1 -n 3000 -steps 15 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 15 time steps
+Tree Size: 10834
+MSE (sampled) 0.00561607
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10995
+MSE (sampled) 0.0360855
+Timestep 1 Center of Mass = (-3.404497e-02,-2.654394e-03,-2.090690e-02)
+Tree Size: 10472
+MSE (sampled) 0.129688
+Timestep 2 Center of Mass = (-3.604524e-02,+7.654889e-03,-2.535458e-02)
+Tree Size: 10300
+MSE (sampled) 0.136391
+Timestep 3 Center of Mass = (-3.805534e-02,+1.765165e-02,-2.953919e-02)
+Tree Size: 9814
+MSE (sampled) 0.241115
+Timestep 4 Center of Mass = (-3.998263e-02,+2.778110e-02,-3.387924e-02)
+Tree Size: 9300
+MSE (sampled) 0.225119
+Timestep 5 Center of Mass = (-4.202776e-02,+3.783399e-02,-3.821268e-02)
+Tree Size: 9261
+MSE (sampled) 0.539876
+Timestep 6 Center of Mass = (-4.416103e-02,+4.783766e-02,-4.249722e-02)
+Tree Size: 8908
+MSE (sampled) 0.293467
+Timestep 7 Center of Mass = (-4.631656e-02,+5.782275e-02,-4.674171e-02)
+Tree Size: 8585
+MSE (sampled) 0.585566
+Timestep 8 Center of Mass = (-4.849711e-02,+6.781648e-02,-5.097296e-02)
+Tree Size: 8512
+MSE (sampled) 1.01736
+Timestep 9 Center of Mass = (-5.070605e-02,+7.782836e-02,-5.522834e-02)
+Tree Size: 8519
+MSE (sampled) 0.984468
+Timestep 10 Center of Mass = (-5.292372e-02,+8.785362e-02,-5.952187e-02)
+Tree Size: 8496
+MSE (sampled) 2.34685
+Timestep 11 Center of Mass = (-5.518019e-02,+9.787175e-02,-6.382898e-02)
+Tree Size: 8509
+MSE (sampled) 1.53142
+Timestep 12 Center of Mass = (-5.748049e-02,+1.078867e-01,-6.813565e-02)
+Tree Size: 8522
+MSE (sampled) 1.86177
+Timestep 13 Center of Mass = (-5.979580e-02,+1.178923e-01,-7.243025e-02)
+Tree Size: 8493
+MSE (sampled) 0.770409
+Timestep 14 Center of Mass = (-6.212316e-02,+1.278972e-01,-7.672417e-02)
+	Conflict aborts: 2506
+	Capacity aborts: 0
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 2871
+STATTYPE,LOOP,CATEGORY,n,sum,T0
+STAT,(NULL),BuildTime,1,8,8
+STAT,(NULL),ComputeTime,1,4271,4271
+STAT,(NULL),LoopTime,1,1,1
+STAT,(NULL),Threads,1,1,1
+STAT,(NULL),Time,1,4357,4357
+STAT,BuildTree,LoopTime,1,8,8
+STAT,compute,Conflicts,1,0,0
+STAT,compute,Iterations,1,45000,45000
+STAT,compute,LoopTime,1,4271,4271
+STAT,map_reduce,LoopTime,1,45,45
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 1 -n 3000 -steps 20 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 20 time steps
+Tree Size: 10834
+MSE (sampled) 0.00561607
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10995
+MSE (sampled) 0.0360855
+Timestep 1 Center of Mass = (-3.404497e-02,-2.654394e-03,-2.090690e-02)
+Tree Size: 10472
+MSE (sampled) 0.129688
+Timestep 2 Center of Mass = (-3.604524e-02,+7.654889e-03,-2.535458e-02)
+Tree Size: 10300
+MSE (sampled) 0.136391
+Timestep 3 Center of Mass = (-3.805534e-02,+1.765165e-02,-2.953919e-02)
+Tree Size: 9814
+MSE (sampled) 0.241115
+Timestep 4 Center of Mass = (-3.998263e-02,+2.778110e-02,-3.387924e-02)
+Tree Size: 9300
+MSE (sampled) 0.225119
+Timestep 5 Center of Mass = (-4.202776e-02,+3.783399e-02,-3.821268e-02)
+Tree Size: 9261
+MSE (sampled) 0.539876
+Timestep 6 Center of Mass = (-4.416103e-02,+4.783766e-02,-4.249722e-02)
+Tree Size: 8908
+MSE (sampled) 0.293467
+Timestep 7 Center of Mass = (-4.631656e-02,+5.782275e-02,-4.674171e-02)
+Tree Size: 8585
+MSE (sampled) 0.585566
+Timestep 8 Center of Mass = (-4.849711e-02,+6.781648e-02,-5.097296e-02)
+Tree Size: 8512
+MSE (sampled) 1.01736
+Timestep 9 Center of Mass = (-5.070605e-02,+7.782836e-02,-5.522834e-02)
+Tree Size: 8519
+MSE (sampled) 0.984468
+Timestep 10 Center of Mass = (-5.292372e-02,+8.785362e-02,-5.952187e-02)
+Tree Size: 8496
+MSE (sampled) 2.34685
+Timestep 11 Center of Mass = (-5.518019e-02,+9.787175e-02,-6.382898e-02)
+Tree Size: 8509
+MSE (sampled) 1.53142
+Timestep 12 Center of Mass = (-5.748049e-02,+1.078867e-01,-6.813565e-02)
+Tree Size: 8522
+MSE (sampled) 1.86177
+Timestep 13 Center of Mass = (-5.979580e-02,+1.178923e-01,-7.243025e-02)
+Tree Size: 8493
+MSE (sampled) 0.770409
+Timestep 14 Center of Mass = (-6.212316e-02,+1.278972e-01,-7.672417e-02)
+Tree Size: 8513
+MSE (sampled) 1.22298
+Timestep 15 Center of Mass = (-6.447817e-02,+1.379094e-01,-8.101003e-02)
+Tree Size: 8515
+MSE (sampled) 2.13706
+Timestep 16 Center of Mass = (-6.685013e-02,+1.479338e-01,-8.530347e-02)
+Tree Size: 8498
+MSE (sampled) 11.6398
+Timestep 17 Center of Mass = (-6.922775e-02,+1.579645e-01,-8.961108e-02)
+Tree Size: 8424
+MSE (sampled) 20.0326
+Timestep 18 Center of Mass = (-7.161756e-02,+1.679946e-01,-9.392051e-02)
+Tree Size: 8427
+MSE (sampled) 6.66515
+Timestep 19 Center of Mass = (-7.402052e-02,+1.780294e-01,-9.823089e-02)
+	Conflict aborts: 4477
+	Capacity aborts: 0
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 5030
+STATTYPE,LOOP,CATEGORY,n,sum,T0
+STAT,(NULL),BuildTime,1,8,8
+STAT,(NULL),ComputeTime,1,6897,6897
+STAT,(NULL),LoopTime,1,1,1
+STAT,(NULL),Threads,1,1,1
+STAT,(NULL),Time,1,7012,7012
+STAT,BuildTree,LoopTime,1,8,8
+STAT,compute,Conflicts,1,0,0
+STAT,compute,Iterations,1,60000,60000
+STAT,compute,LoopTime,1,6897,6897
+STAT,map_reduce,LoopTime,1,60,60
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 1 -n 3000 -steps 25 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 25 time steps
+Tree Size: 10834
+MSE (sampled) 0.00561607
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10995
+MSE (sampled) 0.0360855
+Timestep 1 Center of Mass = (-3.404497e-02,-2.654394e-03,-2.090690e-02)
+Tree Size: 10472
+MSE (sampled) 0.129688
+Timestep 2 Center of Mass = (-3.604524e-02,+7.654889e-03,-2.535458e-02)
+Tree Size: 10300
+MSE (sampled) 0.136391
+Timestep 3 Center of Mass = (-3.805534e-02,+1.765165e-02,-2.953919e-02)
+Tree Size: 9814
+MSE (sampled) 0.241115
+Timestep 4 Center of Mass = (-3.998263e-02,+2.778110e-02,-3.387924e-02)
+Tree Size: 9300
+MSE (sampled) 0.225119
+Timestep 5 Center of Mass = (-4.202776e-02,+3.783399e-02,-3.821268e-02)
+Tree Size: 9261
+MSE (sampled) 0.539876
+Timestep 6 Center of Mass = (-4.416103e-02,+4.783766e-02,-4.249722e-02)
+Tree Size: 8908
+MSE (sampled) 0.293467
+Timestep 7 Center of Mass = (-4.631656e-02,+5.782275e-02,-4.674171e-02)
+Tree Size: 8585
+MSE (sampled) 0.585566
+Timestep 8 Center of Mass = (-4.849711e-02,+6.781648e-02,-5.097296e-02)
+Tree Size: 8512
+MSE (sampled) 1.01736
+Timestep 9 Center of Mass = (-5.070605e-02,+7.782836e-02,-5.522834e-02)
+Tree Size: 8519
+MSE (sampled) 0.984468
+Timestep 10 Center of Mass = (-5.292372e-02,+8.785362e-02,-5.952187e-02)
+Tree Size: 8496
+MSE (sampled) 2.34685
+Timestep 11 Center of Mass = (-5.518019e-02,+9.787175e-02,-6.382898e-02)
+Tree Size: 8509
+MSE (sampled) 1.53142
+Timestep 12 Center of Mass = (-5.748049e-02,+1.078867e-01,-6.813565e-02)
+Tree Size: 8522
+MSE (sampled) 1.86177
+Timestep 13 Center of Mass = (-5.979580e-02,+1.178923e-01,-7.243025e-02)
+Tree Size: 8493
+MSE (sampled) 0.770409
+Timestep 14 Center of Mass = (-6.212316e-02,+1.278972e-01,-7.672417e-02)
+Tree Size: 8513
+MSE (sampled) 1.22298
+Timestep 15 Center of Mass = (-6.447817e-02,+1.379094e-01,-8.101003e-02)
+Tree Size: 8515
+MSE (sampled) 2.13706
+Timestep 16 Center of Mass = (-6.685013e-02,+1.479338e-01,-8.530347e-02)
+Tree Size: 8498
+MSE (sampled) 11.6398
+Timestep 17 Center of Mass = (-6.922775e-02,+1.579645e-01,-8.961108e-02)
+Tree Size: 8424
+MSE (sampled) 20.0326
+Timestep 18 Center of Mass = (-7.161756e-02,+1.679946e-01,-9.392051e-02)
+Tree Size: 8427
+MSE (sampled) 6.66515
+Timestep 19 Center of Mass = (-7.402052e-02,+1.780294e-01,-9.823089e-02)
+Tree Size: 8400
+MSE (sampled) 4.08566
+Timestep 20 Center of Mass = (-7.642723e-02,+1.880748e-01,-1.025403e-01)
+Tree Size: 8444
+MSE (sampled) 5.42923
+Timestep 21 Center of Mass = (-7.883543e-02,+1.981318e-01,-1.068497e-01)
+Tree Size: 8409
+MSE (sampled) 3.17957
+Timestep 22 Center of Mass = (-8.124430e-02,+2.081987e-01,-1.111577e-01)
+Tree Size: 8400
+MSE (sampled) 4.09382
+Timestep 23 Center of Mass = (-8.365751e-02,+2.182764e-01,-1.154678e-01)
+Tree Size: 8359
+MSE (sampled) 1.23051
+Timestep 24 Center of Mass = (-8.607570e-02,+2.283569e-01,-1.197773e-01)
+	Conflict aborts: 6978
+	Capacity aborts: 0
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 7663
+STATTYPE,LOOP,CATEGORY,n,sum,T0
+STAT,(NULL),BuildTime,1,8,8
+STAT,(NULL),ComputeTime,1,8200,8200
+STAT,(NULL),LoopTime,1,1,1
+STAT,(NULL),Threads,1,1,1
+STAT,(NULL),Time,1,8346,8346
+STAT,BuildTree,LoopTime,1,8,8
+STAT,compute,Conflicts,1,0,0
+STAT,compute,Iterations,1,75000,75000
+STAT,compute,LoopTime,1,8200,8200
+STAT,map_reduce,LoopTime,1,75,75
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 1 -n 3000 -steps 30 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 30 time steps
+Tree Size: 10834
+MSE (sampled) 0.00561607
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10995
+MSE (sampled) 0.0360855
+Timestep 1 Center of Mass = (-3.404497e-02,-2.654394e-03,-2.090690e-02)
+Tree Size: 10472
+MSE (sampled) 0.129688
+Timestep 2 Center of Mass = (-3.604524e-02,+7.654889e-03,-2.535458e-02)
+Tree Size: 10300
+MSE (sampled) 0.136391
+Timestep 3 Center of Mass = (-3.805534e-02,+1.765165e-02,-2.953919e-02)
+Tree Size: 9814
+MSE (sampled) 0.241115
+Timestep 4 Center of Mass = (-3.998263e-02,+2.778110e-02,-3.387924e-02)
+Tree Size: 9300
+MSE (sampled) 0.225119
+Timestep 5 Center of Mass = (-4.202776e-02,+3.783399e-02,-3.821268e-02)
+Tree Size: 9261
+MSE (sampled) 0.539876
+Timestep 6 Center of Mass = (-4.416103e-02,+4.783766e-02,-4.249722e-02)
+Tree Size: 8908
+MSE (sampled) 0.293467
+Timestep 7 Center of Mass = (-4.631656e-02,+5.782275e-02,-4.674171e-02)
+Tree Size: 8585
+MSE (sampled) 0.585566
+Timestep 8 Center of Mass = (-4.849711e-02,+6.781648e-02,-5.097296e-02)
+Tree Size: 8512
+MSE (sampled) 1.01736
+Timestep 9 Center of Mass = (-5.070605e-02,+7.782836e-02,-5.522834e-02)
+Tree Size: 8519
+MSE (sampled) 0.984468
+Timestep 10 Center of Mass = (-5.292372e-02,+8.785362e-02,-5.952187e-02)
+Tree Size: 8496
+MSE (sampled) 2.34685
+Timestep 11 Center of Mass = (-5.518019e-02,+9.787175e-02,-6.382898e-02)
+Tree Size: 8509
+MSE (sampled) 1.53142
+Timestep 12 Center of Mass = (-5.748049e-02,+1.078867e-01,-6.813565e-02)
+Tree Size: 8522
+MSE (sampled) 1.86177
+Timestep 13 Center of Mass = (-5.979580e-02,+1.178923e-01,-7.243025e-02)
+Tree Size: 8493
+MSE (sampled) 0.770409
+Timestep 14 Center of Mass = (-6.212316e-02,+1.278972e-01,-7.672417e-02)
+Tree Size: 8513
+MSE (sampled) 1.22298
+Timestep 15 Center of Mass = (-6.447817e-02,+1.379094e-01,-8.101003e-02)
+Tree Size: 8515
+MSE (sampled) 2.13706
+Timestep 16 Center of Mass = (-6.685013e-02,+1.479338e-01,-8.530347e-02)
+Tree Size: 8498
+MSE (sampled) 11.6398
+Timestep 17 Center of Mass = (-6.922775e-02,+1.579645e-01,-8.961108e-02)
+Tree Size: 8424
+MSE (sampled) 20.0326
+Timestep 18 Center of Mass = (-7.161756e-02,+1.679946e-01,-9.392051e-02)
+Tree Size: 8427
+MSE (sampled) 6.66515
+Timestep 19 Center of Mass = (-7.402052e-02,+1.780294e-01,-9.823089e-02)
+Tree Size: 8400
+MSE (sampled) 4.08566
+Timestep 20 Center of Mass = (-7.642723e-02,+1.880748e-01,-1.025403e-01)
+Tree Size: 8444
+MSE (sampled) 5.42923
+Timestep 21 Center of Mass = (-7.883543e-02,+1.981318e-01,-1.068497e-01)
+Tree Size: 8409
+MSE (sampled) 3.17957
+Timestep 22 Center of Mass = (-8.124430e-02,+2.081987e-01,-1.111577e-01)
+Tree Size: 8400
+MSE (sampled) 4.09382
+Timestep 23 Center of Mass = (-8.365751e-02,+2.182764e-01,-1.154678e-01)
+Tree Size: 8359
+MSE (sampled) 1.23051
+Timestep 24 Center of Mass = (-8.607570e-02,+2.283569e-01,-1.197773e-01)
+Tree Size: 8351
+MSE (sampled) 1.87276
+Timestep 25 Center of Mass = (-8.849567e-02,+2.384453e-01,-1.240912e-01)
+Tree Size: 8477
+MSE (sampled) 1.76937
+Timestep 26 Center of Mass = (-9.091570e-02,+2.485392e-01,-1.284063e-01)
+Tree Size: 8567
+MSE (sampled) 2.17481
+Timestep 27 Center of Mass = (-9.334000e-02,+2.586348e-01,-1.327228e-01)
+Tree Size: 8453
+MSE (sampled) 0.931824
+Timestep 28 Center of Mass = (-9.576987e-02,+2.687310e-01,-1.370417e-01)
+Tree Size: 8506
+MSE (sampled) 4.27169
+Timestep 29 Center of Mass = (-9.820644e-02,+2.788285e-01,-1.413604e-01)
+	Conflict aborts: 9040
+	Capacity aborts: 1
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 10025
+STATTYPE,LOOP,CATEGORY,n,sum,T0
+STAT,(NULL),BuildTime,1,8,8
+STAT,(NULL),ComputeTime,1,11323,11323
+STAT,(NULL),LoopTime,1,1,1
+STAT,(NULL),Threads,1,1,1
+STAT,(NULL),Time,1,11495,11495
+STAT,BuildTree,LoopTime,1,8,8
+STAT,compute,Conflicts,1,0,0
+STAT,compute,Iterations,1,90000,90000
+STAT,compute,LoopTime,1,11323,11323
+STAT,map_reduce,LoopTime,1,90,90
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 1 -n 3000 -steps 35 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 35 time steps
+Tree Size: 10834
+MSE (sampled) 0.00561607
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10995
+MSE (sampled) 0.0360855
+Timestep 1 Center of Mass = (-3.404497e-02,-2.654394e-03,-2.090690e-02)
+Tree Size: 10472
+MSE (sampled) 0.129688
+Timestep 2 Center of Mass = (-3.604524e-02,+7.654889e-03,-2.535458e-02)
+Tree Size: 10300
+MSE (sampled) 0.136391
+Timestep 3 Center of Mass = (-3.805534e-02,+1.765165e-02,-2.953919e-02)
+Tree Size: 9814
+MSE (sampled) 0.241115
+Timestep 4 Center of Mass = (-3.998263e-02,+2.778110e-02,-3.387924e-02)
+Tree Size: 9300
+MSE (sampled) 0.225119
+Timestep 5 Center of Mass = (-4.202776e-02,+3.783399e-02,-3.821268e-02)
+Tree Size: 9261
+MSE (sampled) 0.539876
+Timestep 6 Center of Mass = (-4.416103e-02,+4.783766e-02,-4.249722e-02)
+Tree Size: 8908
+MSE (sampled) 0.293467
+Timestep 7 Center of Mass = (-4.631656e-02,+5.782275e-02,-4.674171e-02)
+Tree Size: 8585
+MSE (sampled) 0.585566
+Timestep 8 Center of Mass = (-4.849711e-02,+6.781648e-02,-5.097296e-02)
+Tree Size: 8512
+MSE (sampled) 1.01736
+Timestep 9 Center of Mass = (-5.070605e-02,+7.782836e-02,-5.522834e-02)
+Tree Size: 8519
+MSE (sampled) 0.984468
+Timestep 10 Center of Mass = (-5.292372e-02,+8.785362e-02,-5.952187e-02)
+Tree Size: 8496
+MSE (sampled) 2.34685
+Timestep 11 Center of Mass = (-5.518019e-02,+9.787175e-02,-6.382898e-02)
+Tree Size: 8509
+MSE (sampled) 1.53142
+Timestep 12 Center of Mass = (-5.748049e-02,+1.078867e-01,-6.813565e-02)
+Tree Size: 8522
+MSE (sampled) 1.86177
+Timestep 13 Center of Mass = (-5.979580e-02,+1.178923e-01,-7.243025e-02)
+Tree Size: 8493
+MSE (sampled) 0.770409
+Timestep 14 Center of Mass = (-6.212316e-02,+1.278972e-01,-7.672417e-02)
+Tree Size: 8513
+MSE (sampled) 1.22298
+Timestep 15 Center of Mass = (-6.447817e-02,+1.379094e-01,-8.101003e-02)
+Tree Size: 8515
+MSE (sampled) 2.13706
+Timestep 16 Center of Mass = (-6.685013e-02,+1.479338e-01,-8.530347e-02)
+Tree Size: 8498
+MSE (sampled) 11.6398
+Timestep 17 Center of Mass = (-6.922775e-02,+1.579645e-01,-8.961108e-02)
+Tree Size: 8424
+MSE (sampled) 20.0326
+Timestep 18 Center of Mass = (-7.161756e-02,+1.679946e-01,-9.392051e-02)
+Tree Size: 8427
+MSE (sampled) 6.66515
+Timestep 19 Center of Mass = (-7.402052e-02,+1.780294e-01,-9.823089e-02)
+Tree Size: 8400
+MSE (sampled) 4.08566
+Timestep 20 Center of Mass = (-7.642723e-02,+1.880748e-01,-1.025403e-01)
+Tree Size: 8444
+MSE (sampled) 5.42923
+Timestep 21 Center of Mass = (-7.883543e-02,+1.981318e-01,-1.068497e-01)
+Tree Size: 8409
+MSE (sampled) 3.17957
+Timestep 22 Center of Mass = (-8.124430e-02,+2.081987e-01,-1.111577e-01)
+Tree Size: 8400
+MSE (sampled) 4.09382
+Timestep 23 Center of Mass = (-8.365751e-02,+2.182764e-01,-1.154678e-01)
+Tree Size: 8359
+MSE (sampled) 1.23051
+Timestep 24 Center of Mass = (-8.607570e-02,+2.283569e-01,-1.197773e-01)
+Tree Size: 8351
+MSE (sampled) 1.87276
+Timestep 25 Center of Mass = (-8.849567e-02,+2.384453e-01,-1.240912e-01)
+Tree Size: 8477
+MSE (sampled) 1.76937
+Timestep 26 Center of Mass = (-9.091570e-02,+2.485392e-01,-1.284063e-01)
+Tree Size: 8567
+MSE (sampled) 2.17481
+Timestep 27 Center of Mass = (-9.334000e-02,+2.586348e-01,-1.327228e-01)
+Tree Size: 8453
+MSE (sampled) 0.931824
+Timestep 28 Center of Mass = (-9.576987e-02,+2.687310e-01,-1.370417e-01)
+Tree Size: 8506
+MSE (sampled) 4.27169
+Timestep 29 Center of Mass = (-9.820644e-02,+2.788285e-01,-1.413604e-01)
+Tree Size: 8513
+MSE (sampled) 1.41597
+Timestep 30 Center of Mass = (-1.006480e-01,+2.889250e-01,-1.456807e-01)
+Tree Size: 8522
+MSE (sampled) 1.10249
+Timestep 31 Center of Mass = (-1.030943e-01,+2.990196e-01,-1.500018e-01)
+Tree Size: 8467
+MSE (sampled) 1.08536
+Timestep 32 Center of Mass = (-1.055453e-01,+3.091117e-01,-1.543244e-01)
+Tree Size: 8493
+MSE (sampled) 1.09576
+Timestep 33 Center of Mass = (-1.080007e-01,+3.192021e-01,-1.586483e-01)
+Tree Size: 8484
+MSE (sampled) 1.28307
+Timestep 34 Center of Mass = (-1.104598e-01,+3.292927e-01,-1.629721e-01)
+	Conflict aborts: 11458
+	Capacity aborts: 2
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 12575
+STATTYPE,LOOP,CATEGORY,n,sum,T0
+STAT,(NULL),BuildTime,1,8,8
+STAT,(NULL),ComputeTime,1,15316,15316
+STAT,(NULL),LoopTime,1,1,1
+STAT,(NULL),Threads,1,1,1
+STAT,(NULL),Time,1,15517,15517
+STAT,BuildTree,LoopTime,1,8,8
+STAT,compute,Conflicts,1,0,0
+STAT,compute,Iterations,1,105000,105000
+STAT,compute,LoopTime,1,15316,15316
+STAT,map_reduce,LoopTime,1,105,105
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 2 -n 3000 -steps 15 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 15 time steps
+Tree Size: 10864
+MSE (sampled) 0.00561646
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10992
+MSE (sampled) 0.0420201
+Timestep 1 Center of Mass = (-3.258165e-02,-3.930616e-03,-1.952931e-02)
+Tree Size: 10473
+MSE (sampled) 0.158556
+Timestep 2 Center of Mass = (-3.358325e-02,+5.337603e-03,-2.235663e-02)
+Tree Size: 10268
+MSE (sampled) 0.169529
+Timestep 3 Center of Mass = (-3.441143e-02,+1.400828e-02,-2.511455e-02)
+Tree Size: 9734
+MSE (sampled) 0.118154
+Timestep 4 Center of Mass = (-3.534741e-02,+2.267301e-02,-2.807394e-02)
+Tree Size: 9438
+MSE (sampled) 0.344102
+Timestep 5 Center of Mass = (-3.628282e-02,+3.117803e-02,-3.109307e-02)
+Tree Size: 9241
+MSE (sampled) 0.286313
+Timestep 6 Center of Mass = (-3.725726e-02,+3.965612e-02,-3.412668e-02)
+Tree Size: 8870
+MSE (sampled) 0.455894
+Timestep 7 Center of Mass = (-3.823409e-02,+4.809545e-02,-3.716345e-02)
+Tree Size: 8676
+MSE (sampled) 0.617775
+Timestep 8 Center of Mass = (-3.919303e-02,+5.652982e-02,-4.016505e-02)
+Tree Size: 8496
+MSE (sampled) 0.828331
+Timestep 9 Center of Mass = (-4.013118e-02,+6.494003e-02,-4.317185e-02)
+Tree Size: 8546
+MSE (sampled) 1.54273
+Timestep 10 Center of Mass = (-4.107885e-02,+7.334551e-02,-4.618852e-02)
+Tree Size: 8531
+MSE (sampled) 2.13438
+Timestep 11 Center of Mass = (-4.201065e-02,+8.172887e-02,-4.919227e-02)
+Tree Size: 8562
+MSE (sampled) 0.846369
+Timestep 12 Center of Mass = (-4.294865e-02,+9.009688e-02,-5.220352e-02)
+Tree Size: 8523
+MSE (sampled) 2.65699
+Timestep 13 Center of Mass = (-4.387651e-02,+9.845620e-02,-5.523241e-02)
+Tree Size: 8504
+MSE (sampled) 0.972068
+Timestep 14 Center of Mass = (-4.481184e-02,+1.068110e-01,-5.824017e-02)
+	Conflict aborts: 7775
+	Capacity aborts: 1
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 8120
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1
+STAT,(NULL),BuildTime,2,1,1,0
+STAT,(NULL),ComputeTime,2,2074,2074,0
+STAT,(NULL),LoopTime,2,2,2,0
+STAT,(NULL),Threads,2,2,2,0
+STAT,(NULL),Time,2,2126,2126,0
+STAT,BuildTree,LoopTime,2,1,1,0
+STAT,compute,Conflicts,2,0,0,0
+STAT,compute,Iterations,2,45000,22417,22583
+STAT,compute,LoopTime,2,2074,2074,0
+STAT,map_reduce,LoopTime,2,15,15,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 2 -n 3000 -steps 20 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 20 time steps
+Tree Size: 10860
+MSE (sampled) 0.00561646
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10988
+MSE (sampled) 0.0420492
+Timestep 1 Center of Mass = (-3.212865e-02,-4.241087e-03,-1.954881e-02)
+Tree Size: 10493
+MSE (sampled) 0.158712
+Timestep 2 Center of Mass = (-3.269334e-02,+4.721968e-03,-2.248041e-02)
+Tree Size: 10270
+MSE (sampled) 0.167675
+Timestep 3 Center of Mass = (-3.307665e-02,+1.307984e-02,-2.534144e-02)
+Tree Size: 9726
+MSE (sampled) 0.116104
+Timestep 4 Center of Mass = (-3.357180e-02,+2.143562e-02,-2.840073e-02)
+Tree Size: 9437
+MSE (sampled) 0.341933
+Timestep 5 Center of Mass = (-3.408679e-02,+2.962636e-02,-3.152027e-02)
+Tree Size: 9225
+MSE (sampled) 0.28536
+Timestep 6 Center of Mass = (-3.464144e-02,+3.779014e-02,-3.465358e-02)
+Tree Size: 8885
+MSE (sampled) 0.440729
+Timestep 7 Center of Mass = (-3.519413e-02,+4.591448e-02,-3.779167e-02)
+Tree Size: 8655
+MSE (sampled) 0.584416
+Timestep 8 Center of Mass = (-3.573307e-02,+5.403240e-02,-4.089821e-02)
+Tree Size: 8497
+MSE (sampled) 0.803857
+Timestep 9 Center of Mass = (-3.624751e-02,+6.212230e-02,-4.400302e-02)
+Tree Size: 8518
+MSE (sampled) 1.52837
+Timestep 10 Center of Mass = (-3.676739e-02,+7.020172e-02,-4.712283e-02)
+Tree Size: 8626
+MSE (sampled) 1.0296
+Timestep 11 Center of Mass = (-3.727749e-02,+7.825805e-02,-5.022593e-02)
+Tree Size: 8624
+MSE (sampled) 1.64847
+Timestep 12 Center of Mass = (-3.777179e-02,+8.628163e-02,-5.332511e-02)
+Tree Size: 8621
+MSE (sampled) 2.02941
+Timestep 13 Center of Mass = (-3.826621e-02,+9.429518e-02,-5.642266e-02)
+Tree Size: 8565
+MSE (sampled) 0.927078
+Timestep 14 Center of Mass = (-3.875886e-02,+1.022980e-01,-5.952619e-02)
+Tree Size: 8541
+MSE (sampled) 0.878834
+Timestep 15 Center of Mass = (-3.923887e-02,+1.103012e-01,-6.263911e-02)
+Tree Size: 8522
+MSE (sampled) 0.95875
+Timestep 16 Center of Mass = (-3.972157e-02,+1.183065e-01,-6.575809e-02)
+Tree Size: 8476
+MSE (sampled) 2.02224
+Timestep 17 Center of Mass = (-4.020601e-02,+1.263090e-01,-6.888576e-02)
+Tree Size: 8574
+MSE (sampled) 5.71193
+Timestep 18 Center of Mass = (-4.069512e-02,+1.343096e-01,-7.202387e-02)
+Tree Size: 8541
+MSE (sampled) 7.17338
+Timestep 19 Center of Mass = (-4.119095e-02,+1.423113e-01,-7.517392e-02)
+	Conflict aborts: 11541
+	Capacity aborts: 0
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 11999
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1
+STAT,(NULL),BuildTime,2,1,1,0
+STAT,(NULL),ComputeTime,2,3087,3087,0
+STAT,(NULL),LoopTime,2,2,2,0
+STAT,(NULL),Threads,2,2,2,0
+STAT,(NULL),Time,2,3157,3157,0
+STAT,BuildTree,LoopTime,2,1,1,0
+STAT,compute,Conflicts,2,0,0,0
+STAT,compute,Iterations,2,60000,28085,31915
+STAT,compute,LoopTime,2,3087,3087,0
+STAT,map_reduce,LoopTime,2,20,20,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 2 -n 3000 -steps 25 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 25 time steps
+Tree Size: 10864
+MSE (sampled) 0.00561646
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10995
+MSE (sampled) 0.0420266
+Timestep 1 Center of Mass = (-3.258165e-02,-3.930616e-03,-1.952931e-02)
+Tree Size: 10473
+MSE (sampled) 0.158555
+Timestep 2 Center of Mass = (-3.358156e-02,+5.337843e-03,-2.236305e-02)
+Tree Size: 10279
+MSE (sampled) 0.166977
+Timestep 3 Center of Mass = (-3.440796e-02,+1.400868e-02,-2.512728e-02)
+Tree Size: 9749
+MSE (sampled) 0.115786
+Timestep 4 Center of Mass = (-3.536325e-02,+2.267295e-02,-2.809057e-02)
+Tree Size: 9446
+MSE (sampled) 0.343593
+Timestep 5 Center of Mass = (-3.632135e-02,+3.117687e-02,-3.111725e-02)
+Tree Size: 9230
+MSE (sampled) 0.28633
+Timestep 6 Center of Mass = (-3.731718e-02,+3.965391e-02,-3.415138e-02)
+Tree Size: 8861
+MSE (sampled) 0.440633
+Timestep 7 Center of Mass = (-3.831385e-02,+4.809429e-02,-3.718441e-02)
+Tree Size: 8675
+MSE (sampled) 0.621173
+Timestep 8 Center of Mass = (-3.928973e-02,+5.653252e-02,-4.018124e-02)
+Tree Size: 8490
+MSE (sampled) 0.82849
+Timestep 9 Center of Mass = (-4.024388e-02,+6.494457e-02,-4.318482e-02)
+Tree Size: 8536
+MSE (sampled) 1.52149
+Timestep 10 Center of Mass = (-4.120689e-02,+7.335261e-02,-4.619880e-02)
+Tree Size: 8552
+MSE (sampled) 2.30092
+Timestep 11 Center of Mass = (-4.215278e-02,+8.173825e-02,-4.919881e-02)
+Tree Size: 8555
+MSE (sampled) 0.95331
+Timestep 12 Center of Mass = (-4.310259e-02,+9.010788e-02,-5.220574e-02)
+Tree Size: 8513
+MSE (sampled) 2.63328
+Timestep 13 Center of Mass = (-4.403565e-02,+9.846461e-02,-5.522991e-02)
+Tree Size: 8493
+MSE (sampled) 0.986752
+Timestep 14 Center of Mass = (-4.497621e-02,+1.068150e-01,-5.823465e-02)
+Tree Size: 8577
+MSE (sampled) 1.25619
+Timestep 15 Center of Mass = (-4.591098e-02,+1.151490e-01,-6.124341e-02)
+Tree Size: 8668
+MSE (sampled) 4.21191
+Timestep 16 Center of Mass = (-4.685402e-02,+1.234863e-01,-6.424721e-02)
+Tree Size: 8749
+MSE (sampled) 1.77782
+Timestep 17 Center of Mass = (-4.779297e-02,+1.318273e-01,-6.725425e-02)
+Tree Size: 8689
+MSE (sampled) 1.92061
+Timestep 18 Center of Mass = (-4.871666e-02,+1.401705e-01,-7.026590e-02)
+Tree Size: 8602
+MSE (sampled) 1.24023
+Timestep 19 Center of Mass = (-4.963733e-02,+1.485030e-01,-7.328954e-02)
+Tree Size: 8558
+MSE (sampled) 1.05177
+Timestep 20 Center of Mass = (-5.055760e-02,+1.568296e-01,-7.631303e-02)
+Tree Size: 8460
+MSE (sampled) 1.16333
+Timestep 21 Center of Mass = (-5.148298e-02,+1.651587e-01,-7.933310e-02)
+Tree Size: 8426
+MSE (sampled) 0.671478
+Timestep 22 Center of Mass = (-5.241965e-02,+1.734897e-01,-8.235381e-02)
+Tree Size: 8472
+MSE (sampled) 0.936817
+Timestep 23 Center of Mass = (-5.336498e-02,+1.818177e-01,-8.538329e-02)
+Tree Size: 8418
+MSE (sampled) 1.23247
+Timestep 24 Center of Mass = (-5.431943e-02,+1.901494e-01,-8.841308e-02)
+	Conflict aborts: 15229
+	Capacity aborts: 0
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 15863
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1
+STAT,(NULL),BuildTime,2,1,1,0
+STAT,(NULL),ComputeTime,2,4246,4246,0
+STAT,(NULL),LoopTime,2,2,2,0
+STAT,(NULL),Threads,2,2,2,0
+STAT,(NULL),Time,2,4334,4334,0
+STAT,BuildTree,LoopTime,2,1,1,0
+STAT,compute,Conflicts,2,0,0,0
+STAT,compute,Iterations,2,75000,36774,38226
+STAT,compute,LoopTime,2,4246,4246,0
+STAT,map_reduce,LoopTime,2,25,25,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 2 -n 3000 -steps 30 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 30 time steps
+Tree Size: 10870
+MSE (sampled) 0.00561646
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 11003
+MSE (sampled) 0.0428138
+Timestep 1 Center of Mass = (-3.261027e-02,-3.987435e-03,-1.960257e-02)
+Tree Size: 10450
+MSE (sampled) 0.176442
+Timestep 2 Center of Mass = (-3.350358e-02,+5.042583e-03,-2.263954e-02)
+Tree Size: 10212
+MSE (sampled) 0.109176
+Timestep 3 Center of Mass = (-3.414301e-02,+1.366005e-02,-2.571281e-02)
+Tree Size: 9784
+MSE (sampled) 0.141271
+Timestep 4 Center of Mass = (-3.493413e-02,+2.226654e-02,-2.904064e-02)
+Tree Size: 9418
+MSE (sampled) 0.289677
+Timestep 5 Center of Mass = (-3.572880e-02,+3.073974e-02,-3.239439e-02)
+Tree Size: 9305
+MSE (sampled) 0.358966
+Timestep 6 Center of Mass = (-3.661289e-02,+3.920623e-02,-3.578059e-02)
+Tree Size: 8823
+MSE (sampled) 0.49545
+Timestep 7 Center of Mass = (-3.754771e-02,+4.771084e-02,-3.914958e-02)
+Tree Size: 8661
+MSE (sampled) 0.716611
+Timestep 8 Center of Mass = (-3.850714e-02,+5.619481e-02,-4.247341e-02)
+Tree Size: 8545
+MSE (sampled) 0.854154
+Timestep 9 Center of Mass = (-3.943073e-02,+6.467202e-02,-4.580749e-02)
+Tree Size: 8538
+MSE (sampled) 1.26877
+Timestep 10 Center of Mass = (-4.034636e-02,+7.314236e-02,-4.916052e-02)
+Tree Size: 8478
+MSE (sampled) 1.98121
+Timestep 11 Center of Mass = (-4.127717e-02,+8.158131e-02,-5.247313e-02)
+Tree Size: 8537
+MSE (sampled) 1.8032
+Timestep 12 Center of Mass = (-4.223268e-02,+9.001186e-02,-5.576873e-02)
+Tree Size: 8492
+MSE (sampled) 0.974908
+Timestep 13 Center of Mass = (-4.318634e-02,+9.841767e-02,-5.906304e-02)
+Tree Size: 8452
+MSE (sampled) 0.616384
+Timestep 14 Center of Mass = (-4.414860e-02,+1.068139e-01,-6.235223e-02)
+Tree Size: 8451
+MSE (sampled) 0.523814
+Timestep 15 Center of Mass = (-4.511508e-02,+1.152093e-01,-6.564529e-02)
+Tree Size: 8524
+MSE (sampled) 3.92096
+Timestep 16 Center of Mass = (-4.608651e-02,+1.236084e-01,-6.893624e-02)
+Tree Size: 8638
+MSE (sampled) 2.47124
+Timestep 17 Center of Mass = (-4.707333e-02,+1.320046e-01,-7.224258e-02)
+Tree Size: 8703
+MSE (sampled) 2.46652
+Timestep 18 Center of Mass = (-4.806720e-02,+1.403995e-01,-7.556070e-02)
+Tree Size: 8615
+MSE (sampled) 1.22897
+Timestep 19 Center of Mass = (-4.907050e-02,+1.487957e-01,-7.887561e-02)
+Tree Size: 8551
+MSE (sampled) 0.928624
+Timestep 20 Center of Mass = (-5.008823e-02,+1.572016e-01,-8.218177e-02)
+Tree Size: 8494
+MSE (sampled) 0.814381
+Timestep 21 Center of Mass = (-5.112192e-02,+1.656193e-01,-8.547988e-02)
+Tree Size: 8488
+MSE (sampled) 0.736238
+Timestep 22 Center of Mass = (-5.216693e-02,+1.740321e-01,-8.877596e-02)
+Tree Size: 8489
+MSE (sampled) 1.06278
+Timestep 23 Center of Mass = (-5.322124e-02,+1.824474e-01,-9.207467e-02)
+Tree Size: 8436
+MSE (sampled) 1.11087
+Timestep 24 Center of Mass = (-5.427729e-02,+1.908709e-01,-9.537346e-02)
+Tree Size: 8421
+MSE (sampled) 2.83939
+Timestep 25 Center of Mass = (-5.533518e-02,+1.992980e-01,-9.866610e-02)
+Tree Size: 8393
+MSE (sampled) 0.980119
+Timestep 26 Center of Mass = (-5.639627e-02,+2.077269e-01,-1.019574e-01)
+Tree Size: 8422
+MSE (sampled) 1.7057
+Timestep 27 Center of Mass = (-5.746250e-02,+2.161548e-01,-1.052491e-01)
+Tree Size: 8472
+MSE (sampled) 5.85668
+Timestep 28 Center of Mass = (-5.852995e-02,+2.245819e-01,-1.085422e-01)
+Tree Size: 8489
+MSE (sampled) 3.25503
+Timestep 29 Center of Mass = (-5.959676e-02,+2.330072e-01,-1.118365e-01)
+	Conflict aborts: 19808
+	Capacity aborts: 0
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 20592
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1
+STAT,(NULL),BuildTime,2,1,1,0
+STAT,(NULL),ComputeTime,2,5012,5012,0
+STAT,(NULL),LoopTime,2,2,2,0
+STAT,(NULL),Threads,2,2,2,0
+STAT,(NULL),Time,2,5118,5118,0
+STAT,BuildTree,LoopTime,2,1,1,0
+STAT,compute,Conflicts,2,0,0,0
+STAT,compute,Iterations,2,90000,45359,44641
+STAT,compute,LoopTime,2,5012,5012,0
+STAT,map_reduce,LoopTime,2,30,30,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 2 -n 3000 -steps 35 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 35 time steps
+Tree Size: 10860
+MSE (sampled) 0.00561646
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10988
+MSE (sampled) 0.0420492
+Timestep 1 Center of Mass = (-3.212865e-02,-4.241087e-03,-1.954881e-02)
+Tree Size: 10493
+MSE (sampled) 0.158712
+Timestep 2 Center of Mass = (-3.269334e-02,+4.721968e-03,-2.248041e-02)
+Tree Size: 10276
+MSE (sampled) 0.167675
+Timestep 3 Center of Mass = (-3.307665e-02,+1.307984e-02,-2.534144e-02)
+Tree Size: 9728
+MSE (sampled) 0.118385
+Timestep 4 Center of Mass = (-3.357180e-02,+2.143562e-02,-2.840073e-02)
+Tree Size: 9437
+MSE (sampled) 0.344005
+Timestep 5 Center of Mass = (-3.408314e-02,+2.962685e-02,-3.151516e-02)
+Tree Size: 9231
+MSE (sampled) 0.285394
+Timestep 6 Center of Mass = (-3.463415e-02,+3.779103e-02,-3.464325e-02)
+Tree Size: 8880
+MSE (sampled) 0.453998
+Timestep 7 Center of Mass = (-3.518333e-02,+4.591576e-02,-3.777615e-02)
+Tree Size: 8659
+MSE (sampled) 0.581631
+Timestep 8 Center of Mass = (-3.572259e-02,+5.402982e-02,-4.087866e-02)
+Tree Size: 8498
+MSE (sampled) 0.805559
+Timestep 9 Center of Mass = (-3.623845e-02,+6.211647e-02,-4.397930e-02)
+Tree Size: 8527
+MSE (sampled) 1.55093
+Timestep 10 Center of Mass = (-3.675937e-02,+7.019396e-02,-4.709544e-02)
+Tree Size: 8629
+MSE (sampled) 1.04373
+Timestep 11 Center of Mass = (-3.727032e-02,+7.824848e-02,-5.019430e-02)
+Tree Size: 8621
+MSE (sampled) 1.65028
+Timestep 12 Center of Mass = (-3.776434e-02,+8.627003e-02,-5.328926e-02)
+Tree Size: 8624
+MSE (sampled) 2.03508
+Timestep 13 Center of Mass = (-3.825763e-02,+9.428109e-02,-5.638132e-02)
+Tree Size: 8562
+MSE (sampled) 0.934491
+Timestep 14 Center of Mass = (-3.875035e-02,+1.022828e-01,-5.948090e-02)
+Tree Size: 8541
+MSE (sampled) 0.918363
+Timestep 15 Center of Mass = (-3.923094e-02,+1.102852e-01,-6.259082e-02)
+Tree Size: 8522
+MSE (sampled) 0.898618
+Timestep 16 Center of Mass = (-3.971043e-02,+1.182877e-01,-6.570815e-02)
+Tree Size: 8474
+MSE (sampled) 1.96555
+Timestep 17 Center of Mass = (-4.019174e-02,+1.262871e-01,-6.883430e-02)
+Tree Size: 8563
+MSE (sampled) 5.40787
+Timestep 18 Center of Mass = (-4.067723e-02,+1.342835e-01,-7.197023e-02)
+Tree Size: 8542
+MSE (sampled) 6.80857
+Timestep 19 Center of Mass = (-4.116785e-02,+1.422824e-01,-7.511811e-02)
+Tree Size: 8481
+MSE (sampled) 3.77756
+Timestep 20 Center of Mass = (-4.166932e-02,+1.502878e-01,-7.826763e-02)
+Tree Size: 8463
+MSE (sampled) 1.93775
+Timestep 21 Center of Mass = (-4.218749e-02,+1.582939e-01,-8.141998e-02)
+Tree Size: 8474
+MSE (sampled) 0.701452
+Timestep 22 Center of Mass = (-4.271401e-02,+1.662931e-01,-8.457237e-02)
+Tree Size: 8530
+MSE (sampled) 1.07499
+Timestep 23 Center of Mass = (-4.324615e-02,+1.742889e-01,-8.771594e-02)
+Tree Size: 8575
+MSE (sampled) 1.03184
+Timestep 24 Center of Mass = (-4.378571e-02,+1.822841e-01,-9.085234e-02)
+Tree Size: 8571
+MSE (sampled) 0.743934
+Timestep 25 Center of Mass = (-4.433085e-02,+1.902777e-01,-9.398749e-02)
+Tree Size: 8533
+MSE (sampled) 3.8583
+Timestep 26 Center of Mass = (-4.487816e-02,+1.982721e-01,-9.712105e-02)
+Tree Size: 8477
+MSE (sampled) 5.52056
+Timestep 27 Center of Mass = (-4.542397e-02,+2.062619e-01,-1.002571e-01)
+Tree Size: 8505
+MSE (sampled) 5.03851
+Timestep 28 Center of Mass = (-4.597294e-02,+2.142481e-01,-1.033957e-01)
+Tree Size: 8550
+MSE (sampled) 5.17469
+Timestep 29 Center of Mass = (-4.652261e-02,+2.222321e-01,-1.065360e-01)
+Tree Size: 8540
+MSE (sampled) 4.59725
+Timestep 30 Center of Mass = (-4.707311e-02,+2.302135e-01,-1.096763e-01)
+Tree Size: 8520
+MSE (sampled) 3.75781
+Timestep 31 Center of Mass = (-4.762412e-02,+2.381935e-01,-1.128150e-01)
+Tree Size: 8560
+MSE (sampled) 2.69364
+Timestep 32 Center of Mass = (-4.817786e-02,+2.461762e-01,-1.159542e-01)
+Tree Size: 8598
+MSE (sampled) 1.86012
+Timestep 33 Center of Mass = (-4.873253e-02,+2.541625e-01,-1.190942e-01)
+Tree Size: 8630
+MSE (sampled) 1.67692
+Timestep 34 Center of Mass = (-4.928994e-02,+2.621531e-01,-1.222346e-01)
+	Conflict aborts: 22843
+	Capacity aborts: 0
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 23745
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1
+STAT,(NULL),BuildTime,2,1,1,0
+STAT,(NULL),ComputeTime,2,5646,5646,0
+STAT,(NULL),LoopTime,2,2,2,0
+STAT,(NULL),Threads,2,2,2,0
+STAT,(NULL),Time,2,5769,5769,0
+STAT,BuildTree,LoopTime,2,1,1,0
+STAT,compute,Conflicts,2,0,0,0
+STAT,compute,Iterations,2,105000,52976,52024
+STAT,compute,LoopTime,2,5646,5646,0
+STAT,map_reduce,LoopTime,2,35,35,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 4 -n 3000 -steps 15 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 15 time steps
+Tree Size: 10947
+MSE (sampled) 0.0056036
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10957
+MSE (sampled) 0.0249289
+Timestep 1 Center of Mass = (-3.287560e-02,-5.577285e-03,-1.852610e-02)
+Tree Size: 10558
+MSE (sampled) 0.118612
+Timestep 2 Center of Mass = (-3.341968e-02,+1.925206e-03,-2.058333e-02)
+Tree Size: 9971
+MSE (sampled) 0.243992
+Timestep 3 Center of Mass = (-3.379241e-02,+8.962132e-03,-2.255874e-02)
+Tree Size: 9509
+MSE (sampled) 0.357598
+Timestep 4 Center of Mass = (-3.428150e-02,+1.611456e-02,-2.477550e-02)
+Tree Size: 9449
+MSE (sampled) 0.226988
+Timestep 5 Center of Mass = (-3.476386e-02,+2.309046e-02,-2.700857e-02)
+Tree Size: 9275
+MSE (sampled) 0.358125
+Timestep 6 Center of Mass = (-3.517846e-02,+3.005925e-02,-2.923340e-02)
+Tree Size: 8861
+MSE (sampled) 0.291054
+Timestep 7 Center of Mass = (-3.555796e-02,+3.704406e-02,-3.138974e-02)
+Tree Size: 8779
+MSE (sampled) 0.83611
+Timestep 8 Center of Mass = (-3.593742e-02,+4.400544e-02,-3.352978e-02)
+Tree Size: 8536
+MSE (sampled) 0.854705
+Timestep 9 Center of Mass = (-3.629318e-02,+5.095974e-02,-3.566550e-02)
+Tree Size: 8492
+MSE (sampled) 0.928542
+Timestep 10 Center of Mass = (-3.662818e-02,+5.792703e-02,-3.782885e-02)
+Tree Size: 8554
+MSE (sampled) 5.10014
+Timestep 11 Center of Mass = (-3.692703e-02,+6.489625e-02,-3.999535e-02)
+Tree Size: 8485
+MSE (sampled) 1.20455
+Timestep 12 Center of Mass = (-3.721356e-02,+7.181579e-02,-4.215217e-02)
+Tree Size: 8679
+MSE (sampled) 2.13516
+Timestep 13 Center of Mass = (-3.748349e-02,+7.872499e-02,-4.432450e-02)
+Tree Size: 8534
+MSE (sampled) 7.2792
+Timestep 14 Center of Mass = (-3.774662e-02,+8.564491e-02,-4.649552e-02)
+	Conflict aborts: 38591
+	Capacity aborts: 5
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 38966
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3
+STAT,(NULL),BuildTime,4,2,2,0,0,0
+STAT,(NULL),ComputeTime,4,1102,1102,0,0,0
+STAT,(NULL),LoopTime,4,5,5,0,0,0
+STAT,(NULL),Threads,4,4,4,0,0,0
+STAT,(NULL),Time,4,1137,1137,0,0,0
+STAT,BuildTree,LoopTime,4,2,2,0,0,0
+STAT,compute,Conflicts,4,0,0,0,0,0
+STAT,compute,Iterations,4,45000,11344,11261,11262,11133
+STAT,compute,LoopTime,4,1102,1102,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 4 -n 3000 -steps 20 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 20 time steps
+Tree Size: 10938
+MSE (sampled) 0.0056036
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10954
+MSE (sampled) 0.0249288
+Timestep 1 Center of Mass = (-3.287510e-02,-5.577109e-03,-1.852585e-02)
+Tree Size: 10541
+MSE (sampled) 0.129385
+Timestep 2 Center of Mass = (-3.383950e-02,+1.975258e-03,-1.997707e-02)
+Tree Size: 9962
+MSE (sampled) 0.2425
+Timestep 3 Center of Mass = (-3.471718e-02,+9.037100e-03,-2.159997e-02)
+Tree Size: 9552
+MSE (sampled) 0.227487
+Timestep 4 Center of Mass = (-3.564074e-02,+1.605959e-02,-2.332991e-02)
+Tree Size: 9405
+MSE (sampled) 0.242636
+Timestep 5 Center of Mass = (-3.658966e-02,+2.286588e-02,-2.507499e-02)
+Tree Size: 9316
+MSE (sampled) 0.381528
+Timestep 6 Center of Mass = (-3.752461e-02,+2.968949e-02,-2.675252e-02)
+Tree Size: 8868
+MSE (sampled) 0.27059
+Timestep 7 Center of Mass = (-3.846738e-02,+3.652186e-02,-2.836883e-02)
+Tree Size: 8838
+MSE (sampled) 1.75188
+Timestep 8 Center of Mass = (-3.942496e-02,+4.333939e-02,-2.992885e-02)
+Tree Size: 8428
+MSE (sampled) 0.719745
+Timestep 9 Center of Mass = (-4.032920e-02,+5.015852e-02,-3.150649e-02)
+Tree Size: 8514
+MSE (sampled) 4.90229
+Timestep 10 Center of Mass = (-4.120907e-02,+5.700010e-02,-3.308540e-02)
+Tree Size: 8554
+MSE (sampled) 1.00832
+Timestep 11 Center of Mass = (-4.207808e-02,+6.385397e-02,-3.468829e-02)
+Tree Size: 8514
+MSE (sampled) 0.863367
+Timestep 12 Center of Mass = (-4.294998e-02,+7.071077e-02,-3.630158e-02)
+Tree Size: 8657
+MSE (sampled) 0.660371
+Timestep 13 Center of Mass = (-4.380717e-02,+7.759716e-02,-3.791077e-02)
+Tree Size: 8444
+MSE (sampled) 3.95885
+Timestep 14 Center of Mass = (-4.467777e-02,+8.449937e-02,-3.954834e-02)
+Tree Size: 8405
+MSE (sampled) 1.52014
+Timestep 15 Center of Mass = (-4.555874e-02,+9.140858e-02,-4.121283e-02)
+Tree Size: 8457
+MSE (sampled) 0.848484
+Timestep 16 Center of Mass = (-4.644047e-02,+9.832488e-02,-4.290241e-02)
+Tree Size: 8451
+MSE (sampled) 7.9622
+Timestep 17 Center of Mass = (-4.733010e-02,+1.052510e-01,-4.461165e-02)
+Tree Size: 8495
+MSE (sampled) 3.32775
+Timestep 18 Center of Mass = (-4.822942e-02,+1.121777e-01,-4.633805e-02)
+Tree Size: 8563
+MSE (sampled) 2.23943
+Timestep 19 Center of Mass = (-4.913636e-02,+1.191134e-01,-4.807278e-02)
+	Conflict aborts: 51400
+	Capacity aborts: 9
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 51884
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3
+STAT,(NULL),BuildTime,4,2,2,0,0,0
+STAT,(NULL),ComputeTime,4,1552,1552,0,0,0
+STAT,(NULL),LoopTime,4,5,5,0,0,0
+STAT,(NULL),Threads,4,4,4,0,0,0
+STAT,(NULL),Time,4,1599,1599,0,0,0
+STAT,BuildTree,LoopTime,4,2,2,0,0,0
+STAT,compute,Conflicts,4,0,0,0,0,0
+STAT,compute,Iterations,4,60000,14702,14763,15026,15509
+STAT,compute,LoopTime,4,1552,1552,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 4 -n 3000 -steps 25 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 25 time steps
+Tree Size: 10938
+MSE (sampled) 0.0056036
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10957
+MSE (sampled) 0.0429834
+Timestep 1 Center of Mass = (-3.287510e-02,-5.577109e-03,-1.852585e-02)
+Tree Size: 10536
+MSE (sampled) 0.123771
+Timestep 2 Center of Mass = (-3.392372e-02,+1.863338e-03,-1.993684e-02)
+Tree Size: 9914
+MSE (sampled) 0.248041
+Timestep 3 Center of Mass = (-3.483020e-02,+8.800747e-03,-2.144194e-02)
+Tree Size: 9519
+MSE (sampled) 0.169405
+Timestep 4 Center of Mass = (-3.581976e-02,+1.582032e-02,-2.319720e-02)
+Tree Size: 9422
+MSE (sampled) 0.179954
+Timestep 5 Center of Mass = (-3.686634e-02,+2.264928e-02,-2.496673e-02)
+Tree Size: 9288
+MSE (sampled) 0.34401
+Timestep 6 Center of Mass = (-3.788179e-02,+2.950187e-02,-2.670786e-02)
+Tree Size: 8829
+MSE (sampled) 0.292214
+Timestep 7 Center of Mass = (-3.884443e-02,+3.633873e-02,-2.837142e-02)
+Tree Size: 8746
+MSE (sampled) 0.605957
+Timestep 8 Center of Mass = (-3.981097e-02,+4.313491e-02,-2.999518e-02)
+Tree Size: 8545
+MSE (sampled) 1.39776
+Timestep 9 Center of Mass = (-4.076822e-02,+4.994004e-02,-3.162317e-02)
+Tree Size: 8553
+MSE (sampled) 0.856206
+Timestep 10 Center of Mass = (-4.168733e-02,+5.673742e-02,-3.327909e-02)
+Tree Size: 8610
+MSE (sampled) 3.9213
+Timestep 11 Center of Mass = (-4.256258e-02,+6.354054e-02,-3.494733e-02)
+Tree Size: 8515
+MSE (sampled) 1.27874
+Timestep 12 Center of Mass = (-4.342641e-02,+7.030221e-02,-3.663848e-02)
+Tree Size: 8654
+MSE (sampled) 35.8532
+Timestep 13 Center of Mass = (-4.426203e-02,+7.705634e-02,-3.833791e-02)
+Tree Size: 8575
+MSE (sampled) 7.71274
+Timestep 14 Center of Mass = (-4.511041e-02,+8.381077e-02,-4.005421e-02)
+Tree Size: 8619
+MSE (sampled) 2.06026
+Timestep 15 Center of Mass = (-4.597058e-02,+9.058171e-02,-4.178072e-02)
+Tree Size: 8572
+MSE (sampled) 1.31888
+Timestep 16 Center of Mass = (-4.684070e-02,+9.737107e-02,-4.350174e-02)
+Tree Size: 8583
+MSE (sampled) 0.908436
+Timestep 17 Center of Mass = (-4.772821e-02,+1.041720e-01,-4.522129e-02)
+Tree Size: 8563
+MSE (sampled) 0.92966
+Timestep 18 Center of Mass = (-4.863271e-02,+1.109856e-01,-4.694609e-02)
+Tree Size: 8549
+MSE (sampled) 1.09642
+Timestep 19 Center of Mass = (-4.954577e-02,+1.178065e-01,-4.867511e-02)
+Tree Size: 8421
+MSE (sampled) 0.773457
+Timestep 20 Center of Mass = (-5.046766e-02,+1.246357e-01,-5.041366e-02)
+Tree Size: 8389
+MSE (sampled) 0.705057
+Timestep 21 Center of Mass = (-5.139345e-02,+1.314782e-01,-5.215392e-02)
+Tree Size: 8371
+MSE (sampled) 0.87528
+Timestep 22 Center of Mass = (-5.233085e-02,+1.383169e-01,-5.389583e-02)
+Tree Size: 8352
+MSE (sampled) 0.997863
+Timestep 23 Center of Mass = (-5.327967e-02,+1.451569e-01,-5.564844e-02)
+Tree Size: 8429
+MSE (sampled) 1.25171
+Timestep 24 Center of Mass = (-5.423580e-02,+1.520020e-01,-5.740298e-02)
+	Conflict aborts: 55215
+	Capacity aborts: 35
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 55893
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3
+STAT,(NULL),BuildTime,4,2,2,0,0,0
+STAT,(NULL),ComputeTime,4,2173,2173,0,0,0
+STAT,(NULL),LoopTime,4,5,5,0,0,0
+STAT,(NULL),Threads,4,4,4,0,0,0
+STAT,(NULL),Time,4,2232,2232,0,0,0
+STAT,BuildTree,LoopTime,4,2,2,0,0,0
+STAT,compute,Conflicts,4,0,0,0,0,0
+STAT,compute,Iterations,4,75000,18305,17807,19613,19275
+STAT,compute,LoopTime,4,2173,2173,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 4 -n 3000 -steps 30 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 30 time steps
+Tree Size: 10942
+MSE (sampled) 0.0056036
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10966
+MSE (sampled) 0.0250607
+Timestep 1 Center of Mass = (-3.214038e-02,-4.769303e-03,-2.002018e-02)
+Tree Size: 10553
+MSE (sampled) 0.116691
+Timestep 2 Center of Mass = (-3.231979e-02,+3.793375e-03,-2.312170e-02)
+Tree Size: 9956
+MSE (sampled) 0.253916
+Timestep 3 Center of Mass = (-3.226659e-02,+1.187052e-02,-2.613111e-02)
+Tree Size: 9551
+MSE (sampled) 0.152377
+Timestep 4 Center of Mass = (-3.219700e-02,+1.985741e-02,-2.928864e-02)
+Tree Size: 9463
+MSE (sampled) 0.29058
+Timestep 5 Center of Mass = (-3.216765e-02,+2.768324e-02,-3.241961e-02)
+Tree Size: 9411
+MSE (sampled) 0.245537
+Timestep 6 Center of Mass = (-3.215446e-02,+3.551600e-02,-3.549330e-02)
+Tree Size: 8833
+MSE (sampled) 0.372601
+Timestep 7 Center of Mass = (-3.209438e-02,+4.331969e-02,-3.848583e-02)
+Tree Size: 8710
+MSE (sampled) 1.03156
+Timestep 8 Center of Mass = (-3.207553e-02,+5.107331e-02,-4.144668e-02)
+Tree Size: 8516
+MSE (sampled) 0.845157
+Timestep 9 Center of Mass = (-3.201730e-02,+5.883309e-02,-4.438769e-02)
+Tree Size: 8611
+MSE (sampled) 1.13957
+Timestep 10 Center of Mass = (-3.195182e-02,+6.660009e-02,-4.735553e-02)
+Tree Size: 8523
+MSE (sampled) 2.41068
+Timestep 11 Center of Mass = (-3.187223e-02,+7.436472e-02,-5.032870e-02)
+Tree Size: 8502
+MSE (sampled) 1.3876
+Timestep 12 Center of Mass = (-3.179871e-02,+8.214699e-02,-5.330632e-02)
+Tree Size: 8498
+MSE (sampled) 13.2441
+Timestep 13 Center of Mass = (-3.172843e-02,+8.993359e-02,-5.628935e-02)
+Tree Size: 8574
+MSE (sampled) 1.37974
+Timestep 14 Center of Mass = (-3.166437e-02,+9.772132e-02,-5.928916e-02)
+Tree Size: 8543
+MSE (sampled) 0.811653
+Timestep 15 Center of Mass = (-3.159017e-02,+1.055083e-01,-6.230683e-02)
+Tree Size: 8498
+MSE (sampled) 1.37748
+Timestep 16 Center of Mass = (-3.150837e-02,+1.132997e-01,-6.533545e-02)
+Tree Size: 8460
+MSE (sampled) 3.34622
+Timestep 17 Center of Mass = (-3.142516e-02,+1.210897e-01,-6.835306e-02)
+Tree Size: 8481
+MSE (sampled) 1.22713
+Timestep 18 Center of Mass = (-3.133393e-02,+1.288826e-01,-7.136785e-02)
+Tree Size: 8453
+MSE (sampled) 0.549881
+Timestep 19 Center of Mass = (-3.124216e-02,+1.366830e-01,-7.438029e-02)
+Tree Size: 8404
+MSE (sampled) 0.820762
+Timestep 20 Center of Mass = (-3.115012e-02,+1.444943e-01,-7.738921e-02)
+Tree Size: 8364
+MSE (sampled) 0.844113
+Timestep 21 Center of Mass = (-3.106152e-02,+1.523116e-01,-8.039800e-02)
+Tree Size: 8344
+MSE (sampled) 23.5794
+Timestep 22 Center of Mass = (-3.097313e-02,+1.601315e-01,-8.340691e-02)
+Tree Size: 8373
+MSE (sampled) 2.00516
+Timestep 23 Center of Mass = (-3.089302e-02,+1.679477e-01,-8.641619e-02)
+Tree Size: 8361
+MSE (sampled) 1.70993
+Timestep 24 Center of Mass = (-3.081158e-02,+1.757628e-01,-8.942763e-02)
+Tree Size: 8416
+MSE (sampled) 1.28326
+Timestep 25 Center of Mass = (-3.072842e-02,+1.835798e-01,-9.243911e-02)
+Tree Size: 8459
+MSE (sampled) 1.23719
+Timestep 26 Center of Mass = (-3.064351e-02,+1.913994e-01,-9.544959e-02)
+Tree Size: 8495
+MSE (sampled) 0.725159
+Timestep 27 Center of Mass = (-3.055935e-02,+1.992224e-01,-9.845830e-02)
+Tree Size: 8461
+MSE (sampled) 1.61018
+Timestep 28 Center of Mass = (-3.047256e-02,+2.070474e-01,-1.014632e-01)
+Tree Size: 8439
+MSE (sampled) 4.3826
+Timestep 29 Center of Mass = (-3.038280e-02,+2.148723e-01,-1.044689e-01)
+	Conflict aborts: 75391
+	Capacity aborts: 10
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 76198
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3
+STAT,(NULL),BuildTime,4,2,2,0,0,0
+STAT,(NULL),ComputeTime,4,2655,2655,0,0,0
+STAT,(NULL),LoopTime,4,5,5,0,0,0
+STAT,(NULL),Threads,4,4,4,0,0,0
+STAT,(NULL),Time,4,2723,2723,0,0,0
+STAT,BuildTree,LoopTime,4,2,2,0,0,0
+STAT,compute,Conflicts,4,0,0,0,0,0
+STAT,compute,Iterations,4,90000,22092,20762,22925,24221
+STAT,compute,LoopTime,4,2655,2655,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 4 -n 3000 -steps 35 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 35 time steps
+Tree Size: 10939
+MSE (sampled) 0.00561868
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10954
+MSE (sampled) 0.0427263
+Timestep 1 Center of Mass = (-3.210284e-02,-4.313399e-03,-1.955653e-02)
+Tree Size: 10445
+MSE (sampled) 0.12395
+Timestep 2 Center of Mass = (-3.233738e-02,+4.692564e-03,-2.269709e-02)
+Tree Size: 10127
+MSE (sampled) 0.141059
+Timestep 3 Center of Mass = (-3.245111e-02,+1.326114e-02,-2.594340e-02)
+Tree Size: 9628
+MSE (sampled) 0.208303
+Timestep 4 Center of Mass = (-3.278655e-02,+2.169416e-02,-2.945942e-02)
+Tree Size: 9322
+MSE (sampled) 0.20693
+Timestep 5 Center of Mass = (-3.316356e-02,+2.996388e-02,-3.306551e-02)
+Tree Size: 9255
+MSE (sampled) 0.423615
+Timestep 6 Center of Mass = (-3.359467e-02,+3.827733e-02,-3.677125e-02)
+Tree Size: 8860
+MSE (sampled) 0.671084
+Timestep 7 Center of Mass = (-3.402019e-02,+4.661600e-02,-4.044354e-02)
+Tree Size: 8752
+MSE (sampled) 0.912991
+Timestep 8 Center of Mass = (-3.444155e-02,+5.493832e-02,-4.407168e-02)
+Tree Size: 8444
+MSE (sampled) 0.43401
+Timestep 9 Center of Mass = (-3.482855e-02,+6.321440e-02,-4.773974e-02)
+Tree Size: 8576
+MSE (sampled) 1.73651
+Timestep 10 Center of Mass = (-3.522376e-02,+7.150556e-02,-5.141132e-02)
+Tree Size: 8465
+MSE (sampled) 1.99402
+Timestep 11 Center of Mass = (-3.561583e-02,+7.975849e-02,-5.508752e-02)
+Tree Size: 8405
+MSE (sampled) 3.27981
+Timestep 12 Center of Mass = (-3.602381e-02,+8.804867e-02,-5.875327e-02)
+Tree Size: 8441
+MSE (sampled) 0.827459
+Timestep 13 Center of Mass = (-3.641341e-02,+9.634939e-02,-6.242874e-02)
+Tree Size: 8462
+MSE (sampled) 0.780959
+Timestep 14 Center of Mass = (-3.679915e-02,+1.046643e-01,-6.611183e-02)
+Tree Size: 8488
+MSE (sampled) 3.60919
+Timestep 15 Center of Mass = (-3.719672e-02,+1.129961e-01,-6.980172e-02)
+Tree Size: 8500
+MSE (sampled) 2.43901
+Timestep 16 Center of Mass = (-3.761463e-02,+1.213340e-01,-7.349495e-02)
+Tree Size: 8467
+MSE (sampled) 0.937434
+Timestep 17 Center of Mass = (-3.805171e-02,+1.296854e-01,-7.717495e-02)
+Tree Size: 8482
+MSE (sampled) 0.81489
+Timestep 18 Center of Mass = (-3.850214e-02,+1.380593e-01,-8.084888e-02)
+Tree Size: 8450
+MSE (sampled) 0.668468
+Timestep 19 Center of Mass = (-3.896606e-02,+1.464582e-01,-8.452829e-02)
+Tree Size: 8398
+MSE (sampled) 0.541368
+Timestep 20 Center of Mass = (-3.943904e-02,+1.548617e-01,-8.819990e-02)
+Tree Size: 8394
+MSE (sampled) 0.585666
+Timestep 21 Center of Mass = (-3.991528e-02,+1.632703e-01,-9.187075e-02)
+Tree Size: 8385
+MSE (sampled) 0.960234
+Timestep 22 Center of Mass = (-4.039526e-02,+1.716851e-01,-9.555136e-02)
+Tree Size: 8399
+MSE (sampled) 1.04848
+Timestep 23 Center of Mass = (-4.088112e-02,+1.800988e-01,-9.923557e-02)
+Tree Size: 8373
+MSE (sampled) 1.07303
+Timestep 24 Center of Mass = (-4.137422e-02,+1.885140e-01,-1.029202e-01)
+Tree Size: 8364
+MSE (sampled) 1.4647
+Timestep 25 Center of Mass = (-4.187807e-02,+1.969313e-01,-1.066021e-01)
+Tree Size: 8349
+MSE (sampled) 2.65773
+Timestep 26 Center of Mass = (-4.238887e-02,+2.053512e-01,-1.102812e-01)
+Tree Size: 8413
+MSE (sampled) 7.77891
+Timestep 27 Center of Mass = (-4.290463e-02,+2.137759e-01,-1.139563e-01)
+Tree Size: 8498
+MSE (sampled) 8.3492
+Timestep 28 Center of Mass = (-4.342430e-02,+2.222045e-01,-1.176302e-01)
+Tree Size: 8538
+MSE (sampled) 6.82692
+Timestep 29 Center of Mass = (-4.394524e-02,+2.306410e-01,-1.213017e-01)
+Tree Size: 8514
+MSE (sampled) 5.04852
+Timestep 30 Center of Mass = (-4.446456e-02,+2.390862e-01,-1.249706e-01)
+Tree Size: 8529
+MSE (sampled) 3.6005
+Timestep 31 Center of Mass = (-4.498350e-02,+2.475402e-01,-1.286375e-01)
+Tree Size: 8461
+MSE (sampled) 2.58072
+Timestep 32 Center of Mass = (-4.549980e-02,+2.560008e-01,-1.323027e-01)
+Tree Size: 8394
+MSE (sampled) 1.8263
+Timestep 33 Center of Mass = (-4.601453e-02,+2.644671e-01,-1.359675e-01)
+Tree Size: 8365
+MSE (sampled) 1.49085
+Timestep 34 Center of Mass = (-4.652863e-02,+2.729378e-01,-1.396324e-01)
+	Conflict aborts: 83162
+	Capacity aborts: 5
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 84120
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3
+STAT,(NULL),BuildTime,4,2,2,0,0,0
+STAT,(NULL),ComputeTime,4,3221,3221,0,0,0
+STAT,(NULL),LoopTime,4,5,5,0,0,0
+STAT,(NULL),Threads,4,4,4,0,0,0
+STAT,(NULL),Time,4,3301,3301,0,0,0
+STAT,BuildTree,LoopTime,4,2,2,0,0,0
+STAT,compute,Conflicts,4,0,0,0,0,0
+STAT,compute,Iterations,4,105000,25405,25265,28166,26164
+STAT,compute,LoopTime,4,3221,3221,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 8 -n 3000 -steps 15 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 15 time steps
+Tree Size: 10982
+MSE (sampled) 0.00564284
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 11126
+MSE (sampled) 0.0355005
+Timestep 1 Center of Mass = (-3.191187e-02,-5.940406e-03,-1.862750e-02)
+Tree Size: 10634
+MSE (sampled) 0.211458
+Timestep 2 Center of Mass = (-3.113209e-02,+7.914308e-04,-2.028530e-02)
+Tree Size: 10039
+MSE (sampled) 0.270245
+Timestep 3 Center of Mass = (-3.067870e-02,+7.438534e-03,-2.178238e-02)
+Tree Size: 9647
+MSE (sampled) 0.545373
+Timestep 4 Center of Mass = (-3.031302e-02,+1.420615e-02,-2.322791e-02)
+Tree Size: 9407
+MSE (sampled) 0.404479
+Timestep 5 Center of Mass = (-3.010858e-02,+2.086086e-02,-2.472211e-02)
+Tree Size: 9225
+MSE (sampled) 0.465335
+Timestep 6 Center of Mass = (-2.986139e-02,+2.765006e-02,-2.622238e-02)
+Tree Size: 8853
+MSE (sampled) 1.11444
+Timestep 7 Center of Mass = (-2.957963e-02,+3.442723e-02,-2.773398e-02)
+Tree Size: 8627
+MSE (sampled) 0.918681
+Timestep 8 Center of Mass = (-2.933551e-02,+4.119029e-02,-2.921890e-02)
+Tree Size: 8482
+MSE (sampled) 2.39578
+Timestep 9 Center of Mass = (-2.908232e-02,+4.798308e-02,-3.072994e-02)
+Tree Size: 8643
+MSE (sampled) 1.5715
+Timestep 10 Center of Mass = (-2.882872e-02,+5.474075e-02,-3.225310e-02)
+Tree Size: 8626
+MSE (sampled) 0.768374
+Timestep 11 Center of Mass = (-2.854817e-02,+6.149466e-02,-3.379204e-02)
+Tree Size: 8531
+MSE (sampled) 1.78451
+Timestep 12 Center of Mass = (-2.825323e-02,+6.825505e-02,-3.530966e-02)
+Tree Size: 8527
+MSE (sampled) 0.752564
+Timestep 13 Center of Mass = (-2.792536e-02,+7.502689e-02,-3.680394e-02)
+Tree Size: 8554
+MSE (sampled) 1.25542
+Timestep 14 Center of Mass = (-2.758547e-02,+8.181611e-02,-3.827318e-02)
+	Conflict aborts: 81540
+	Capacity aborts: 22
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 81899
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7
+STAT,(NULL),BuildTime,8,5,5,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,8,567,567,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,8,10,10,0,0,0,0,0,0,0
+STAT,(NULL),Threads,8,8,8,0,0,0,0,0,0,0
+STAT,(NULL),Time,8,598,598,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,8,5,5,0,0,0,0,0,0,0
+STAT,compute,Conflicts,8,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,8,45000,5204,5591,5332,5415,5935,5732,5811,5980
+STAT,compute,LoopTime,8,567,567,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 8 -n 3000 -steps 20 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 20 time steps
+Tree Size: 11010
+MSE (sampled) 0.00564359
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10987
+MSE (sampled) 0.0395663
+Timestep 1 Center of Mass = (-3.514420e-02,-1.507872e-02,-2.157321e-02)
+Tree Size: 10534
+MSE (sampled) 0.158444
+Timestep 2 Center of Mass = (-3.815064e-02,-1.768248e-02,-2.667873e-02)
+Tree Size: 10041
+MSE (sampled) 0.284459
+Timestep 3 Center of Mass = (-4.144640e-02,-2.009156e-02,-3.169515e-02)
+Tree Size: 9609
+MSE (sampled) 0.730689
+Timestep 4 Center of Mass = (-4.490912e-02,-2.229687e-02,-3.669587e-02)
+Tree Size: 9428
+MSE (sampled) 0.375486
+Timestep 5 Center of Mass = (-4.847553e-02,-2.461297e-02,-4.156918e-02)
+Tree Size: 9115
+MSE (sampled) 0.395448
+Timestep 6 Center of Mass = (-5.191501e-02,-2.695051e-02,-4.643481e-02)
+Tree Size: 9177
+MSE (sampled) 2.8919
+Timestep 7 Center of Mass = (-5.537361e-02,-2.925180e-02,-5.132296e-02)
+Tree Size: 8833
+MSE (sampled) 0.458589
+Timestep 8 Center of Mass = (-5.887747e-02,-3.158056e-02,-5.626396e-02)
+Tree Size: 8957
+MSE (sampled) 1.63656
+Timestep 9 Center of Mass = (-6.240436e-02,-3.388921e-02,-6.123571e-02)
+Tree Size: 8968
+MSE (sampled) 0.801628
+Timestep 10 Center of Mass = (-6.589518e-02,-3.619034e-02,-6.623991e-02)
+Tree Size: 8969
+MSE (sampled) 0.866446
+Timestep 11 Center of Mass = (-6.938032e-02,-3.851779e-02,-7.125978e-02)
+Tree Size: 8849
+MSE (sampled) 1.52217
+Timestep 12 Center of Mass = (-7.286147e-02,-4.088056e-02,-7.624530e-02)
+Tree Size: 8884
+MSE (sampled) 3.05373
+Timestep 13 Center of Mass = (-7.635372e-02,-4.322254e-02,-8.124255e-02)
+Tree Size: 8806
+MSE (sampled) 3.5143
+Timestep 14 Center of Mass = (-7.988553e-02,-4.554124e-02,-8.626337e-02)
+Tree Size: 8871
+MSE (sampled) 2.97505
+Timestep 15 Center of Mass = (-8.343239e-02,-4.789418e-02,-9.129240e-02)
+Tree Size: 8874
+MSE (sampled) 2.41105
+Timestep 16 Center of Mass = (-8.697582e-02,-5.025045e-02,-9.634005e-02)
+Tree Size: 8886
+MSE (sampled) 2.48289
+Timestep 17 Center of Mass = (-9.049820e-02,-5.261786e-02,-1.013900e-01)
+Tree Size: 8878
+MSE (sampled) 1.18189
+Timestep 18 Center of Mass = (-9.401129e-02,-5.498734e-02,-1.064487e-01)
+Tree Size: 8922
+MSE (sampled) 0.710167
+Timestep 19 Center of Mass = (-9.752039e-02,-5.736206e-02,-1.115076e-01)
+	Conflict aborts: 112883
+	Capacity aborts: 36
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 113371
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7
+STAT,(NULL),BuildTime,8,5,5,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,8,728,728,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,8,10,10,0,0,0,0,0,0,0
+STAT,(NULL),Threads,8,8,8,0,0,0,0,0,0,0
+STAT,(NULL),Time,8,767,767,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,8,5,5,0,0,0,0,0,0,0
+STAT,compute,Conflicts,8,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,8,60000,7703,7505,7217,7072,7324,7499,8087,7593
+STAT,compute,LoopTime,8,728,728,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 8 -n 3000 -steps 25 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 25 time steps
+Tree Size: 10968
+MSE (sampled) 0.00560761
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10905
+MSE (sampled) 0.042998
+Timestep 1 Center of Mass = (-3.270925e-02,-5.072308e-03,-1.823034e-02)
+Tree Size: 10620
+MSE (sampled) 0.109709
+Timestep 2 Center of Mass = (-3.287867e-02,+2.303708e-03,-1.960496e-02)
+Tree Size: 9997
+MSE (sampled) 0.256677
+Timestep 3 Center of Mass = (-3.303782e-02,+9.315920e-03,-2.093507e-02)
+Tree Size: 9509
+MSE (sampled) 0.47187
+Timestep 4 Center of Mass = (-3.322133e-02,+1.639175e-02,-2.242003e-02)
+Tree Size: 9359
+MSE (sampled) 0.330013
+Timestep 5 Center of Mass = (-3.350947e-02,+2.339754e-02,-2.391520e-02)
+Tree Size: 9252
+MSE (sampled) 0.282457
+Timestep 6 Center of Mass = (-3.369771e-02,+3.043554e-02,-2.535272e-02)
+Tree Size: 8843
+MSE (sampled) 0.284938
+Timestep 7 Center of Mass = (-3.385691e-02,+3.749337e-02,-2.676463e-02)
+Tree Size: 8641
+MSE (sampled) 1.30131
+Timestep 8 Center of Mass = (-3.407099e-02,+4.451847e-02,-2.818477e-02)
+Tree Size: 8546
+MSE (sampled) 1.12167
+Timestep 9 Center of Mass = (-3.425747e-02,+5.151990e-02,-2.961395e-02)
+Tree Size: 8504
+MSE (sampled) 1.64628
+Timestep 10 Center of Mass = (-3.442048e-02,+5.850015e-02,-3.106794e-02)
+Tree Size: 8551
+MSE (sampled) 0.527153
+Timestep 11 Center of Mass = (-3.459394e-02,+6.546208e-02,-3.253213e-02)
+Tree Size: 8527
+MSE (sampled) 3.36084
+Timestep 12 Center of Mass = (-3.476969e-02,+7.239958e-02,-3.401049e-02)
+Tree Size: 8584
+MSE (sampled) 8.98225
+Timestep 13 Center of Mass = (-3.495164e-02,+7.934155e-02,-3.547250e-02)
+Tree Size: 8565
+MSE (sampled) 8.69894
+Timestep 14 Center of Mass = (-3.515811e-02,+8.629762e-02,-3.691400e-02)
+Tree Size: 8601
+MSE (sampled) 7.61055
+Timestep 15 Center of Mass = (-3.535684e-02,+9.326474e-02,-3.832448e-02)
+Tree Size: 8515
+MSE (sampled) 3.13175
+Timestep 16 Center of Mass = (-3.556432e-02,+1.002370e-01,-3.971828e-02)
+Tree Size: 8543
+MSE (sampled) 1.73121
+Timestep 17 Center of Mass = (-3.576611e-02,+1.072166e-01,-4.110684e-02)
+Tree Size: 8483
+MSE (sampled) 1.16972
+Timestep 18 Center of Mass = (-3.596001e-02,+1.141973e-01,-4.250060e-02)
+Tree Size: 8448
+MSE (sampled) 0.82205
+Timestep 19 Center of Mass = (-3.615146e-02,+1.211848e-01,-4.390043e-02)
+Tree Size: 8399
+MSE (sampled) 1.10843
+Timestep 20 Center of Mass = (-3.633590e-02,+1.281725e-01,-4.530033e-02)
+Tree Size: 8396
+MSE (sampled) 1.47491
+Timestep 21 Center of Mass = (-3.651143e-02,+1.351618e-01,-4.669614e-02)
+Tree Size: 8347
+MSE (sampled) 1.43051
+Timestep 22 Center of Mass = (-3.668073e-02,+1.421555e-01,-4.809727e-02)
+Tree Size: 8335
+MSE (sampled) 4.13192
+Timestep 23 Center of Mass = (-3.685578e-02,+1.491547e-01,-4.950167e-02)
+Tree Size: 8297
+MSE (sampled) 4.74004
+Timestep 24 Center of Mass = (-3.702899e-02,+1.561623e-01,-5.090256e-02)
+	Conflict aborts: 148735
+	Capacity aborts: 116
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 149554
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7
+STAT,(NULL),BuildTime,8,5,5,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,8,1050,1050,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,8,10,10,0,0,0,0,0,0,0
+STAT,(NULL),Threads,8,8,8,0,0,0,0,0,0,0
+STAT,(NULL),Time,8,1096,1096,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,8,5,5,0,0,0,0,0,0,0
+STAT,compute,Conflicts,8,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,8,75000,9161,9740,9275,9232,9426,9265,9848,9053
+STAT,compute,LoopTime,8,1050,1050,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 8 -n 3000 -steps 30 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 30 time steps
+Tree Size: 11020
+MSE (sampled) 0.00564357
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 11095
+MSE (sampled) 0.0348447
+Timestep 1 Center of Mass = (-2.936782e-02,-1.072833e-02,-1.496179e-02)
+Tree Size: 10569
+MSE (sampled) 0.208683
+Timestep 2 Center of Mass = (-2.619797e-02,-9.107941e-03,-1.357885e-02)
+Tree Size: 10160
+MSE (sampled) 0.275463
+Timestep 3 Center of Mass = (-2.307756e-02,-7.282640e-03,-1.204743e-02)
+Tree Size: 9740
+MSE (sampled) 0.6275
+Timestep 4 Center of Mass = (-1.995513e-02,-5.346711e-03,-1.049101e-02)
+Tree Size: 9507
+MSE (sampled) 0.285291
+Timestep 5 Center of Mass = (-1.697516e-02,-3.381108e-03,-8.891926e-03)
+Tree Size: 9255
+MSE (sampled) 0.324581
+Timestep 6 Center of Mass = (-1.396119e-02,-1.332357e-03,-7.365596e-03)
+Tree Size: 8774
+MSE (sampled) 0.239639
+Timestep 7 Center of Mass = (-1.097782e-02,+6.983734e-04,-5.821270e-03)
+Tree Size: 8642
+MSE (sampled) 0.556931
+Timestep 8 Center of Mass = (-8.015789e-03,+2.694310e-03,-4.245675e-03)
+Tree Size: 8408
+MSE (sampled) 2.20558
+Timestep 9 Center of Mass = (-5.094640e-03,+4.733026e-03,-2.667307e-03)
+Tree Size: 8409
+MSE (sampled) 1.08643
+Timestep 10 Center of Mass = (-2.165539e-03,+6.794064e-03,-1.099909e-03)
+Tree Size: 8238
+MSE (sampled) 1.52196
+Timestep 11 Center of Mass = (+7.642324e-04,+8.865032e-03,+4.776252e-04)
+Tree Size: 8217
+MSE (sampled) 0.957447
+Timestep 12 Center of Mass = (+3.681939e-03,+1.092273e-02,+2.066627e-03)
+Tree Size: 8228
+MSE (sampled) 8.2211
+Timestep 13 Center of Mass = (+6.603831e-03,+1.300004e-02,+3.650410e-03)
+Tree Size: 8296
+MSE (sampled) 0.792899
+Timestep 14 Center of Mass = (+9.505713e-03,+1.507639e-02,+5.230477e-03)
+Tree Size: 8304
+MSE (sampled) 0.853365
+Timestep 15 Center of Mass = (+1.239177e-02,+1.714619e-02,+6.811585e-03)
+Tree Size: 8288
+MSE (sampled) 0.548676
+Timestep 16 Center of Mass = (+1.528562e-02,+1.922303e-02,+8.379428e-03)
+Tree Size: 8341
+MSE (sampled) 1.22926
+Timestep 17 Center of Mass = (+1.817413e-02,+2.131231e-02,+9.945627e-03)
+Tree Size: 8293
+MSE (sampled) 1.07036
+Timestep 18 Center of Mass = (+2.105572e-02,+2.340814e-02,+1.150156e-02)
+Tree Size: 8269
+MSE (sampled) 1.0143
+Timestep 19 Center of Mass = (+2.393132e-02,+2.550557e-02,+1.305490e-02)
+Tree Size: 8293
+MSE (sampled) 1.0075
+Timestep 20 Center of Mass = (+2.679956e-02,+2.760692e-02,+1.460663e-02)
+Tree Size: 8266
+MSE (sampled) 8.54362
+Timestep 21 Center of Mass = (+2.966867e-02,+2.970302e-02,+1.615440e-02)
+Tree Size: 8259
+MSE (sampled) 11.0154
+Timestep 22 Center of Mass = (+3.253983e-02,+3.179754e-02,+1.769740e-02)
+Tree Size: 8215
+MSE (sampled) 2.82543
+Timestep 23 Center of Mass = (+3.541214e-02,+3.389743e-02,+1.923576e-02)
+Tree Size: 8214
+MSE (sampled) 2.66242
+Timestep 24 Center of Mass = (+3.828748e-02,+3.600567e-02,+2.077300e-02)
+Tree Size: 8236
+MSE (sampled) 1.82246
+Timestep 25 Center of Mass = (+4.116857e-02,+3.811673e-02,+2.230993e-02)
+Tree Size: 8214
+MSE (sampled) 1.95371
+Timestep 26 Center of Mass = (+4.405015e-02,+4.023236e-02,+2.384645e-02)
+Tree Size: 8195
+MSE (sampled) 2.35562
+Timestep 27 Center of Mass = (+4.693291e-02,+4.235377e-02,+2.538237e-02)
+Tree Size: 8222
+MSE (sampled) 5.72956
+Timestep 28 Center of Mass = (+4.981522e-02,+4.448200e-02,+2.691673e-02)
+Tree Size: 8234
+MSE (sampled) 10.6259
+Timestep 29 Center of Mass = (+5.270040e-02,+4.661621e-02,+2.844957e-02)
+	Conflict aborts: 176657
+	Capacity aborts: 58
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 177594
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7
+STAT,(NULL),BuildTime,8,4,4,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,8,1317,1317,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,8,10,10,0,0,0,0,0,0,0
+STAT,(NULL),Threads,8,8,8,0,0,0,0,0,0,0
+STAT,(NULL),Time,8,1372,1372,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,8,4,4,0,0,0,0,0,0,0
+STAT,compute,Conflicts,8,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,8,90000,11311,11586,10283,11041,11218,11484,11599,11478
+STAT,compute,LoopTime,8,1317,1317,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 8 -n 3000 -steps 35 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 35 time steps
+Tree Size: 10925
+MSE (sampled) 0.00561353
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10865
+MSE (sampled) 0.0425631
+Timestep 1 Center of Mass = (-3.205471e-02,-4.309849e-03,-1.981045e-02)
+Tree Size: 10530
+MSE (sampled) 0.102577
+Timestep 2 Center of Mass = (-3.193487e-02,+3.728927e-03,-2.267092e-02)
+Tree Size: 10006
+MSE (sampled) 0.157886
+Timestep 3 Center of Mass = (-3.179823e-02,+1.146176e-02,-2.544381e-02)
+Tree Size: 9630
+MSE (sampled) 0.371779
+Timestep 4 Center of Mass = (-3.174204e-02,+1.894263e-02,-2.840856e-02)
+Tree Size: 9539
+MSE (sampled) 0.197886
+Timestep 5 Center of Mass = (-3.166657e-02,+2.625367e-02,-3.143266e-02)
+Tree Size: 9312
+MSE (sampled) 0.349696
+Timestep 6 Center of Mass = (-3.158150e-02,+3.360442e-02,-3.445141e-02)
+Tree Size: 8873
+MSE (sampled) 0.504789
+Timestep 7 Center of Mass = (-3.146160e-02,+4.091592e-02,-3.751253e-02)
+Tree Size: 8625
+MSE (sampled) 0.622792
+Timestep 8 Center of Mass = (-3.140913e-02,+4.824800e-02,-4.053661e-02)
+Tree Size: 8450
+MSE (sampled) 1.17742
+Timestep 9 Center of Mass = (-3.135679e-02,+5.556315e-02,-4.357962e-02)
+Tree Size: 8594
+MSE (sampled) 1.25786
+Timestep 10 Center of Mass = (-3.133007e-02,+6.285021e-02,-4.663714e-02)
+Tree Size: 8663
+MSE (sampled) 1.12073
+Timestep 11 Center of Mass = (-3.131918e-02,+7.008181e-02,-4.970461e-02)
+Tree Size: 8579
+MSE (sampled) 21.3314
+Timestep 12 Center of Mass = (-3.129907e-02,+7.727166e-02,-5.278051e-02)
+Tree Size: 8543
+MSE (sampled) 11.5795
+Timestep 13 Center of Mass = (-3.129299e-02,+8.447401e-02,-5.586083e-02)
+Tree Size: 8595
+MSE (sampled) 1.69156
+Timestep 14 Center of Mass = (-3.129653e-02,+9.169111e-02,-5.891409e-02)
+Tree Size: 8563
+MSE (sampled) 2.60011
+Timestep 15 Center of Mass = (-3.129712e-02,+9.890563e-02,-6.195428e-02)
+Tree Size: 8543
+MSE (sampled) 1.40615
+Timestep 16 Center of Mass = (-3.130409e-02,+1.061131e-01,-6.498475e-02)
+Tree Size: 8460
+MSE (sampled) 2.07237
+Timestep 17 Center of Mass = (-3.132266e-02,+1.133117e-01,-6.803221e-02)
+Tree Size: 8450
+MSE (sampled) 1.29773
+Timestep 18 Center of Mass = (-3.134868e-02,+1.205138e-01,-7.109608e-02)
+Tree Size: 8428
+MSE (sampled) 1.08583
+Timestep 19 Center of Mass = (-3.138312e-02,+1.277221e-01,-7.416792e-02)
+Tree Size: 8395
+MSE (sampled) 0.955796
+Timestep 20 Center of Mass = (-3.141792e-02,+1.349427e-01,-7.724443e-02)
+Tree Size: 8422
+MSE (sampled) 1.12395
+Timestep 21 Center of Mass = (-3.145493e-02,+1.421722e-01,-8.032444e-02)
+Tree Size: 8475
+MSE (sampled) 2.20829
+Timestep 22 Center of Mass = (-3.149248e-02,+1.494051e-01,-8.340744e-02)
+Tree Size: 8444
+MSE (sampled) 25.4378
+Timestep 23 Center of Mass = (-3.152896e-02,+1.566430e-01,-8.649418e-02)
+Tree Size: 8467
+MSE (sampled) 1.74108
+Timestep 24 Center of Mass = (-3.156838e-02,+1.638991e-01,-8.957948e-02)
+Tree Size: 8401
+MSE (sampled) 2.1179
+Timestep 25 Center of Mass = (-3.161161e-02,+1.711583e-01,-9.266720e-02)
+Tree Size: 8418
+MSE (sampled) 2.66541
+Timestep 26 Center of Mass = (-3.166330e-02,+1.784170e-01,-9.575613e-02)
+Tree Size: 8397
+MSE (sampled) 3.35619
+Timestep 27 Center of Mass = (-3.172063e-02,+1.856770e-01,-9.884435e-02)
+Tree Size: 8398
+MSE (sampled) 3.9155
+Timestep 28 Center of Mass = (-3.178096e-02,+1.929379e-01,-1.019340e-01)
+Tree Size: 8386
+MSE (sampled) 3.38826
+Timestep 29 Center of Mass = (-3.184205e-02,+2.002026e-01,-1.050234e-01)
+Tree Size: 8358
+MSE (sampled) 3.13182
+Timestep 30 Center of Mass = (-3.190169e-02,+2.074718e-01,-1.081125e-01)
+Tree Size: 8371
+MSE (sampled) 2.3595
+Timestep 31 Center of Mass = (-3.195919e-02,+2.147451e-01,-1.111976e-01)
+Tree Size: 8430
+MSE (sampled) 1.76102
+Timestep 32 Center of Mass = (-3.201034e-02,+2.220236e-01,-1.142806e-01)
+Tree Size: 8451
+MSE (sampled) 1.91081
+Timestep 33 Center of Mass = (-3.205664e-02,+2.293057e-01,-1.173605e-01)
+Tree Size: 8438
+MSE (sampled) 2.15051
+Timestep 34 Center of Mass = (-3.209883e-02,+2.365976e-01,-1.204334e-01)
+	Conflict aborts: 195245
+	Capacity aborts: 40
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 196284
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7
+STAT,(NULL),BuildTime,8,4,4,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,8,1553,1553,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,8,10,10,0,0,0,0,0,0,0
+STAT,(NULL),Threads,8,8,8,0,0,0,0,0,0,0
+STAT,(NULL),Time,8,1612,1612,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,8,4,4,0,0,0,0,0,0,0
+STAT,compute,Conflicts,8,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,8,105000,13078,12967,13000,12993,13474,13147,13747,12594
+STAT,compute,LoopTime,8,1553,1553,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 16 -n 3000 -steps 15 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 15 time steps
+Tree Size: 10967
+MSE (sampled) 0.0056533
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10819
+MSE (sampled) 0.0347565
+Timestep 1 Center of Mass = (-2.889466e-02,-9.830801e-03,-1.690217e-02)
+Tree Size: 10384
+MSE (sampled) 0.146988
+Timestep 2 Center of Mass = (-2.603874e-02,-7.351543e-03,-1.749016e-02)
+Tree Size: 10121
+MSE (sampled) 0.272747
+Timestep 3 Center of Mass = (-2.357585e-02,-4.645726e-03,-1.833378e-02)
+Tree Size: 9852
+MSE (sampled) 1.15278
+Timestep 4 Center of Mass = (-2.098715e-02,-1.959971e-03,-1.935622e-02)
+Tree Size: 9484
+MSE (sampled) 0.251323
+Timestep 5 Center of Mass = (-1.838740e-02,+6.621553e-04,-2.013022e-02)
+Tree Size: 9193
+MSE (sampled) 0.215672
+Timestep 6 Center of Mass = (-1.579179e-02,+3.188212e-03,-2.082286e-02)
+Tree Size: 8810
+MSE (sampled) 0.399406
+Timestep 7 Center of Mass = (-1.322855e-02,+5.696603e-03,-2.160618e-02)
+Tree Size: 8677
+MSE (sampled) 0.912215
+Timestep 8 Center of Mass = (-1.064469e-02,+8.224132e-03,-2.237027e-02)
+Tree Size: 8424
+MSE (sampled) 0.75381
+Timestep 9 Center of Mass = (-8.062983e-03,+1.077945e-02,-2.313437e-02)
+Tree Size: 8353
+MSE (sampled) 0.760575
+Timestep 10 Center of Mass = (-5.448042e-03,+1.332537e-02,-2.391392e-02)
+Tree Size: 8295
+MSE (sampled) 1.02361
+Timestep 11 Center of Mass = (-2.824692e-03,+1.587949e-02,-2.468391e-02)
+Tree Size: 8261
+MSE (sampled) 1.31159
+Timestep 12 Center of Mass = (-1.894473e-04,+1.845671e-02,-2.547920e-02)
+Tree Size: 8391
+MSE (sampled) 0.636669
+Timestep 13 Center of Mass = (+2.447556e-03,+2.104467e-02,-2.628247e-02)
+Tree Size: 8228
+MSE (sampled) 0.580844
+Timestep 14 Center of Mass = (+5.089513e-03,+2.365942e-02,-2.709545e-02)
+	Conflict aborts: 97183
+	Capacity aborts: 13
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 97557
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15
+STAT,(NULL),BuildTime,16,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,16,267,267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,16,21,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,16,16,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,16,298,298,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,16,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Conflicts,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,16,45000,2863,2764,2821,2738,2698,2760,2849,2903,2763,2910,2888,2740,2940,2857,2630,2876
+STAT,compute,LoopTime,16,267,267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 16 -n 3000 -steps 20 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 20 time steps
+Tree Size: 11013
+MSE (sampled) 0.00565578
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10936
+MSE (sampled) 0.0345081
+Timestep 1 Center of Mass = (-2.919006e-02,-9.759203e-03,-1.847173e-02)
+Tree Size: 10535
+MSE (sampled) 0.16289
+Timestep 2 Center of Mass = (-2.664123e-02,-6.615579e-03,-2.009311e-02)
+Tree Size: 10158
+MSE (sampled) 0.203591
+Timestep 3 Center of Mass = (-2.483593e-02,-3.411627e-03,-2.204584e-02)
+Tree Size: 9771
+MSE (sampled) 0.358675
+Timestep 4 Center of Mass = (-2.303005e-02,-3.765571e-04,-2.409047e-02)
+Tree Size: 9465
+MSE (sampled) 0.277659
+Timestep 5 Center of Mass = (-2.123444e-02,+2.532257e-03,-2.605613e-02)
+Tree Size: 9294
+MSE (sampled) 0.232207
+Timestep 6 Center of Mass = (-1.953232e-02,+5.505346e-03,-2.796270e-02)
+Tree Size: 8952
+MSE (sampled) 0.944989
+Timestep 7 Center of Mass = (-1.780657e-02,+8.493332e-03,-2.986709e-02)
+Tree Size: 8599
+MSE (sampled) 0.886721
+Timestep 8 Center of Mass = (-1.607811e-02,+1.153157e-02,-3.180383e-02)
+Tree Size: 8372
+MSE (sampled) 0.797244
+Timestep 9 Center of Mass = (-1.432476e-02,+1.458233e-02,-3.368561e-02)
+Tree Size: 8307
+MSE (sampled) 0.551118
+Timestep 10 Center of Mass = (-1.258952e-02,+1.761557e-02,-3.559243e-02)
+Tree Size: 8238
+MSE (sampled) 0.440747
+Timestep 11 Center of Mass = (-1.085016e-02,+2.064208e-02,-3.751049e-02)
+Tree Size: 8301
+MSE (sampled) 0.730621
+Timestep 12 Center of Mass = (-9.139085e-03,+2.365621e-02,-3.943439e-02)
+Tree Size: 8291
+MSE (sampled) 1.08993
+Timestep 13 Center of Mass = (-7.438181e-03,+2.668093e-02,-4.135489e-02)
+Tree Size: 8214
+MSE (sampled) 0.680476
+Timestep 14 Center of Mass = (-5.754443e-03,+2.970231e-02,-4.328255e-02)
+Tree Size: 8279
+MSE (sampled) 0.496564
+Timestep 15 Center of Mass = (-4.079803e-03,+3.272921e-02,-4.521913e-02)
+Tree Size: 8245
+MSE (sampled) 0.688168
+Timestep 16 Center of Mass = (-2.406334e-03,+3.574084e-02,-4.715682e-02)
+Tree Size: 8207
+MSE (sampled) 0.550044
+Timestep 17 Center of Mass = (-7.292124e-04,+3.874846e-02,-4.909266e-02)
+Tree Size: 8189
+MSE (sampled) 0.51055
+Timestep 18 Center of Mass = (+9.460653e-04,+4.175116e-02,-5.102857e-02)
+Tree Size: 8252
+MSE (sampled) 0.842892
+Timestep 19 Center of Mass = (+2.619577e-03,+4.475406e-02,-5.295840e-02)
+	Conflict aborts: 151348
+	Capacity aborts: 13
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 151835
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15
+STAT,(NULL),BuildTime,16,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,16,384,384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,16,21,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,16,16,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,16,423,423,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,16,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Conflicts,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,16,60000,3624,3696,3686,3759,3795,3558,3536,3936,3762,3838,3723,3845,3826,3888,3781,3747
+STAT,compute,LoopTime,16,384,384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 16 -n 3000 -steps 25 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 25 time steps
+Tree Size: 10994
+MSE (sampled) 0.00565185
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10911
+MSE (sampled) 0.0352403
+Timestep 1 Center of Mass = (-2.914958e-02,-9.906267e-03,-1.772679e-02)
+Tree Size: 10473
+MSE (sampled) 0.140155
+Timestep 2 Center of Mass = (-2.631510e-02,-7.261048e-03,-1.796183e-02)
+Tree Size: 10232
+MSE (sampled) 0.219492
+Timestep 3 Center of Mass = (-2.403523e-02,-4.714820e-03,-1.863506e-02)
+Tree Size: 9710
+MSE (sampled) 0.424605
+Timestep 4 Center of Mass = (-2.193232e-02,-2.157135e-03,-1.937003e-02)
+Tree Size: 9572
+MSE (sampled) 0.208213
+Timestep 5 Center of Mass = (-1.986514e-02,+2.884710e-04,-1.979515e-02)
+Tree Size: 9366
+MSE (sampled) 0.296144
+Timestep 6 Center of Mass = (-1.788409e-02,+2.803714e-03,-2.013470e-02)
+Tree Size: 8785
+MSE (sampled) 0.720375
+Timestep 7 Center of Mass = (-1.591604e-02,+5.325231e-03,-2.046122e-02)
+Tree Size: 8632
+MSE (sampled) 0.391157
+Timestep 8 Center of Mass = (-1.395092e-02,+7.865639e-03,-2.078248e-02)
+Tree Size: 8330
+MSE (sampled) 0.592309
+Timestep 9 Center of Mass = (-1.201505e-02,+1.044318e-02,-2.109781e-02)
+Tree Size: 8361
+MSE (sampled) 0.764567
+Timestep 10 Center of Mass = (-1.010286e-02,+1.304046e-02,-2.143571e-02)
+Tree Size: 8335
+MSE (sampled) 0.446778
+Timestep 11 Center of Mass = (-8.198088e-03,+1.565825e-02,-2.176062e-02)
+Tree Size: 8277
+MSE (sampled) 0.512583
+Timestep 12 Center of Mass = (-6.323627e-03,+1.825490e-02,-2.210885e-02)
+Tree Size: 8367
+MSE (sampled) 0.870333
+Timestep 13 Center of Mass = (-4.457597e-03,+2.085096e-02,-2.247058e-02)
+Tree Size: 8312
+MSE (sampled) 1.0392
+Timestep 14 Center of Mass = (-2.602855e-03,+2.344057e-02,-2.284700e-02)
+Tree Size: 8259
+MSE (sampled) 3.74248
+Timestep 15 Center of Mass = (-7.465067e-04,+2.602283e-02,-2.323072e-02)
+Tree Size: 8224
+MSE (sampled) 5.06959
+Timestep 16 Center of Mass = (+1.106595e-03,+2.860152e-02,-2.360397e-02)
+Tree Size: 8200
+MSE (sampled) 4.46867
+Timestep 17 Center of Mass = (+2.953919e-03,+3.117724e-02,-2.398196e-02)
+Tree Size: 8197
+MSE (sampled) 1.47771
+Timestep 18 Center of Mass = (+4.808640e-03,+3.375100e-02,-2.436533e-02)
+Tree Size: 8254
+MSE (sampled) 5.05095
+Timestep 19 Center of Mass = (+6.659736e-03,+3.631734e-02,-2.474701e-02)
+Tree Size: 8281
+MSE (sampled) 4.05831
+Timestep 20 Center of Mass = (+8.502901e-03,+3.888493e-02,-2.512435e-02)
+Tree Size: 8296
+MSE (sampled) 2.23737
+Timestep 21 Center of Mass = (+1.033675e-02,+4.144946e-02,-2.550423e-02)
+Tree Size: 8314
+MSE (sampled) 6.64311
+Timestep 22 Center of Mass = (+1.215793e-02,+4.401530e-02,-2.587943e-02)
+Tree Size: 8253
+MSE (sampled) 2.79143
+Timestep 23 Center of Mass = (+1.397586e-02,+4.657951e-02,-2.625045e-02)
+Tree Size: 8297
+MSE (sampled) 0.924651
+Timestep 24 Center of Mass = (+1.579527e-02,+4.914474e-02,-2.661077e-02)
+	Conflict aborts: 198266
+	Capacity aborts: 15
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 198969
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15
+STAT,(NULL),BuildTime,16,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,16,494,494,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,16,21,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,16,16,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,16,540,540,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,16,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Conflicts,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,16,75000,4400,4630,4903,4692,4530,4519,4783,4632,4767,4834,4669,4504,4864,4878,4768,4627
+STAT,compute,LoopTime,16,494,494,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 16 -n 3000 -steps 30 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 30 time steps
+Tree Size: 11034
+MSE (sampled) 0.00565199
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10795
+MSE (sampled) 0.0347261
+Timestep 1 Center of Mass = (-2.882184e-02,-1.005150e-02,-1.700343e-02)
+Tree Size: 10441
+MSE (sampled) 0.141472
+Timestep 2 Center of Mass = (-2.555928e-02,-7.721661e-03,-1.740161e-02)
+Tree Size: 10173
+MSE (sampled) 0.270047
+Timestep 3 Center of Mass = (-2.271704e-02,-4.985754e-03,-1.809479e-02)
+Tree Size: 9844
+MSE (sampled) 1.18195
+Timestep 4 Center of Mass = (-1.987989e-02,-2.251796e-03,-1.892831e-02)
+Tree Size: 9472
+MSE (sampled) 0.236526
+Timestep 5 Center of Mass = (-1.716080e-02,+4.738031e-04,-1.950792e-02)
+Tree Size: 9115
+MSE (sampled) 0.280963
+Timestep 6 Center of Mass = (-1.442059e-02,+3.213481e-03,-2.006951e-02)
+Tree Size: 8902
+MSE (sampled) 0.806036
+Timestep 7 Center of Mass = (-1.165594e-02,+5.916773e-03,-2.054790e-02)
+Tree Size: 8689
+MSE (sampled) 0.565835
+Timestep 8 Center of Mass = (-8.891807e-03,+8.666280e-03,-2.107788e-02)
+Tree Size: 8444
+MSE (sampled) 0.877122
+Timestep 9 Center of Mass = (-6.136083e-03,+1.143044e-02,-2.160429e-02)
+Tree Size: 8368
+MSE (sampled) 0.353769
+Timestep 10 Center of Mass = (-3.406569e-03,+1.416652e-02,-2.212632e-02)
+Tree Size: 8219
+MSE (sampled) 0.340738
+Timestep 11 Center of Mass = (-6.577454e-04,+1.687822e-02,-2.262155e-02)
+Tree Size: 8280
+MSE (sampled) 3.01368
+Timestep 12 Center of Mass = (+2.134627e-03,+1.959895e-02,-2.310007e-02)
+Tree Size: 8402
+MSE (sampled) 0.669939
+Timestep 13 Center of Mass = (+4.925211e-03,+2.230811e-02,-2.355720e-02)
+Tree Size: 8358
+MSE (sampled) 1.20605
+Timestep 14 Center of Mass = (+7.705543e-03,+2.501271e-02,-2.400081e-02)
+Tree Size: 8346
+MSE (sampled) 1.15852
+Timestep 15 Center of Mass = (+1.047681e-02,+2.771216e-02,-2.444255e-02)
+Tree Size: 8302
+MSE (sampled) 0.829542
+Timestep 16 Center of Mass = (+1.324157e-02,+3.042848e-02,-2.487307e-02)
+Tree Size: 8331
+MSE (sampled) 1.331
+Timestep 17 Center of Mass = (+1.600044e-02,+3.315866e-02,-2.530187e-02)
+Tree Size: 8285
+MSE (sampled) 1.08428
+Timestep 18 Center of Mass = (+1.874252e-02,+3.588809e-02,-2.572319e-02)
+Tree Size: 8276
+MSE (sampled) 0.983972
+Timestep 19 Center of Mass = (+2.148236e-02,+3.860484e-02,-2.613879e-02)
+Tree Size: 8209
+MSE (sampled) 1.05481
+Timestep 20 Center of Mass = (+2.422358e-02,+4.131503e-02,-2.655424e-02)
+Tree Size: 8189
+MSE (sampled) 1.64905
+Timestep 21 Center of Mass = (+2.696679e-02,+4.402376e-02,-2.697424e-02)
+Tree Size: 8185
+MSE (sampled) 1.20568
+Timestep 22 Center of Mass = (+2.971038e-02,+4.673337e-02,-2.739646e-02)
+Tree Size: 8135
+MSE (sampled) 1.10728
+Timestep 23 Center of Mass = (+3.245529e-02,+4.944286e-02,-2.782275e-02)
+Tree Size: 8171
+MSE (sampled) 14.6756
+Timestep 24 Center of Mass = (+3.520030e-02,+5.214997e-02,-2.824950e-02)
+Tree Size: 8196
+MSE (sampled) 12.6379
+Timestep 25 Center of Mass = (+3.794064e-02,+5.486209e-02,-2.867224e-02)
+Tree Size: 8186
+MSE (sampled) 10.4599
+Timestep 26 Center of Mass = (+4.067613e-02,+5.757619e-02,-2.909015e-02)
+Tree Size: 8217
+MSE (sampled) 4.94352
+Timestep 27 Center of Mass = (+4.340581e-02,+6.029182e-02,-2.950260e-02)
+Tree Size: 8285
+MSE (sampled) 2.24862
+Timestep 28 Center of Mass = (+4.613330e-02,+6.300798e-02,-2.991273e-02)
+Tree Size: 8265
+MSE (sampled) 2.70699
+Timestep 29 Center of Mass = (+4.886142e-02,+6.572281e-02,-3.031817e-02)
+	Conflict aborts: 233902
+	Capacity aborts: 20
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 234681
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15
+STAT,(NULL),BuildTime,16,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,16,609,609,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,16,21,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,16,16,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,16,660,660,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,16,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Conflicts,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,16,90000,5374,5588,5945,5610,5243,5497,5651,5704,5787,5743,5501,5725,5662,5936,5576,5458
+STAT,compute,LoopTime,16,609,609,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 16 -n 3000 -steps 35 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 35 time steps
+Tree Size: 10984
+MSE (sampled) 0.00565056
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10820
+MSE (sampled) 0.0347063
+Timestep 1 Center of Mass = (-2.914224e-02,-1.062550e-02,-1.793976e-02)
+Tree Size: 10421
+MSE (sampled) 0.137785
+Timestep 2 Center of Mass = (-2.628938e-02,-9.044135e-03,-1.932709e-02)
+Tree Size: 10146
+MSE (sampled) 0.274576
+Timestep 3 Center of Mass = (-2.395644e-02,-7.247497e-03,-2.076740e-02)
+Tree Size: 9828
+MSE (sampled) 0.475422
+Timestep 4 Center of Mass = (-2.145975e-02,-5.627692e-03,-2.217535e-02)
+Tree Size: 9557
+MSE (sampled) 0.455571
+Timestep 5 Center of Mass = (-1.898461e-02,-4.132730e-03,-2.344314e-02)
+Tree Size: 9286
+MSE (sampled) 0.350275
+Timestep 6 Center of Mass = (-1.653250e-02,-2.600929e-03,-2.466782e-02)
+Tree Size: 8919
+MSE (sampled) 1.13385
+Timestep 7 Center of Mass = (-1.409379e-02,-1.069940e-03,-2.588273e-02)
+Tree Size: 8630
+MSE (sampled) 0.586176
+Timestep 8 Center of Mass = (-1.168024e-02,+4.999673e-04,-2.714546e-02)
+Tree Size: 8371
+MSE (sampled) 0.904934
+Timestep 9 Center of Mass = (-9.299616e-03,+2.089530e-03,-2.837875e-02)
+Tree Size: 8259
+MSE (sampled) 0.423828
+Timestep 10 Center of Mass = (-6.967484e-03,+3.663872e-03,-2.959843e-02)
+Tree Size: 8320
+MSE (sampled) 0.391534
+Timestep 11 Center of Mass = (-4.626838e-03,+5.229939e-03,-3.081670e-02)
+Tree Size: 8238
+MSE (sampled) 0.433745
+Timestep 12 Center of Mass = (-2.289596e-03,+6.807082e-03,-3.204112e-02)
+Tree Size: 8269
+MSE (sampled) 1.77749
+Timestep 13 Center of Mass = (+4.933233e-05,+8.401804e-03,-3.322747e-02)
+Tree Size: 8320
+MSE (sampled) 3.91259
+Timestep 14 Center of Mass = (+2.381615e-03,+1.000665e-02,-3.439685e-02)
+Tree Size: 8177
+MSE (sampled) 1.60112
+Timestep 15 Center of Mass = (+4.700543e-03,+1.161438e-02,-3.555548e-02)
+Tree Size: 8256
+MSE (sampled) 1.31603
+Timestep 16 Center of Mass = (+7.007541e-03,+1.323198e-02,-3.671008e-02)
+Tree Size: 8282
+MSE (sampled) 1.1017
+Timestep 17 Center of Mass = (+9.306154e-03,+1.485244e-02,-3.785947e-02)
+Tree Size: 8211
+MSE (sampled) 0.96007
+Timestep 18 Center of Mass = (+1.159148e-02,+1.647574e-02,-3.900890e-02)
+Tree Size: 8263
+MSE (sampled) 2.3056
+Timestep 19 Center of Mass = (+1.386792e-02,+1.809009e-02,-4.015135e-02)
+Tree Size: 8252
+MSE (sampled) 2.15389
+Timestep 20 Center of Mass = (+1.614900e-02,+1.970014e-02,-4.129057e-02)
+Tree Size: 8236
+MSE (sampled) 1.98143
+Timestep 21 Center of Mass = (+1.843142e-02,+2.130534e-02,-4.242345e-02)
+Tree Size: 8200
+MSE (sampled) 4.20044
+Timestep 22 Center of Mass = (+2.070646e-02,+2.290752e-02,-4.355178e-02)
+Tree Size: 8173
+MSE (sampled) 2.00659
+Timestep 23 Center of Mass = (+2.297564e-02,+2.450985e-02,-4.467682e-02)
+Tree Size: 8270
+MSE (sampled) 64.9313
+Timestep 24 Center of Mass = (+2.524040e-02,+2.610966e-02,-4.579762e-02)
+Tree Size: 8309
+MSE (sampled) 22.865
+Timestep 25 Center of Mass = (+2.750714e-02,+2.770556e-02,-4.691743e-02)
+Tree Size: 8317
+MSE (sampled) 11.0682
+Timestep 26 Center of Mass = (+2.977355e-02,+2.929796e-02,-4.803706e-02)
+Tree Size: 8324
+MSE (sampled) 6.77319
+Timestep 27 Center of Mass = (+3.203826e-02,+3.088989e-02,-4.914980e-02)
+Tree Size: 8316
+MSE (sampled) 5.616
+Timestep 28 Center of Mass = (+3.430104e-02,+3.248061e-02,-5.025703e-02)
+Tree Size: 8326
+MSE (sampled) 1.95743
+Timestep 29 Center of Mass = (+3.656368e-02,+3.406867e-02,-5.136471e-02)
+Tree Size: 8317
+MSE (sampled) 1.62211
+Timestep 30 Center of Mass = (+3.882475e-02,+3.565746e-02,-5.247041e-02)
+Tree Size: 8264
+MSE (sampled) 1.93644
+Timestep 31 Center of Mass = (+4.108213e-02,+3.724904e-02,-5.357365e-02)
+Tree Size: 8250
+MSE (sampled) 2.45334
+Timestep 32 Center of Mass = (+4.333635e-02,+3.884322e-02,-5.467517e-02)
+Tree Size: 8273
+MSE (sampled) 2.29387
+Timestep 33 Center of Mass = (+4.558859e-02,+4.043894e-02,-5.577491e-02)
+Tree Size: 8219
+MSE (sampled) 1.86573
+Timestep 34 Center of Mass = (+4.784174e-02,+4.203536e-02,-5.687325e-02)
+	Conflict aborts: 291686
+	Capacity aborts: 25
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 292733
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15
+STAT,(NULL),BuildTime,16,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,16,751,751,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,16,21,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,16,16,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,16,807,807,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,16,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Conflicts,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,16,105000,5967,6637,6891,6413,6283,6302,6473,6910,6803,6450,6517,6666,6716,7113,6674,6185
+STAT,compute,LoopTime,16,751,751,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 24 -n 3000 -steps 15 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 15 time steps
+Tree Size: 11123
+MSE (sampled) 0.00565681
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 11062
+MSE (sampled) 0.0227989
+Timestep 1 Center of Mass = (-3.505438e-02,-1.422998e-02,-2.420437e-02)
+Tree Size: 10499
+MSE (sampled) 0.156648
+Timestep 2 Center of Mass = (-3.810056e-02,-1.581641e-02,-3.172083e-02)
+Tree Size: 10099
+MSE (sampled) 0.193055
+Timestep 3 Center of Mass = (-4.135586e-02,-1.759785e-02,-3.954163e-02)
+Tree Size: 9559
+MSE (sampled) 0.991695
+Timestep 4 Center of Mass = (-4.494809e-02,-1.951015e-02,-4.742691e-02)
+Tree Size: 9399
+MSE (sampled) 0.195593
+Timestep 5 Center of Mass = (-4.861385e-02,-2.146467e-02,-5.521358e-02)
+Tree Size: 8997
+MSE (sampled) 0.331284
+Timestep 6 Center of Mass = (-5.234291e-02,-2.342170e-02,-6.302308e-02)
+Tree Size: 8958
+MSE (sampled) 2.25418
+Timestep 7 Center of Mass = (-5.613426e-02,-2.542731e-02,-7.085286e-02)
+Tree Size: 9266
+MSE (sampled) 0.856799
+Timestep 8 Center of Mass = (-5.996091e-02,-2.746538e-02,-7.864327e-02)
+Tree Size: 8926
+MSE (sampled) 0.853025
+Timestep 9 Center of Mass = (-6.375908e-02,-2.955681e-02,-8.644021e-02)
+Tree Size: 9109
+MSE (sampled) 1.71239
+Timestep 10 Center of Mass = (-6.752688e-02,-3.165604e-02,-9.426468e-02)
+Tree Size: 8972
+MSE (sampled) 2.9196
+Timestep 11 Center of Mass = (-7.130033e-02,-3.374325e-02,-1.020939e-01)
+Tree Size: 8969
+MSE (sampled) 9.51384
+Timestep 12 Center of Mass = (-7.512323e-02,-3.579448e-02,-1.099329e-01)
+Tree Size: 8929
+MSE (sampled) 0.926085
+Timestep 13 Center of Mass = (-7.892858e-02,-3.783885e-02,-1.177813e-01)
+Tree Size: 9028
+MSE (sampled) 0.672374
+Timestep 14 Center of Mass = (-8.272496e-02,-3.985586e-02,-1.256138e-01)
+	Conflict aborts: 157573
+	Capacity aborts: 483
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 158422
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23
+STAT,(NULL),BuildTime,24,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,24,185,185,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,24,31,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,24,24,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,24,222,222,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,24,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Conflicts,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,24,45000,1985,1857,1891,1814,1862,1947,1777,1974,1855,1819,1824,1819,1821,1815,1959,1924,1854,1809,1859,1924,1991,1814,1863,1943
+STAT,compute,LoopTime,24,185,185,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 24 -n 3000 -steps 20 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 20 time steps
+Tree Size: 11049
+MSE (sampled) 0.00565724
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 11047
+MSE (sampled) 0.024038
+Timestep 1 Center of Mass = (-3.512756e-02,-1.410122e-02,-2.504885e-02)
+Tree Size: 10633
+MSE (sampled) 0.120539
+Timestep 2 Center of Mass = (-3.860377e-02,-1.516776e-02,-3.346339e-02)
+Tree Size: 10119
+MSE (sampled) 0.223539
+Timestep 3 Center of Mass = (-4.230992e-02,-1.658705e-02,-4.205656e-02)
+Tree Size: 9504
+MSE (sampled) 0.436069
+Timestep 4 Center of Mass = (-4.619702e-02,-1.799022e-02,-5.049295e-02)
+Tree Size: 9466
+MSE (sampled) 0.209572
+Timestep 5 Center of Mass = (-5.013534e-02,-1.947659e-02,-5.883303e-02)
+Tree Size: 9106
+MSE (sampled) 0.322715
+Timestep 6 Center of Mass = (-5.405783e-02,-2.095589e-02,-6.714094e-02)
+Tree Size: 8951
+MSE (sampled) 1.47787
+Timestep 7 Center of Mass = (-5.805297e-02,-2.243252e-02,-7.547174e-02)
+Tree Size: 9279
+MSE (sampled) 2.2949
+Timestep 8 Center of Mass = (-6.206006e-02,-2.396862e-02,-8.380367e-02)
+Tree Size: 8997
+MSE (sampled) 1.58235
+Timestep 9 Center of Mass = (-6.602676e-02,-2.557531e-02,-9.216912e-02)
+Tree Size: 9058
+MSE (sampled) 2.2038
+Timestep 10 Center of Mass = (-6.998765e-02,-2.716535e-02,-1.005238e-01)
+Tree Size: 8991
+MSE (sampled) 2.80943
+Timestep 11 Center of Mass = (-7.396584e-02,-2.874379e-02,-1.089148e-01)
+Tree Size: 8956
+MSE (sampled) 6.87878
+Timestep 12 Center of Mass = (-7.795449e-02,-3.030644e-02,-1.173553e-01)
+Tree Size: 8904
+MSE (sampled) 1.72868
+Timestep 13 Center of Mass = (-8.193705e-02,-3.187319e-02,-1.258301e-01)
+Tree Size: 8957
+MSE (sampled) 1.10864
+Timestep 14 Center of Mass = (-8.590977e-02,-3.344314e-02,-1.343098e-01)
+Tree Size: 8949
+MSE (sampled) 1.14022
+Timestep 15 Center of Mass = (-8.986433e-02,-3.501698e-02,-1.427890e-01)
+Tree Size: 8910
+MSE (sampled) 0.532368
+Timestep 16 Center of Mass = (-9.382398e-02,-3.657751e-02,-1.512697e-01)
+Tree Size: 8937
+MSE (sampled) 0.570688
+Timestep 17 Center of Mass = (-9.777728e-02,-3.812843e-02,-1.597560e-01)
+Tree Size: 8980
+MSE (sampled) 0.762726
+Timestep 18 Center of Mass = (-1.017222e-01,-3.967803e-02,-1.682433e-01)
+Tree Size: 9005
+MSE (sampled) 0.87099
+Timestep 19 Center of Mass = (-1.056630e-01,-4.122007e-02,-1.767194e-01)
+	Conflict aborts: 208878
+	Capacity aborts: 832
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 210149
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23
+STAT,(NULL),BuildTime,24,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,24,259,259,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,24,31,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,24,24,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,24,305,305,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,24,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Conflicts,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,24,60000,2578,2534,2502,2457,2669,2430,2377,2385,2475,2418,2461,2460,2585,2456,2473,2474,2449,2470,2494,2600,2642,2624,2517,2470
+STAT,compute,LoopTime,24,259,259,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 24 -n 3000 -steps 25 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 25 time steps
+Tree Size: 11038
+MSE (sampled) 0.0056185
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10940
+MSE (sampled) 0.025203
+Timestep 1 Center of Mass = (-2.971448e-02,-9.084494e-03,-1.690906e-02)
+Tree Size: 10572
+MSE (sampled) 0.0687332
+Timestep 2 Center of Mass = (-2.730525e-02,-5.095017e-03,-1.696551e-02)
+Tree Size: 10099
+MSE (sampled) 0.139589
+Timestep 3 Center of Mass = (-2.488901e-02,-1.587498e-03,-1.708027e-02)
+Tree Size: 9776
+MSE (sampled) 0.637852
+Timestep 4 Center of Mass = (-2.261732e-02,+1.593129e-03,-1.709159e-02)
+Tree Size: 9463
+MSE (sampled) 0.197439
+Timestep 5 Center of Mass = (-2.041617e-02,+4.624202e-03,-1.710610e-02)
+Tree Size: 9185
+MSE (sampled) 0.789928
+Timestep 6 Center of Mass = (-1.831312e-02,+7.657065e-03,-1.721340e-02)
+Tree Size: 8954
+MSE (sampled) 0.460037
+Timestep 7 Center of Mass = (-1.621886e-02,+1.059960e-02,-1.733191e-02)
+Tree Size: 8566
+MSE (sampled) 0.570317
+Timestep 8 Center of Mass = (-1.418238e-02,+1.353890e-02,-1.749756e-02)
+Tree Size: 8412
+MSE (sampled) 0.707679
+Timestep 9 Center of Mass = (-1.219868e-02,+1.649462e-02,-1.767474e-02)
+Tree Size: 8322
+MSE (sampled) 0.389244
+Timestep 10 Center of Mass = (-1.018678e-02,+1.948461e-02,-1.784672e-02)
+Tree Size: 8304
+MSE (sampled) 0.654354
+Timestep 11 Center of Mass = (-8.168997e-03,+2.246176e-02,-1.801116e-02)
+Tree Size: 8321
+MSE (sampled) 0.537681
+Timestep 12 Center of Mass = (-6.160434e-03,+2.540465e-02,-1.819346e-02)
+Tree Size: 8258
+MSE (sampled) 0.583921
+Timestep 13 Center of Mass = (-4.152282e-03,+2.833782e-02,-1.838028e-02)
+Tree Size: 8361
+MSE (sampled) 0.585398
+Timestep 14 Center of Mass = (-2.152301e-03,+3.126178e-02,-1.856500e-02)
+Tree Size: 8273
+MSE (sampled) 1.64971
+Timestep 15 Center of Mass = (-1.697590e-04,+3.418934e-02,-1.876239e-02)
+Tree Size: 8325
+MSE (sampled) 1.43502
+Timestep 16 Center of Mass = (+1.811788e-03,+3.712402e-02,-1.897125e-02)
+Tree Size: 8329
+MSE (sampled) 1.19864
+Timestep 17 Center of Mass = (+3.786786e-03,+4.006547e-02,-1.918474e-02)
+Tree Size: 8312
+MSE (sampled) 1.18672
+Timestep 18 Center of Mass = (+5.752360e-03,+4.301654e-02,-1.940016e-02)
+Tree Size: 8377
+MSE (sampled) 1.13815
+Timestep 19 Center of Mass = (+7.713786e-03,+4.596914e-02,-1.961479e-02)
+Tree Size: 8420
+MSE (sampled) 1.81525
+Timestep 20 Center of Mass = (+9.677986e-03,+4.892409e-02,-1.982599e-02)
+Tree Size: 8390
+MSE (sampled) 2.81459
+Timestep 21 Center of Mass = (+1.164733e-02,+5.188216e-02,-2.003775e-02)
+Tree Size: 8376
+MSE (sampled) 1.46968
+Timestep 22 Center of Mass = (+1.361882e-02,+5.484515e-02,-2.024745e-02)
+Tree Size: 8403
+MSE (sampled) 1.95765
+Timestep 23 Center of Mass = (+1.558161e-02,+5.781239e-02,-2.045697e-02)
+Tree Size: 8406
+MSE (sampled) 3.02999
+Timestep 24 Center of Mass = (+1.753840e-02,+6.078823e-02,-2.066467e-02)
+	Conflict aborts: 253486
+	Capacity aborts: 754
+	Retry aborts: 0
+	Explicit aborts: 1
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 254872
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23
+STAT,(NULL),BuildTime,24,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,24,334,334,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,24,31,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,24,24,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,24,388,388,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,24,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Conflicts,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,24,75000,3154,3012,3132,3150,3082,3046,3018,3016,3137,3222,3191,3161,3164,3145,3063,3017,3136,3202,3205,3220,3136,3198,3130,3063
+STAT,compute,LoopTime,24,334,334,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 24 -n 3000 -steps 30 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 30 time steps
+Tree Size: 11013
+MSE (sampled) 0.00561847
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10959
+MSE (sampled) 0.0222944
+Timestep 1 Center of Mass = (-2.991112e-02,-8.906225e-03,-1.774601e-02)
+Tree Size: 10553
+MSE (sampled) 0.0790738
+Timestep 2 Center of Mass = (-2.796775e-02,-4.733361e-03,-1.857213e-02)
+Tree Size: 10093
+MSE (sampled) 0.163448
+Timestep 3 Center of Mass = (-2.606643e-02,-9.497352e-04,-1.938468e-02)
+Tree Size: 9771
+MSE (sampled) 0.491861
+Timestep 4 Center of Mass = (-2.435149e-02,+2.644758e-03,-2.011092e-02)
+Tree Size: 9388
+MSE (sampled) 0.201397
+Timestep 5 Center of Mass = (-2.280832e-02,+6.090652e-03,-2.083985e-02)
+Tree Size: 9298
+MSE (sampled) 0.731091
+Timestep 6 Center of Mass = (-2.136332e-02,+9.533273e-03,-2.161797e-02)
+Tree Size: 8851
+MSE (sampled) 0.564475
+Timestep 7 Center of Mass = (-1.990836e-02,+1.293609e-02,-2.235472e-02)
+Tree Size: 8560
+MSE (sampled) 0.449402
+Timestep 8 Center of Mass = (-1.849115e-02,+1.631681e-02,-2.309742e-02)
+Tree Size: 8317
+MSE (sampled) 0.844744
+Timestep 9 Center of Mass = (-1.710142e-02,+1.969791e-02,-2.382948e-02)
+Tree Size: 8332
+MSE (sampled) 0.419506
+Timestep 10 Center of Mass = (-1.569608e-02,+2.308195e-02,-2.455919e-02)
+Tree Size: 8371
+MSE (sampled) 0.898299
+Timestep 11 Center of Mass = (-1.430886e-02,+2.645645e-02,-2.529038e-02)
+Tree Size: 8344
+MSE (sampled) 0.523294
+Timestep 12 Center of Mass = (-1.291690e-02,+2.982768e-02,-2.600717e-02)
+Tree Size: 8437
+MSE (sampled) 1.37205
+Timestep 13 Center of Mass = (-1.151292e-02,+3.318491e-02,-2.672550e-02)
+Tree Size: 8478
+MSE (sampled) 0.698781
+Timestep 14 Center of Mass = (-1.011487e-02,+3.654445e-02,-2.744357e-02)
+Tree Size: 8304
+MSE (sampled) 0.976656
+Timestep 15 Center of Mass = (-8.720766e-03,+3.992467e-02,-2.816989e-02)
+Tree Size: 8320
+MSE (sampled) 1.84489
+Timestep 16 Center of Mass = (-7.325662e-03,+4.331259e-02,-2.892682e-02)
+Tree Size: 8284
+MSE (sampled) 1.47035
+Timestep 17 Center of Mass = (-5.930989e-03,+4.671309e-02,-2.969986e-02)
+Tree Size: 8329
+MSE (sampled) 1.33719
+Timestep 18 Center of Mass = (-4.538253e-03,+5.011871e-02,-3.047627e-02)
+Tree Size: 8362
+MSE (sampled) 2.16452
+Timestep 19 Center of Mass = (-3.142949e-03,+5.351954e-02,-3.125221e-02)
+Tree Size: 8344
+MSE (sampled) 2.01224
+Timestep 20 Center of Mass = (-1.744900e-03,+5.692000e-02,-3.203691e-02)
+Tree Size: 8323
+MSE (sampled) 1.54447
+Timestep 21 Center of Mass = (-3.430166e-04,+6.032039e-02,-3.283160e-02)
+Tree Size: 8321
+MSE (sampled) 1.11509
+Timestep 22 Center of Mass = (+1.065409e-03,+6.372212e-02,-3.363290e-02)
+Tree Size: 8380
+MSE (sampled) 2.20013
+Timestep 23 Center of Mass = (+2.472972e-03,+6.712626e-02,-3.443629e-02)
+Tree Size: 8401
+MSE (sampled) 1.99498
+Timestep 24 Center of Mass = (+3.887956e-03,+7.053689e-02,-3.523966e-02)
+Tree Size: 8397
+MSE (sampled) 2.57005
+Timestep 25 Center of Mass = (+5.311305e-03,+7.395235e-02,-3.604345e-02)
+Tree Size: 8369
+MSE (sampled) 1.9201
+Timestep 26 Center of Mass = (+6.739137e-03,+7.737449e-02,-3.684565e-02)
+Tree Size: 8385
+MSE (sampled) 2.02981
+Timestep 27 Center of Mass = (+8.171464e-03,+8.080239e-02,-3.764729e-02)
+Tree Size: 8418
+MSE (sampled) 2.00693
+Timestep 28 Center of Mass = (+9.608668e-03,+8.423681e-02,-3.844733e-02)
+Tree Size: 8401
+MSE (sampled) 1.09275
+Timestep 29 Center of Mass = (+1.105092e-02,+8.767344e-02,-3.924774e-02)
+	Conflict aborts: 315884
+	Capacity aborts: 625
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 317331
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23
+STAT,(NULL),BuildTime,24,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,24,409,409,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,24,31,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,24,24,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,24,470,470,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,24,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Conflicts,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,24,90000,3684,3745,3857,3849,3795,3796,3639,3632,3672,3708,3826,3826,3800,3734,3796,3631,3636,3641,3728,3803,3973,3843,3699,3687
+STAT,compute,LoopTime,24,409,409,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 24 -n 3000 -steps 35 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 35 time steps
+Tree Size: 11046
+MSE (sampled) 0.00561633
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10923
+MSE (sampled) 0.0237191
+Timestep 1 Center of Mass = (-2.972820e-02,-9.016115e-03,-1.684785e-02)
+Tree Size: 10631
+MSE (sampled) 0.0709011
+Timestep 2 Center of Mass = (-2.738402e-02,-4.901842e-03,-1.677183e-02)
+Tree Size: 10270
+MSE (sampled) 0.199208
+Timestep 3 Center of Mass = (-2.529030e-02,-1.249114e-03,-1.673229e-02)
+Tree Size: 9826
+MSE (sampled) 0.897151
+Timestep 4 Center of Mass = (-2.342295e-02,+2.288974e-03,-1.678914e-02)
+Tree Size: 9400
+MSE (sampled) 0.481157
+Timestep 5 Center of Mass = (-2.172411e-02,+5.796935e-03,-1.688625e-02)
+Tree Size: 9254
+MSE (sampled) 0.81828
+Timestep 6 Center of Mass = (-2.011756e-02,+9.331926e-03,-1.701637e-02)
+Tree Size: 9001
+MSE (sampled) 0.618132
+Timestep 7 Center of Mass = (-1.854937e-02,+1.278822e-02,-1.716613e-02)
+Tree Size: 8629
+MSE (sampled) 0.645795
+Timestep 8 Center of Mass = (-1.702982e-02,+1.622952e-02,-1.733466e-02)
+Tree Size: 8326
+MSE (sampled) 0.866282
+Timestep 9 Center of Mass = (-1.551436e-02,+1.965208e-02,-1.746001e-02)
+Tree Size: 8237
+MSE (sampled) 0.476272
+Timestep 10 Center of Mass = (-1.398262e-02,+2.307548e-02,-1.757940e-02)
+Tree Size: 8309
+MSE (sampled) 0.467899
+Timestep 11 Center of Mass = (-1.245596e-02,+2.647600e-02,-1.766187e-02)
+Tree Size: 8330
+MSE (sampled) 0.695181
+Timestep 12 Center of Mass = (-1.092557e-02,+2.984149e-02,-1.776422e-02)
+Tree Size: 8287
+MSE (sampled) 0.347428
+Timestep 13 Center of Mass = (-9.401718e-03,+3.320448e-02,-1.787556e-02)
+Tree Size: 8326
+MSE (sampled) 0.642951
+Timestep 14 Center of Mass = (-7.891422e-03,+3.656070e-02,-1.799508e-02)
+Tree Size: 8325
+MSE (sampled) 1.73605
+Timestep 15 Center of Mass = (-6.393090e-03,+3.991626e-02,-1.811531e-02)
+Tree Size: 8371
+MSE (sampled) 1.9101
+Timestep 16 Center of Mass = (-4.900670e-03,+4.327045e-02,-1.824203e-02)
+Tree Size: 8311
+MSE (sampled) 2.35481
+Timestep 17 Center of Mass = (-3.405568e-03,+4.662705e-02,-1.837721e-02)
+Tree Size: 8331
+MSE (sampled) 2.94092
+Timestep 18 Center of Mass = (-1.909110e-03,+4.997009e-02,-1.851008e-02)
+Tree Size: 8259
+MSE (sampled) 2.99214
+Timestep 19 Center of Mass = (-4.137991e-04,+5.329158e-02,-1.862382e-02)
+Tree Size: 8305
+MSE (sampled) 2.7673
+Timestep 20 Center of Mass = (+1.078284e-03,+5.661561e-02,-1.873441e-02)
+Tree Size: 8280
+MSE (sampled) 2.18629
+Timestep 21 Center of Mass = (+2.566100e-03,+5.993806e-02,-1.884205e-02)
+Tree Size: 8378
+MSE (sampled) 2.34939
+Timestep 22 Center of Mass = (+4.051349e-03,+6.326145e-02,-1.894746e-02)
+Tree Size: 8295
+MSE (sampled) 1.69429
+Timestep 23 Center of Mass = (+5.536433e-03,+6.657854e-02,-1.905245e-02)
+Tree Size: 8269
+MSE (sampled) 1.60495
+Timestep 24 Center of Mass = (+7.019938e-03,+6.989390e-02,-1.915569e-02)
+Tree Size: 8254
+MSE (sampled) 2.53963
+Timestep 25 Center of Mass = (+8.504144e-03,+7.320683e-02,-1.925709e-02)
+Tree Size: 8280
+MSE (sampled) 2.53038
+Timestep 26 Center of Mass = (+9.998242e-03,+7.652128e-02,-1.936459e-02)
+Tree Size: 8303
+MSE (sampled) 1.19295
+Timestep 27 Center of Mass = (+1.149862e-02,+7.983534e-02,-1.947329e-02)
+Tree Size: 8286
+MSE (sampled) 0.85826
+Timestep 28 Center of Mass = (+1.300550e-02,+8.314924e-02,-1.958306e-02)
+Tree Size: 8277
+MSE (sampled) 0.878212
+Timestep 29 Center of Mass = (+1.451889e-02,+8.646444e-02,-1.969584e-02)
+Tree Size: 8233
+MSE (sampled) 1.6452
+Timestep 30 Center of Mass = (+1.603746e-02,+8.978023e-02,-1.981199e-02)
+Tree Size: 8280
+MSE (sampled) 1.42937
+Timestep 31 Center of Mass = (+1.755994e-02,+9.309791e-02,-1.992944e-02)
+Tree Size: 8262
+MSE (sampled) 1.35274
+Timestep 32 Center of Mass = (+1.908713e-02,+9.641766e-02,-2.004843e-02)
+Tree Size: 8240
+MSE (sampled) 1.44573
+Timestep 33 Center of Mass = (+2.061706e-02,+9.973940e-02,-2.016951e-02)
+Tree Size: 8278
+MSE (sampled) 1.98714
+Timestep 34 Center of Mass = (+2.214647e-02,+1.030621e-01,-2.029204e-02)
+	Conflict aborts: 384074
+	Capacity aborts: 658
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 385716
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23
+STAT,(NULL),BuildTime,24,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,24,487,487,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,24,30,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,24,24,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,24,553,553,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,24,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Conflicts,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,24,105000,4359,4226,4396,4588,4452,4375,4336,4304,4280,4333,4468,4401,4450,4392,4318,4194,4298,4396,4366,4502,4476,4484,4328,4278
+STAT,compute,LoopTime,24,487,487,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 32 -n 3000 -steps 15 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 15 time steps
+Tree Size: 11031
+MSE (sampled) 0.0056182
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10974
+MSE (sampled) 0.0382695
+Timestep 1 Center of Mass = (-3.165958e-02,-7.470803e-03,-1.800876e-02)
+Tree Size: 10377
+MSE (sampled) 0.215757
+Timestep 2 Center of Mass = (-3.187877e-02,-2.359749e-03,-1.850536e-02)
+Tree Size: 10316
+MSE (sampled) 0.108466
+Timestep 3 Center of Mass = (-3.187346e-02,+2.181334e-03,-1.881970e-02)
+Tree Size: 9780
+MSE (sampled) 0.190896
+Timestep 4 Center of Mass = (-3.210576e-02,+6.660754e-03,-1.921972e-02)
+Tree Size: 9549
+MSE (sampled) 0.52313
+Timestep 5 Center of Mass = (-3.233000e-02,+1.104667e-02,-1.960847e-02)
+Tree Size: 9108
+MSE (sampled) 0.279632
+Timestep 6 Center of Mass = (-3.260912e-02,+1.543927e-02,-2.002009e-02)
+Tree Size: 8860
+MSE (sampled) 0.636974
+Timestep 7 Center of Mass = (-3.289364e-02,+1.980521e-02,-2.043005e-02)
+Tree Size: 8683
+MSE (sampled) 0.349598
+Timestep 8 Center of Mass = (-3.320350e-02,+2.416329e-02,-2.083328e-02)
+Tree Size: 8471
+MSE (sampled) 1.27825
+Timestep 9 Center of Mass = (-3.352128e-02,+2.850003e-02,-2.119810e-02)
+Tree Size: 8237
+MSE (sampled) 1.59544
+Timestep 10 Center of Mass = (-3.381171e-02,+3.286496e-02,-2.155282e-02)
+Tree Size: 8299
+MSE (sampled) 5.14766
+Timestep 11 Center of Mass = (-3.412307e-02,+3.719964e-02,-2.190959e-02)
+Tree Size: 8280
+MSE (sampled) 1.61893
+Timestep 12 Center of Mass = (-3.445006e-02,+4.151946e-02,-2.229569e-02)
+Tree Size: 8208
+MSE (sampled) 1.38249
+Timestep 13 Center of Mass = (-3.475783e-02,+4.583686e-02,-2.267856e-02)
+Tree Size: 8241
+MSE (sampled) 0.726235
+Timestep 14 Center of Mass = (-3.504532e-02,+5.013371e-02,-2.307053e-02)
+	Conflict aborts: 227382
+	Capacity aborts: 406
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 228139
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31
+STAT,(NULL),BuildTime,32,21,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,32,157,157,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,32,41,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,32,32,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,32,201,201,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,32,21,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Conflicts,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,32,45000,1488,1346,1343,1502,1511,1438,1433,1355,1425,1366,1331,1371,1364,1380,1406,1383,1507,1366,1548,1563,1356,1469,1354,1341,1391,1390,1363,1396,1494,1353,1362,1305
+STAT,compute,LoopTime,32,156,156,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 32 -n 3000 -steps 20 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 20 time steps
+Tree Size: 11014
+MSE (sampled) 0.00561256
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10952
+MSE (sampled) 0.0391086
+Timestep 1 Center of Mass = (-3.404763e-02,-2.710862e-03,-2.086880e-02)
+Tree Size: 10484
+MSE (sampled) 0.235166
+Timestep 2 Center of Mass = (-3.595501e-02,+7.570919e-03,-2.374421e-02)
+Tree Size: 10236
+MSE (sampled) 0.122663
+Timestep 3 Center of Mass = (-3.830879e-02,+1.748503e-02,-2.644886e-02)
+Tree Size: 9738
+MSE (sampled) 0.225424
+Timestep 4 Center of Mass = (-4.086600e-02,+2.730691e-02,-2.947073e-02)
+Tree Size: 9686
+MSE (sampled) 0.211711
+Timestep 5 Center of Mass = (-4.353500e-02,+3.701657e-02,-3.248062e-02)
+Tree Size: 9211
+MSE (sampled) 0.257895
+Timestep 6 Center of Mass = (-4.623646e-02,+4.674971e-02,-3.556396e-02)
+Tree Size: 8997
+MSE (sampled) 0.623557
+Timestep 7 Center of Mass = (-4.890838e-02,+5.653697e-02,-3.870482e-02)
+Tree Size: 8607
+MSE (sampled) 0.736101
+Timestep 8 Center of Mass = (-5.158830e-02,+6.627531e-02,-4.184278e-02)
+Tree Size: 8571
+MSE (sampled) 0.58723
+Timestep 9 Center of Mass = (-5.426120e-02,+7.598044e-02,-4.499212e-02)
+Tree Size: 8641
+MSE (sampled) 2.74195
+Timestep 10 Center of Mass = (-5.693841e-02,+8.570402e-02,-4.812408e-02)
+Tree Size: 8601
+MSE (sampled) 1.98297
+Timestep 11 Center of Mass = (-5.963570e-02,+9.542429e-02,-5.126107e-02)
+Tree Size: 8493
+MSE (sampled) 3.07396
+Timestep 12 Center of Mass = (-6.232561e-02,+1.051297e-01,-5.441227e-02)
+Tree Size: 8511
+MSE (sampled) 1.20471
+Timestep 13 Center of Mass = (-6.502054e-02,+1.148121e-01,-5.757443e-02)
+Tree Size: 8459
+MSE (sampled) 0.977511
+Timestep 14 Center of Mass = (-6.769958e-02,+1.244846e-01,-6.074903e-02)
+Tree Size: 8471
+MSE (sampled) 4.51863
+Timestep 15 Center of Mass = (-7.040191e-02,+1.341506e-01,-6.392467e-02)
+Tree Size: 8545
+MSE (sampled) 5.21565
+Timestep 16 Center of Mass = (-7.311165e-02,+1.438129e-01,-6.710218e-02)
+Tree Size: 8492
+MSE (sampled) 2.96115
+Timestep 17 Center of Mass = (-7.582526e-02,+1.534656e-01,-7.027998e-02)
+Tree Size: 8460
+MSE (sampled) 1.08555
+Timestep 18 Center of Mass = (-7.854785e-02,+1.631161e-01,-7.346810e-02)
+Tree Size: 8445
+MSE (sampled) 0.946296
+Timestep 19 Center of Mass = (-8.128774e-02,+1.727530e-01,-7.665156e-02)
+	Conflict aborts: 306494
+	Capacity aborts: 531
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 307546
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31
+STAT,(NULL),BuildTime,32,21,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,32,212,212,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,32,41,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,32,32,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,32,265,265,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,32,21,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Conflicts,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,32,60000,1931,1809,1816,1856,1845,1880,1812,1885,1814,1867,1803,1824,1845,1853,1857,1860,1870,1859,1882,1872,1808,1820,1964,1925,1931,1876,1938,2008,1949,1992,1915,1834
+STAT,compute,LoopTime,32,212,212,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 32 -n 3000 -steps 25 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 25 time steps
+Tree Size: 11097
+MSE (sampled) 0.00703605
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 11000
+MSE (sampled) 0.0488424
+Timestep 1 Center of Mass = (-3.123931e-02,-8.951795e-03,-1.622384e-02)
+Tree Size: 10551
+MSE (sampled) 0.186775
+Timestep 2 Center of Mass = (-3.080785e-02,-5.623775e-03,-1.543409e-02)
+Tree Size: 10118
+MSE (sampled) 0.122333
+Timestep 3 Center of Mass = (-3.086234e-02,-2.461691e-03,-1.449994e-02)
+Tree Size: 9544
+MSE (sampled) 0.139635
+Timestep 4 Center of Mass = (-3.091111e-02,+7.615962e-04,-1.378732e-02)
+Tree Size: 9438
+MSE (sampled) 0.472136
+Timestep 5 Center of Mass = (-3.100888e-02,+4.042978e-03,-1.288147e-02)
+Tree Size: 9101
+MSE (sampled) 0.444352
+Timestep 6 Center of Mass = (-3.111524e-02,+7.289945e-03,-1.201306e-02)
+Tree Size: 9031
+MSE (sampled) 0.244522
+Timestep 7 Center of Mass = (-3.121079e-02,+1.055741e-02,-1.111203e-02)
+Tree Size: 8714
+MSE (sampled) 0.362077
+Timestep 8 Center of Mass = (-3.131024e-02,+1.385231e-02,-1.019598e-02)
+Tree Size: 8379
+MSE (sampled) 0.586238
+Timestep 9 Center of Mass = (-3.146398e-02,+1.717162e-02,-9.307403e-03)
+Tree Size: 8337
+MSE (sampled) 0.45621
+Timestep 10 Center of Mass = (-3.162191e-02,+2.049411e-02,-8.445781e-03)
+Tree Size: 8182
+MSE (sampled) 1.56616
+Timestep 11 Center of Mass = (-3.179521e-02,+2.381639e-02,-7.582835e-03)
+Tree Size: 8096
+MSE (sampled) 7.08989
+Timestep 12 Center of Mass = (-3.198374e-02,+2.714851e-02,-6.718358e-03)
+Tree Size: 8186
+MSE (sampled) 2.3536
+Timestep 13 Center of Mass = (-3.216876e-02,+3.047092e-02,-5.869487e-03)
+Tree Size: 8051
+MSE (sampled) 1.43762
+Timestep 14 Center of Mass = (-3.235439e-02,+3.377378e-02,-5.031194e-03)
+Tree Size: 8187
+MSE (sampled) 1.75034
+Timestep 15 Center of Mass = (-3.253340e-02,+3.707584e-02,-4.184791e-03)
+Tree Size: 8184
+MSE (sampled) 1.24526
+Timestep 16 Center of Mass = (-3.268793e-02,+4.037428e-02,-3.347857e-03)
+Tree Size: 8077
+MSE (sampled) 1.03539
+Timestep 17 Center of Mass = (-3.283866e-02,+4.367162e-02,-2.522274e-03)
+Tree Size: 8035
+MSE (sampled) 1.17613
+Timestep 18 Center of Mass = (-3.298123e-02,+4.697772e-02,-1.700222e-03)
+Tree Size: 8025
+MSE (sampled) 2.25219
+Timestep 19 Center of Mass = (-3.313223e-02,+5.029757e-02,-8.756592e-04)
+Tree Size: 8029
+MSE (sampled) 3.23995
+Timestep 20 Center of Mass = (-3.329659e-02,+5.362126e-02,-4.928737e-05)
+Tree Size: 8053
+MSE (sampled) 4.84995
+Timestep 21 Center of Mass = (-3.346887e-02,+5.694790e-02,+7.776525e-04)
+Tree Size: 8030
+MSE (sampled) 5.25882
+Timestep 22 Center of Mass = (-3.365037e-02,+6.027659e-02,+1.607067e-03)
+Tree Size: 8026
+MSE (sampled) 3.53421
+Timestep 23 Center of Mass = (-3.383808e-02,+6.360585e-02,+2.437330e-03)
+Tree Size: 8065
+MSE (sampled) 1.99584
+Timestep 24 Center of Mass = (-3.403091e-02,+6.693629e-02,+3.267309e-03)
+	Conflict aborts: 440184
+	Capacity aborts: 789
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 441714
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31
+STAT,(NULL),BuildTime,32,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,32,294,294,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,32,41,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,32,32,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,32,357,357,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,32,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Conflicts,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,32,75000,2409,2259,2266,2463,2322,2435,2232,2291,2273,2328,2244,2270,2318,2317,2343,2354,2330,2316,2312,2316,2336,2269,2432,2346,2467,2352,2442,2528,2363,2366,2395,2306
+STAT,compute,LoopTime,32,294,294,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 32 -n 3000 -steps 30 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 30 time steps
+Tree Size: 11006
+MSE (sampled) 0.0056128
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10972
+MSE (sampled) 0.0391517
+Timestep 1 Center of Mass = (-3.409200e-02,-2.716470e-03,-2.076287e-02)
+Tree Size: 10472
+MSE (sampled) 0.234583
+Timestep 2 Center of Mass = (-3.654274e-02,+7.272906e-03,-2.356184e-02)
+Tree Size: 10214
+MSE (sampled) 0.118176
+Timestep 3 Center of Mass = (-3.910910e-02,+1.682143e-02,-2.608955e-02)
+Tree Size: 9706
+MSE (sampled) 0.193568
+Timestep 4 Center of Mass = (-4.187762e-02,+2.637083e-02,-2.884099e-02)
+Tree Size: 9485
+MSE (sampled) 0.224081
+Timestep 5 Center of Mass = (-4.479636e-02,+3.582455e-02,-3.157447e-02)
+Tree Size: 9300
+MSE (sampled) 0.350111
+Timestep 6 Center of Mass = (-4.772078e-02,+4.530199e-02,-3.436842e-02)
+Tree Size: 8934
+MSE (sampled) 0.768195
+Timestep 7 Center of Mass = (-5.068331e-02,+5.481978e-02,-3.713620e-02)
+Tree Size: 8637
+MSE (sampled) 0.47347
+Timestep 8 Center of Mass = (-5.362591e-02,+6.436022e-02,-3.988452e-02)
+Tree Size: 8423
+MSE (sampled) 0.537799
+Timestep 9 Center of Mass = (-5.655877e-02,+7.389227e-02,-4.265304e-02)
+Tree Size: 8612
+MSE (sampled) 1.6807
+Timestep 10 Center of Mass = (-5.949183e-02,+8.343520e-02,-4.542975e-02)
+Tree Size: 8626
+MSE (sampled) 1.13156
+Timestep 11 Center of Mass = (-6.242414e-02,+9.298256e-02,-4.823714e-02)
+Tree Size: 8409
+MSE (sampled) 4.01879
+Timestep 12 Center of Mass = (-6.538464e-02,+1.024956e-01,-5.103299e-02)
+Tree Size: 8519
+MSE (sampled) 1.53383
+Timestep 13 Center of Mass = (-6.833344e-02,+1.120127e-01,-5.384377e-02)
+Tree Size: 8491
+MSE (sampled) 1.90597
+Timestep 14 Center of Mass = (-7.128287e-02,+1.215246e-01,-5.666959e-02)
+Tree Size: 8468
+MSE (sampled) 4.56429
+Timestep 15 Center of Mass = (-7.422872e-02,+1.310210e-01,-5.948705e-02)
+Tree Size: 8578
+MSE (sampled) 1.31662
+Timestep 16 Center of Mass = (-7.718279e-02,+1.405124e-01,-6.230102e-02)
+Tree Size: 8544
+MSE (sampled) 0.416241
+Timestep 17 Center of Mass = (-8.013997e-02,+1.499947e-01,-6.511342e-02)
+Tree Size: 8541
+MSE (sampled) 0.372718
+Timestep 18 Center of Mass = (-8.310051e-02,+1.594683e-01,-6.792568e-02)
+Tree Size: 8555
+MSE (sampled) 0.724775
+Timestep 19 Center of Mass = (-8.606543e-02,+1.689429e-01,-7.073440e-02)
+Tree Size: 8498
+MSE (sampled) 0.743772
+Timestep 20 Center of Mass = (-8.903765e-02,+1.784236e-01,-7.353162e-02)
+Tree Size: 8501
+MSE (sampled) 0.918394
+Timestep 21 Center of Mass = (-9.202403e-02,+1.879056e-01,-7.632261e-02)
+Tree Size: 8476
+MSE (sampled) 0.934539
+Timestep 22 Center of Mass = (-9.502114e-02,+1.973873e-01,-7.911246e-02)
+Tree Size: 8371
+MSE (sampled) 0.798124
+Timestep 23 Center of Mass = (-9.801818e-02,+2.068745e-01,-8.190892e-02)
+Tree Size: 8367
+MSE (sampled) 3.08512
+Timestep 24 Center of Mass = (-1.010043e-01,+2.163582e-01,-8.471547e-02)
+Tree Size: 8415
+MSE (sampled) 5.43083
+Timestep 25 Center of Mass = (-1.039810e-01,+2.258433e-01,-8.752730e-02)
+Tree Size: 8374
+MSE (sampled) 3.55177
+Timestep 26 Center of Mass = (-1.069547e-01,+2.353266e-01,-9.034382e-02)
+Tree Size: 8454
+MSE (sampled) 2.90553
+Timestep 27 Center of Mass = (-1.099256e-01,+2.448067e-01,-9.316604e-02)
+Tree Size: 8461
+MSE (sampled) 4.51359
+Timestep 28 Center of Mass = (-1.128923e-01,+2.542880e-01,-9.599110e-02)
+Tree Size: 8529
+MSE (sampled) 7.48062
+Timestep 29 Center of Mass = (-1.158593e-01,+2.637679e-01,-9.881491e-02)
+	Conflict aborts: 477217
+	Capacity aborts: 802
+	Retry aborts: 0
+	Explicit aborts: 1
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 478883
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31
+STAT,(NULL),BuildTime,32,21,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,32,343,343,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,32,42,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,32,32,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,32,414,414,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,32,21,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Conflicts,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,32,90000,2836,2725,2735,2811,2782,2861,2726,2924,2741,2800,2674,2748,2895,2844,2827,2883,2989,2826,2870,2954,2711,2696,2727,2862,2783,2812,2954,2926,2863,2729,2755,2731
+STAT,compute,LoopTime,32,343,343,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 32 -n 3000 -steps 35 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 35 time steps
+Tree Size: 11008
+MSE (sampled) 0.00561279
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 10963
+MSE (sampled) 0.0391335
+Timestep 1 Center of Mass = (-3.420628e-02,-2.961205e-03,-2.078637e-02)
+Tree Size: 10350
+MSE (sampled) 0.234451
+Timestep 2 Center of Mass = (-3.620154e-02,+6.861128e-03,-2.418029e-02)
+Tree Size: 10182
+MSE (sampled) 0.117729
+Timestep 3 Center of Mass = (-3.831637e-02,+1.619359e-02,-2.714783e-02)
+Tree Size: 9699
+MSE (sampled) 0.174999
+Timestep 4 Center of Mass = (-4.067255e-02,+2.552545e-02,-3.033708e-02)
+Tree Size: 9581
+MSE (sampled) 0.213602
+Timestep 5 Center of Mass = (-4.309636e-02,+3.476880e-02,-3.346519e-02)
+Tree Size: 9251
+MSE (sampled) 0.410047
+Timestep 6 Center of Mass = (-4.550100e-02,+4.410276e-02,-3.661730e-02)
+Tree Size: 8938
+MSE (sampled) 1.23646
+Timestep 7 Center of Mass = (-4.789565e-02,+5.346902e-02,-3.977196e-02)
+Tree Size: 8634
+MSE (sampled) 0.803203
+Timestep 8 Center of Mass = (-5.036170e-02,+6.287720e-02,-4.288662e-02)
+Tree Size: 8533
+MSE (sampled) 0.618691
+Timestep 9 Center of Mass = (-5.281671e-02,+7.223150e-02,-4.604310e-02)
+Tree Size: 8583
+MSE (sampled) 1.77171
+Timestep 10 Center of Mass = (-5.527260e-02,+8.160477e-02,-4.921394e-02)
+Tree Size: 8620
+MSE (sampled) 4.79952
+Timestep 11 Center of Mass = (-5.772742e-02,+9.096095e-02,-5.240237e-02)
+Tree Size: 8499
+MSE (sampled) 5.47908
+Timestep 12 Center of Mass = (-6.021066e-02,+1.003111e-01,-5.559045e-02)
+Tree Size: 8537
+MSE (sampled) 2.22011
+Timestep 13 Center of Mass = (-6.266223e-02,+1.096558e-01,-5.878716e-02)
+Tree Size: 8378
+MSE (sampled) 1.80438
+Timestep 14 Center of Mass = (-6.511891e-02,+1.189986e-01,-6.200491e-02)
+Tree Size: 8380
+MSE (sampled) 1.82651
+Timestep 15 Center of Mass = (-6.757752e-02,+1.283380e-01,-6.522763e-02)
+Tree Size: 8467
+MSE (sampled) 1.64225
+Timestep 16 Center of Mass = (-7.003451e-02,+1.376639e-01,-6.844801e-02)
+Tree Size: 8556
+MSE (sampled) 0.38832
+Timestep 17 Center of Mass = (-7.249383e-02,+1.469791e-01,-7.167033e-02)
+Tree Size: 8550
+MSE (sampled) 0.374069
+Timestep 18 Center of Mass = (-7.495781e-02,+1.562915e-01,-7.489839e-02)
+Tree Size: 8570
+MSE (sampled) 0.861053
+Timestep 19 Center of Mass = (-7.742604e-02,+1.656120e-01,-7.812683e-02)
+Tree Size: 8465
+MSE (sampled) 0.922893
+Timestep 20 Center of Mass = (-7.990551e-02,+1.749336e-01,-8.135667e-02)
+Tree Size: 8453
+MSE (sampled) 0.731711
+Timestep 21 Center of Mass = (-8.238604e-02,+1.842647e-01,-8.458705e-02)
+Tree Size: 8374
+MSE (sampled) 1.04218
+Timestep 22 Center of Mass = (-8.486650e-02,+1.936019e-01,-8.781709e-02)
+Tree Size: 8309
+MSE (sampled) 0.684821
+Timestep 23 Center of Mass = (-8.734672e-02,+2.029486e-01,-9.105140e-02)
+Tree Size: 8306
+MSE (sampled) 2.95678
+Timestep 24 Center of Mass = (-8.982007e-02,+2.122967e-01,-9.429061e-02)
+Tree Size: 8269
+MSE (sampled) 5.07419
+Timestep 25 Center of Mass = (-9.229717e-02,+2.216442e-01,-9.753423e-02)
+Tree Size: 8364
+MSE (sampled) 2.61927
+Timestep 26 Center of Mass = (-9.477101e-02,+2.309852e-01,-1.007789e-01)
+Tree Size: 8406
+MSE (sampled) 1.09506
+Timestep 27 Center of Mass = (-9.724253e-02,+2.403196e-01,-1.040204e-01)
+Tree Size: 8400
+MSE (sampled) 1.39848
+Timestep 28 Center of Mass = (-9.971247e-02,+2.496522e-01,-1.072613e-01)
+Tree Size: 8395
+MSE (sampled) 1.45071
+Timestep 29 Center of Mass = (-1.021835e-01,+2.589855e-01,-1.105029e-01)
+Tree Size: 8442
+MSE (sampled) 0.873774
+Timestep 30 Center of Mass = (-1.046570e-01,+2.683201e-01,-1.137435e-01)
+Tree Size: 8429
+MSE (sampled) 0.608289
+Timestep 31 Center of Mass = (-1.071267e-01,+2.776487e-01,-1.169858e-01)
+Tree Size: 8401
+MSE (sampled) 1.1928
+Timestep 32 Center of Mass = (-1.095940e-01,+2.869761e-01,-1.202298e-01)
+Tree Size: 8406
+MSE (sampled) 1.53233
+Timestep 33 Center of Mass = (-1.120593e-01,+2.963049e-01,-1.234735e-01)
+Tree Size: 8376
+MSE (sampled) 4.99865
+Timestep 34 Center of Mass = (-1.145213e-01,+3.056349e-01,-1.267188e-01)
+	Conflict aborts: 593312
+	Capacity aborts: 1083
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 595435
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31
+STAT,(NULL),BuildTime,32,21,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,32,416,416,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,32,41,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,32,32,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,32,493,493,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,32,21,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Conflicts,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,32,105000,3110,3187,3203,3299,3261,3302,3202,3236,3208,3278,3120,3220,3272,3287,3357,3436,3339,3303,3360,3338,3160,3166,3273,3319,3333,3375,3381,3509,3385,3265,3271,3245
+STAT,compute,LoopTime,32,416,416,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 40 -n 3000 -steps 15 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 15 time steps
+Tree Size: 11025
+MSE (sampled) 0.00561655
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 11185
+MSE (sampled) 0.0235901
+Timestep 1 Center of Mass = (-3.146601e-02,-7.627405e-03,-1.832351e-02)
+Tree Size: 10529
+MSE (sampled) 0.176431
+Timestep 2 Center of Mass = (-3.104273e-02,-2.308361e-03,-1.877499e-02)
+Tree Size: 10184
+MSE (sampled) 0.123237
+Timestep 3 Center of Mass = (-3.070761e-02,+2.606609e-03,-1.841592e-02)
+Tree Size: 9745
+MSE (sampled) 0.344109
+Timestep 4 Center of Mass = (-3.049910e-02,+7.384676e-03,-1.813162e-02)
+Tree Size: 9491
+MSE (sampled) 0.244673
+Timestep 5 Center of Mass = (-3.032644e-02,+1.200347e-02,-1.783424e-02)
+Tree Size: 9292
+MSE (sampled) 0.403154
+Timestep 6 Center of Mass = (-3.018457e-02,+1.659650e-02,-1.752039e-02)
+Tree Size: 8909
+MSE (sampled) 0.785378
+Timestep 7 Center of Mass = (-3.006843e-02,+2.116979e-02,-1.720439e-02)
+Tree Size: 8751
+MSE (sampled) 0.513328
+Timestep 8 Center of Mass = (-2.995863e-02,+2.571274e-02,-1.689881e-02)
+Tree Size: 8365
+MSE (sampled) 0.894228
+Timestep 9 Center of Mass = (-2.982938e-02,+3.026343e-02,-1.658766e-02)
+Tree Size: 8253
+MSE (sampled) 1.3134
+Timestep 10 Center of Mass = (-2.968921e-02,+3.482786e-02,-1.628893e-02)
+Tree Size: 8297
+MSE (sampled) 2.86367
+Timestep 11 Center of Mass = (-2.954402e-02,+3.938313e-02,-1.599338e-02)
+Tree Size: 8266
+MSE (sampled) 1.36471
+Timestep 12 Center of Mass = (-2.939196e-02,+4.391510e-02,-1.568698e-02)
+Tree Size: 8170
+MSE (sampled) 1.9485
+Timestep 13 Center of Mass = (-2.923811e-02,+4.846773e-02,-1.536264e-02)
+Tree Size: 8276
+MSE (sampled) 0.953741
+Timestep 14 Center of Mass = (-2.908351e-02,+5.302348e-02,-1.504081e-02)
+	Conflict aborts: 261350
+	Capacity aborts: 481
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 262229
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31,T32,T33,T34,T35,T36,T37,T38,T39
+STAT,(NULL),BuildTime,40,26,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,40,137,137,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,40,52,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,40,40,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,40,190,190,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,40,26,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Conflicts,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,40,45000,1122,1073,1145,1239,1128,1152,1181,1093,1244,1190,1275,1129,1058,975,1092,1106,1111,1225,1206,1095,1120,1115,1090,1107,1079,1111,1035,1119,1100,1074,1236,1125,1102,1078,1105,1115,1102,1194,1112,1042
+STAT,compute,LoopTime,40,137,137,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 40 -n 3000 -steps 20 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 20 time steps
+Tree Size: 11089
+MSE (sampled) 0.00561718
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 11031
+MSE (sampled) 0.0247224
+Timestep 1 Center of Mass = (-3.454860e-02,-2.856562e-03,-2.068899e-02)
+Tree Size: 10590
+MSE (sampled) 0.200052
+Timestep 2 Center of Mass = (-3.678259e-02,+7.402346e-03,-2.371471e-02)
+Tree Size: 10173
+MSE (sampled) 0.136293
+Timestep 3 Center of Mass = (-3.943263e-02,+1.755054e-02,-2.627548e-02)
+Tree Size: 9725
+MSE (sampled) 0.380719
+Timestep 4 Center of Mass = (-4.224731e-02,+2.761465e-02,-2.879878e-02)
+Tree Size: 9355
+MSE (sampled) 0.298074
+Timestep 5 Center of Mass = (-4.503784e-02,+3.763782e-02,-3.140717e-02)
+Tree Size: 9107
+MSE (sampled) 0.339529
+Timestep 6 Center of Mass = (-4.793001e-02,+4.771531e-02,-3.400439e-02)
+Tree Size: 8954
+MSE (sampled) 0.740995
+Timestep 7 Center of Mass = (-5.084649e-02,+5.777569e-02,-3.660600e-02)
+Tree Size: 8688
+MSE (sampled) 0.434775
+Timestep 8 Center of Mass = (-5.379735e-02,+6.781763e-02,-3.924642e-02)
+Tree Size: 8491
+MSE (sampled) 0.806847
+Timestep 9 Center of Mass = (-5.677393e-02,+7.787120e-02,-4.188888e-02)
+Tree Size: 8615
+MSE (sampled) 1.39374
+Timestep 10 Center of Mass = (-5.974561e-02,+8.794994e-02,-4.451416e-02)
+Tree Size: 8601
+MSE (sampled) 12.3464
+Timestep 11 Center of Mass = (-6.274832e-02,+9.799919e-02,-4.715747e-02)
+Tree Size: 8596
+MSE (sampled) 1.84345
+Timestep 12 Center of Mass = (-6.576213e-02,+1.080262e-01,-4.983005e-02)
+Tree Size: 8571
+MSE (sampled) 2.20581
+Timestep 13 Center of Mass = (-6.878160e-02,+1.180399e-01,-5.252442e-02)
+Tree Size: 8481
+MSE (sampled) 2.27786
+Timestep 14 Center of Mass = (-7.178555e-02,+1.280556e-01,-5.523295e-02)
+Tree Size: 8513
+MSE (sampled) 1.3327
+Timestep 15 Center of Mass = (-7.480135e-02,+1.380503e-01,-5.794106e-02)
+Tree Size: 8528
+MSE (sampled) 4.79034
+Timestep 16 Center of Mass = (-7.783326e-02,+1.480277e-01,-6.064936e-02)
+Tree Size: 8543
+MSE (sampled) 1.91632
+Timestep 17 Center of Mass = (-8.088869e-02,+1.579973e-01,-6.336803e-02)
+Tree Size: 8417
+MSE (sampled) 3.23522
+Timestep 18 Center of Mass = (-8.394985e-02,+1.679720e-01,-6.608359e-02)
+Tree Size: 8473
+MSE (sampled) 5.86712
+Timestep 19 Center of Mass = (-8.701673e-02,+1.779507e-01,-6.880255e-02)
+	Conflict aborts: 355303
+	Capacity aborts: 617
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 356375
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31,T32,T33,T34,T35,T36,T37,T38,T39
+STAT,(NULL),BuildTime,40,26,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,40,188,188,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,40,51,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,40,40,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,40,250,250,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,40,26,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Conflicts,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,40,60000,1468,1445,1461,1490,1502,1583,1497,1479,1478,1466,1481,1492,1413,1356,1464,1484,1492,1509,1487,1500,1484,1488,1576,1445,1567,1518,1415,1518,1571,1543,1531,1663,1513,1453,1503,1639,1510,1509,1507,1500
+STAT,compute,LoopTime,40,188,188,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 40 -n 3000 -steps 25 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 25 time steps
+Tree Size: 11029
+MSE (sampled) 0.00561762
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 11155
+MSE (sampled) 0.0236302
+Timestep 1 Center of Mass = (-3.185025e-02,-7.490192e-03,-1.823267e-02)
+Tree Size: 10536
+MSE (sampled) 0.174834
+Timestep 2 Center of Mass = (-3.154514e-02,-1.932559e-03,-1.861202e-02)
+Tree Size: 10239
+MSE (sampled) 0.116351
+Timestep 3 Center of Mass = (-3.150004e-02,+3.227310e-03,-1.837241e-02)
+Tree Size: 9642
+MSE (sampled) 0.41607
+Timestep 4 Center of Mass = (-3.158855e-02,+8.335693e-03,-1.806680e-02)
+Tree Size: 9497
+MSE (sampled) 0.310186
+Timestep 5 Center of Mass = (-3.171336e-02,+1.332777e-02,-1.780592e-02)
+Tree Size: 9254
+MSE (sampled) 0.340526
+Timestep 6 Center of Mass = (-3.175452e-02,+1.826557e-02,-1.748125e-02)
+Tree Size: 8829
+MSE (sampled) 0.645527
+Timestep 7 Center of Mass = (-3.181654e-02,+2.317944e-02,-1.712829e-02)
+Tree Size: 8777
+MSE (sampled) 0.361587
+Timestep 8 Center of Mass = (-3.188808e-02,+2.807736e-02,-1.682088e-02)
+Tree Size: 8326
+MSE (sampled) 0.852271
+Timestep 9 Center of Mass = (-3.194348e-02,+3.298022e-02,-1.651574e-02)
+Tree Size: 8244
+MSE (sampled) 0.919084
+Timestep 10 Center of Mass = (-3.199024e-02,+3.790716e-02,-1.622437e-02)
+Tree Size: 8328
+MSE (sampled) 1.08033
+Timestep 11 Center of Mass = (-3.202438e-02,+4.279654e-02,-1.591831e-02)
+Tree Size: 8226
+MSE (sampled) 1.62514
+Timestep 12 Center of Mass = (-3.208064e-02,+4.767050e-02,-1.561506e-02)
+Tree Size: 8204
+MSE (sampled) 1.04261
+Timestep 13 Center of Mass = (-3.211839e-02,+5.256400e-02,-1.530476e-02)
+Tree Size: 8311
+MSE (sampled) 0.663242
+Timestep 14 Center of Mass = (-3.216554e-02,+5.746418e-02,-1.499120e-02)
+Tree Size: 8246
+MSE (sampled) 0.777003
+Timestep 15 Center of Mass = (-3.221865e-02,+6.236353e-02,-1.467666e-02)
+Tree Size: 8324
+MSE (sampled) 2.98481
+Timestep 16 Center of Mass = (-3.228009e-02,+6.726631e-02,-1.435118e-02)
+Tree Size: 8252
+MSE (sampled) 1.19483
+Timestep 17 Center of Mass = (-3.233046e-02,+7.217640e-02,-1.402043e-02)
+Tree Size: 8242
+MSE (sampled) 1.38776
+Timestep 18 Center of Mass = (-3.237823e-02,+7.709421e-02,-1.368718e-02)
+Tree Size: 8202
+MSE (sampled) 2.25561
+Timestep 19 Center of Mass = (-3.242675e-02,+8.200388e-02,-1.334831e-02)
+Tree Size: 8218
+MSE (sampled) 3.0726
+Timestep 20 Center of Mass = (-3.247762e-02,+8.692027e-02,-1.301625e-02)
+Tree Size: 8210
+MSE (sampled) 1.64751
+Timestep 21 Center of Mass = (-3.253672e-02,+9.183999e-02,-1.269657e-02)
+Tree Size: 8238
+MSE (sampled) 1.17241
+Timestep 22 Center of Mass = (-3.259606e-02,+9.675468e-02,-1.237571e-02)
+Tree Size: 8181
+MSE (sampled) 1.61857
+Timestep 23 Center of Mass = (-3.264955e-02,+1.016684e-01,-1.205202e-02)
+Tree Size: 8184
+MSE (sampled) 1.78962
+Timestep 24 Center of Mass = (-3.270477e-02,+1.065770e-01,-1.171789e-02)
+	Conflict aborts: 488503
+	Capacity aborts: 905
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 490074
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31,T32,T33,T34,T35,T36,T37,T38,T39
+STAT,(NULL),BuildTime,40,26,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,40,247,247,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,40,52,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,40,40,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,40,317,317,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,40,26,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Conflicts,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,40,75000,1793,1845,1833,1996,1893,1889,1960,1978,1875,2031,1992,1872,1791,1682,1830,1867,1872,1954,1885,2023,1908,1869,1838,1840,1813,1829,1756,1917,1861,1813,1835,1902,1878,1867,1963,1876,1985,1804,1856,1729
+STAT,compute,LoopTime,40,246,246,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 40 -n 3000 -steps 30 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 30 time steps
+Tree Size: 10999
+MSE (sampled) 0.00561737
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 11064
+MSE (sampled) 0.0252182
+Timestep 1 Center of Mass = (-3.405199e-02,-2.752043e-03,-2.068349e-02)
+Tree Size: 10557
+MSE (sampled) 0.221826
+Timestep 2 Center of Mass = (-3.500074e-02,+8.061255e-03,-2.443928e-02)
+Tree Size: 10260
+MSE (sampled) 0.135629
+Timestep 3 Center of Mass = (-3.638821e-02,+1.872138e-02,-2.772008e-02)
+Tree Size: 9683
+MSE (sampled) 0.37292
+Timestep 4 Center of Mass = (-3.793222e-02,+2.925305e-02,-3.080693e-02)
+Tree Size: 9387
+MSE (sampled) 0.242252
+Timestep 5 Center of Mass = (-3.943128e-02,+3.976383e-02,-3.391144e-02)
+Tree Size: 9237
+MSE (sampled) 0.267646
+Timestep 6 Center of Mass = (-4.096723e-02,+5.027821e-02,-3.695878e-02)
+Tree Size: 8872
+MSE (sampled) 0.458808
+Timestep 7 Center of Mass = (-4.255343e-02,+6.078894e-02,-4.002741e-02)
+Tree Size: 8708
+MSE (sampled) 0.639567
+Timestep 8 Center of Mass = (-4.417810e-02,+7.131578e-02,-4.315782e-02)
+Tree Size: 8561
+MSE (sampled) 0.930232
+Timestep 9 Center of Mass = (-4.580693e-02,+8.189335e-02,-4.631032e-02)
+Tree Size: 8572
+MSE (sampled) 0.628111
+Timestep 10 Center of Mass = (-4.743269e-02,+9.250650e-02,-4.948490e-02)
+Tree Size: 8594
+MSE (sampled) 1.18685
+Timestep 11 Center of Mass = (-4.903656e-02,+1.031229e-01,-5.267049e-02)
+Tree Size: 8391
+MSE (sampled) 1.72564
+Timestep 12 Center of Mass = (-5.062948e-02,+1.137148e-01,-5.586504e-02)
+Tree Size: 8445
+MSE (sampled) 1.88245
+Timestep 13 Center of Mass = (-5.222000e-02,+1.243153e-01,-5.907334e-02)
+Tree Size: 8552
+MSE (sampled) 1.14288
+Timestep 14 Center of Mass = (-5.382367e-02,+1.349073e-01,-6.227208e-02)
+Tree Size: 8594
+MSE (sampled) 1.69493
+Timestep 15 Center of Mass = (-5.544668e-02,+1.455196e-01,-6.546462e-02)
+Tree Size: 8459
+MSE (sampled) 1.7078
+Timestep 16 Center of Mass = (-5.708501e-02,+1.561449e-01,-6.866379e-02)
+Tree Size: 8365
+MSE (sampled) 0.923636
+Timestep 17 Center of Mass = (-5.874062e-02,+1.667685e-01,-7.186965e-02)
+Tree Size: 8433
+MSE (sampled) 0.779104
+Timestep 18 Center of Mass = (-6.039852e-02,+1.773953e-01,-7.508779e-02)
+Tree Size: 8447
+MSE (sampled) 0.762795
+Timestep 19 Center of Mass = (-6.206319e-02,+1.880202e-01,-7.831511e-02)
+Tree Size: 8418
+MSE (sampled) 0.743164
+Timestep 20 Center of Mass = (-6.373038e-02,+1.986408e-01,-8.154735e-02)
+Tree Size: 8380
+MSE (sampled) 4.40361
+Timestep 21 Center of Mass = (-6.540676e-02,+2.092638e-01,-8.477589e-02)
+Tree Size: 8417
+MSE (sampled) 1.6147
+Timestep 22 Center of Mass = (-6.709486e-02,+2.198794e-01,-8.800020e-02)
+Tree Size: 8411
+MSE (sampled) 1.58221
+Timestep 23 Center of Mass = (-6.879386e-02,+2.304923e-01,-9.122118e-02)
+Tree Size: 8434
+MSE (sampled) 2.37464
+Timestep 24 Center of Mass = (-7.049625e-02,+2.410975e-01,-9.443938e-02)
+Tree Size: 8562
+MSE (sampled) 8.13681
+Timestep 25 Center of Mass = (-7.220056e-02,+2.516956e-01,-9.765892e-02)
+Tree Size: 8500
+MSE (sampled) 18.6389
+Timestep 26 Center of Mass = (-7.390345e-02,+2.622894e-01,-1.008741e-01)
+Tree Size: 8422
+MSE (sampled) 1.755
+Timestep 27 Center of Mass = (-7.560691e-02,+2.728849e-01,-1.040824e-01)
+Tree Size: 8349
+MSE (sampled) 1.46211
+Timestep 28 Center of Mass = (-7.731254e-02,+2.834799e-01,-1.072869e-01)
+Tree Size: 8356
+MSE (sampled) 1.03552
+Timestep 29 Center of Mass = (-7.902142e-02,+2.940752e-01,-1.104891e-01)
+	Conflict aborts: 576049
+	Capacity aborts: 984
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 577934
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31,T32,T33,T34,T35,T36,T37,T38,T39
+STAT,(NULL),BuildTime,40,26,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,40,296,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,40,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,40,40,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,40,375,375,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,40,26,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Conflicts,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,40,90000,2197,2168,2195,2290,2416,2364,2328,2201,2230,2306,2223,2244,2312,2082,2204,2283,2261,2368,2260,2275,2355,2252,2185,2184,2218,2386,2192,2215,2236,2190,2184,2307,2223,2225,2272,2261,2443,2145,2230,2090
+STAT,compute,LoopTime,40,296,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 40 -n 3000 -steps 35 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 35 time steps
+Tree Size: 10992
+MSE (sampled) 0.00561629
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 11199
+MSE (sampled) 0.0240261
+Timestep 1 Center of Mass = (-3.173670e-02,-7.627225e-03,-1.814700e-02)
+Tree Size: 10548
+MSE (sampled) 0.212214
+Timestep 2 Center of Mass = (-3.048210e-02,-1.458388e-03,-1.934266e-02)
+Tree Size: 10226
+MSE (sampled) 0.124196
+Timestep 3 Center of Mass = (-2.923448e-02,+4.529947e-03,-2.010542e-02)
+Tree Size: 9662
+MSE (sampled) 0.285854
+Timestep 4 Center of Mass = (-2.820333e-02,+1.034216e-02,-2.090894e-02)
+Tree Size: 9409
+MSE (sampled) 0.410076
+Timestep 5 Center of Mass = (-2.714476e-02,+1.619424e-02,-2.169111e-02)
+Tree Size: 9163
+MSE (sampled) 0.283739
+Timestep 6 Center of Mass = (-2.608437e-02,+2.194489e-02,-2.240741e-02)
+Tree Size: 8876
+MSE (sampled) 0.67986
+Timestep 7 Center of Mass = (-2.504515e-02,+2.767882e-02,-2.312552e-02)
+Tree Size: 8650
+MSE (sampled) 0.38574
+Timestep 8 Center of Mass = (-2.404131e-02,+3.340432e-02,-2.392343e-02)
+Tree Size: 8374
+MSE (sampled) 2.10093
+Timestep 9 Center of Mass = (-2.302725e-02,+3.911175e-02,-2.471323e-02)
+Tree Size: 8260
+MSE (sampled) 0.443115
+Timestep 10 Center of Mass = (-2.201806e-02,+4.480787e-02,-2.549472e-02)
+Tree Size: 8389
+MSE (sampled) 3.18178
+Timestep 11 Center of Mass = (-2.101754e-02,+5.050949e-02,-2.626799e-02)
+Tree Size: 8281
+MSE (sampled) 1.43321
+Timestep 12 Center of Mass = (-2.001864e-02,+5.618801e-02,-2.706536e-02)
+Tree Size: 8239
+MSE (sampled) 2.65578
+Timestep 13 Center of Mass = (-1.903685e-02,+6.184870e-02,-2.784566e-02)
+Tree Size: 8148
+MSE (sampled) 1.92856
+Timestep 14 Center of Mass = (-1.804708e-02,+6.751443e-02,-2.864082e-02)
+Tree Size: 8196
+MSE (sampled) 0.784284
+Timestep 15 Center of Mass = (-1.704842e-02,+7.318269e-02,-2.942643e-02)
+Tree Size: 8256
+MSE (sampled) 0.738044
+Timestep 16 Center of Mass = (-1.604286e-02,+7.886627e-02,-3.020662e-02)
+Tree Size: 8221
+MSE (sampled) 1.33575
+Timestep 17 Center of Mass = (-1.504732e-02,+8.457128e-02,-3.098013e-02)
+Tree Size: 8242
+MSE (sampled) 1.74751
+Timestep 18 Center of Mass = (-1.405654e-02,+9.029040e-02,-3.175688e-02)
+Tree Size: 8216
+MSE (sampled) 2.09138
+Timestep 19 Center of Mass = (-1.306075e-02,+9.602059e-02,-3.252412e-02)
+Tree Size: 8281
+MSE (sampled) 3.33415
+Timestep 20 Center of Mass = (-1.205673e-02,+1.017593e-01,-3.327663e-02)
+Tree Size: 8289
+MSE (sampled) 3.00025
+Timestep 21 Center of Mass = (-1.106323e-02,+1.074961e-01,-3.401618e-02)
+Tree Size: 8255
+MSE (sampled) 3.57067
+Timestep 22 Center of Mass = (-1.006274e-02,+1.132278e-01,-3.475559e-02)
+Tree Size: 8153
+MSE (sampled) 4.72154
+Timestep 23 Center of Mass = (-9.057976e-03,+1.189629e-01,-3.549259e-02)
+Tree Size: 8145
+MSE (sampled) 262.495
+Timestep 24 Center of Mass = (-8.048333e-03,+1.246963e-01,-3.622361e-02)
+Tree Size: 8079
+MSE (sampled) 5.3279
+Timestep 25 Center of Mass = (-7.035259e-03,+1.304251e-01,-3.694879e-02)
+Tree Size: 8117
+MSE (sampled) 1.74616
+Timestep 26 Center of Mass = (-6.018253e-03,+1.361515e-01,-3.767470e-02)
+Tree Size: 8096
+MSE (sampled) 1.60204
+Timestep 27 Center of Mass = (-4.997604e-03,+1.418794e-01,-3.840148e-02)
+Tree Size: 8125
+MSE (sampled) 1.48011
+Timestep 28 Center of Mass = (-3.977727e-03,+1.476079e-01,-3.912816e-02)
+Tree Size: 8062
+MSE (sampled) 0.703871
+Timestep 29 Center of Mass = (-2.955394e-03,+1.533368e-01,-3.985432e-02)
+Tree Size: 8094
+MSE (sampled) 0.777518
+Timestep 30 Center of Mass = (-1.930181e-03,+1.590690e-01,-4.058171e-02)
+Tree Size: 8086
+MSE (sampled) 0.815703
+Timestep 31 Center of Mass = (-9.033679e-04,+1.648062e-01,-4.130994e-02)
+Tree Size: 8089
+MSE (sampled) 0.915548
+Timestep 32 Center of Mass = (+1.241061e-04,+1.705470e-01,-4.204007e-02)
+Tree Size: 8064
+MSE (sampled) 0.935091
+Timestep 33 Center of Mass = (+1.151442e-03,+1.762918e-01,-4.277238e-02)
+Tree Size: 8118
+MSE (sampled) 0.942765
+Timestep 34 Center of Mass = (+2.179719e-03,+1.820407e-01,-4.350664e-02)
+	Conflict aborts: 777288
+	Capacity aborts: 1307
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 779679
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31,T32,T33,T34,T35,T36,T37,T38,T39
+STAT,(NULL),BuildTime,40,26,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,40,372,372,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,40,51,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,40,40,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,40,457,457,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,40,26,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Conflicts,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,40,105000,2480,2549,2666,2786,2683,2655,2645,2595,2670,2594,2579,2647,2534,2469,2585,2610,2611,2666,2639,2635,2626,2632,2592,2562,2536,2579,2545,2739,2778,2624,2742,2742,2627,2615,2666,2632,2774,2630,2597,2464
+STAT,compute,LoopTime,40,372,372,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 44 -n 3000 -steps 15 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 15 time steps
+Tree Size: 11084
+MSE (sampled) 0.00560877
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 11131
+MSE (sampled) 0.0202352
+Timestep 1 Center of Mass = (-3.408657e-02,-2.295883e-03,-2.072902e-02)
+Tree Size: 10519
+MSE (sampled) 0.722306
+Timestep 2 Center of Mass = (-3.547683e-02,+8.665850e-03,-2.490318e-02)
+Tree Size: 10208
+MSE (sampled) 0.138775
+Timestep 3 Center of Mass = (-3.669358e-02,+1.926056e-02,-2.788190e-02)
+Tree Size: 9731
+MSE (sampled) 0.417723
+Timestep 4 Center of Mass = (-3.763278e-02,+2.989128e-02,-3.072855e-02)
+Tree Size: 9416
+MSE (sampled) 0.218242
+Timestep 5 Center of Mass = (-3.850810e-02,+4.048308e-02,-3.360561e-02)
+Tree Size: 9213
+MSE (sampled) 0.428889
+Timestep 6 Center of Mass = (-3.940577e-02,+5.111501e-02,-3.642796e-02)
+Tree Size: 8903
+MSE (sampled) 1.06898
+Timestep 7 Center of Mass = (-4.034690e-02,+6.178924e-02,-3.923949e-02)
+Tree Size: 8711
+MSE (sampled) 0.55969
+Timestep 8 Center of Mass = (-4.130612e-02,+7.235593e-02,-4.203852e-02)
+Tree Size: 8713
+MSE (sampled) 0.438171
+Timestep 9 Center of Mass = (-4.224778e-02,+8.292878e-02,-4.483388e-02)
+Tree Size: 8601
+MSE (sampled) 6.7704
+Timestep 10 Center of Mass = (-4.317895e-02,+9.345589e-02,-4.760654e-02)
+Tree Size: 8579
+MSE (sampled) 1.38033
+Timestep 11 Center of Mass = (-4.414153e-02,+1.039572e-01,-5.040384e-02)
+Tree Size: 8663
+MSE (sampled) 0.995681
+Timestep 12 Center of Mass = (-4.513017e-02,+1.144668e-01,-5.323875e-02)
+Tree Size: 8601
+MSE (sampled) 0.776639
+Timestep 13 Center of Mass = (-4.612293e-02,+1.250008e-01,-5.606641e-02)
+Tree Size: 8566
+MSE (sampled) 1.0994
+Timestep 14 Center of Mass = (-4.711024e-02,+1.355234e-01,-5.889715e-02)
+	Conflict aborts: 262212
+	Capacity aborts: 535
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 263035
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31,T32,T33,T34,T35,T36,T37,T38,T39,T40,T41,T42,T43
+STAT,(NULL),BuildTime,44,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,44,137,137,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,44,57,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,44,195,195,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,44,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Conflicts,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,44,45000,917,1012,896,1108,1024,1025,1010,985,1163,1164,1000,1078,1038,944,858,1118,1086,992,1025,1030,1008,1033,967,1076,998,983,960,1164,961,1113,1014,1044,1026,1065,1040,1083,990,1007,1050,1224,990,1004,997,730
+STAT,compute,LoopTime,44,136,136,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 44 -n 3000 -steps 20 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 20 time steps
+Tree Size: 11141
+MSE (sampled) 0.0056087
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 11154
+MSE (sampled) 0.0204489
+Timestep 1 Center of Mass = (-3.145536e-02,-6.981227e-03,-1.823555e-02)
+Tree Size: 10617
+MSE (sampled) 0.619227
+Timestep 2 Center of Mass = (-2.991470e-02,-1.621847e-03,-1.959239e-02)
+Tree Size: 10295
+MSE (sampled) 0.133411
+Timestep 3 Center of Mass = (-2.819251e-02,+3.506228e-03,-2.008460e-02)
+Tree Size: 9678
+MSE (sampled) 0.226104
+Timestep 4 Center of Mass = (-2.636910e-02,+8.707896e-03,-2.055092e-02)
+Tree Size: 9545
+MSE (sampled) 0.29162
+Timestep 5 Center of Mass = (-2.462041e-02,+1.386396e-02,-2.102340e-02)
+Tree Size: 9370
+MSE (sampled) 0.29362
+Timestep 6 Center of Mass = (-2.289624e-02,+1.902706e-02,-2.155345e-02)
+Tree Size: 8984
+MSE (sampled) 0.558891
+Timestep 7 Center of Mass = (-2.122021e-02,+2.417880e-02,-2.209503e-02)
+Tree Size: 8739
+MSE (sampled) 0.385058
+Timestep 8 Center of Mass = (-1.954463e-02,+2.932946e-02,-2.268217e-02)
+Tree Size: 8481
+MSE (sampled) 1.13622
+Timestep 9 Center of Mass = (-1.784308e-02,+3.452289e-02,-2.329686e-02)
+Tree Size: 8386
+MSE (sampled) 0.49579
+Timestep 10 Center of Mass = (-1.614366e-02,+3.969675e-02,-2.394548e-02)
+Tree Size: 8449
+MSE (sampled) 0.896352
+Timestep 11 Center of Mass = (-1.444603e-02,+4.484788e-02,-2.459038e-02)
+Tree Size: 8362
+MSE (sampled) 1.47966
+Timestep 12 Center of Mass = (-1.275546e-02,+5.001328e-02,-2.523523e-02)
+Tree Size: 8225
+MSE (sampled) 1.66385
+Timestep 13 Center of Mass = (-1.105226e-02,+5.516163e-02,-2.587350e-02)
+Tree Size: 8260
+MSE (sampled) 4.2847
+Timestep 14 Center of Mass = (-9.353470e-03,+6.031804e-02,-2.651902e-02)
+Tree Size: 8052
+MSE (sampled) 1.05596
+Timestep 15 Center of Mass = (-7.671663e-03,+6.548030e-02,-2.716447e-02)
+Tree Size: 8009
+MSE (sampled) 5.86281
+Timestep 16 Center of Mass = (-5.989747e-03,+7.065126e-02,-2.780438e-02)
+Tree Size: 8101
+MSE (sampled) 5.55412
+Timestep 17 Center of Mass = (-4.310657e-03,+7.582324e-02,-2.843836e-02)
+Tree Size: 8173
+MSE (sampled) 2.96821
+Timestep 18 Center of Mass = (-2.643051e-03,+8.099664e-02,-2.906845e-02)
+Tree Size: 8144
+MSE (sampled) 1.74287
+Timestep 19 Center of Mass = (-9.730026e-04,+8.617150e-02,-2.969874e-02)
+	Conflict aborts: 409606
+	Capacity aborts: 749
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 410811
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31,T32,T33,T34,T35,T36,T37,T38,T39,T40,T41,T42,T43
+STAT,(NULL),BuildTime,44,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,44,196,196,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,44,58,58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,44,260,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,44,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Conflicts,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,44,60000,1170,1349,1233,1375,1397,1377,1372,1330,1525,1439,1481,1359,1478,1437,1210,1477,1574,1339,1366,1480,1326,1362,1336,1344,1362,1367,1314,1373,1296,1384,1439,1388,1340,1362,1366,1398,1357,1352,1375,1387,1326,1334,1335,1009
+STAT,compute,LoopTime,44,196,196,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 44 -n 3000 -steps 25 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 25 time steps
+Tree Size: 11104
+MSE (sampled) 0.00560877
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 11156
+MSE (sampled) 0.0319116
+Timestep 1 Center of Mass = (-3.393707e-02,-2.256143e-03,-2.086482e-02)
+Tree Size: 10564
+MSE (sampled) 0.398581
+Timestep 2 Center of Mass = (-3.454758e-02,+8.424733e-03,-2.368969e-02)
+Tree Size: 10098
+MSE (sampled) 0.118362
+Timestep 3 Center of Mass = (-3.507819e-02,+1.891607e-02,-2.587426e-02)
+Tree Size: 9751
+MSE (sampled) 0.647609
+Timestep 4 Center of Mass = (-3.565422e-02,+2.938864e-02,-2.790777e-02)
+Tree Size: 9308
+MSE (sampled) 0.346183
+Timestep 5 Center of Mass = (-3.622650e-02,+3.992591e-02,-2.987923e-02)
+Tree Size: 9180
+MSE (sampled) 0.583726
+Timestep 6 Center of Mass = (-3.682171e-02,+5.045421e-02,-3.184525e-02)
+Tree Size: 8958
+MSE (sampled) 0.536349
+Timestep 7 Center of Mass = (-3.747502e-02,+6.102707e-02,-3.379525e-02)
+Tree Size: 8554
+MSE (sampled) 0.33492
+Timestep 8 Center of Mass = (-3.815958e-02,+7.155983e-02,-3.571413e-02)
+Tree Size: 8661
+MSE (sampled) 0.484535
+Timestep 9 Center of Mass = (-3.884238e-02,+8.208630e-02,-3.762218e-02)
+Tree Size: 8695
+MSE (sampled) 1.43371
+Timestep 10 Center of Mass = (-3.949939e-02,+9.257770e-02,-3.951074e-02)
+Tree Size: 8591
+MSE (sampled) 4.26188
+Timestep 11 Center of Mass = (-4.018329e-02,+1.030416e-01,-4.137794e-02)
+Tree Size: 8463
+MSE (sampled) 42.6556
+Timestep 12 Center of Mass = (-4.086799e-02,+1.135159e-01,-4.324386e-02)
+Tree Size: 8519
+MSE (sampled) 1.49065
+Timestep 13 Center of Mass = (-4.152493e-02,+1.240130e-01,-4.510470e-02)
+Tree Size: 8557
+MSE (sampled) 1.70583
+Timestep 14 Center of Mass = (-4.218589e-02,+1.345463e-01,-4.697715e-02)
+Tree Size: 8484
+MSE (sampled) 1.38264
+Timestep 15 Center of Mass = (-4.283989e-02,+1.450975e-01,-4.883637e-02)
+Tree Size: 8450
+MSE (sampled) 1.43481
+Timestep 16 Center of Mass = (-4.348062e-02,+1.556472e-01,-5.071259e-02)
+Tree Size: 8492
+MSE (sampled) 1.34342
+Timestep 17 Center of Mass = (-4.410849e-02,+1.661996e-01,-5.263102e-02)
+Tree Size: 8463
+MSE (sampled) 1.95324
+Timestep 18 Center of Mass = (-4.472038e-02,+1.767567e-01,-5.456230e-02)
+Tree Size: 8514
+MSE (sampled) 1.6935
+Timestep 19 Center of Mass = (-4.532780e-02,+1.873194e-01,-5.650758e-02)
+Tree Size: 8547
+MSE (sampled) 8.61911
+Timestep 20 Center of Mass = (-4.592476e-02,+1.978836e-01,-5.845714e-02)
+Tree Size: 8574
+MSE (sampled) 5.71894
+Timestep 21 Center of Mass = (-4.650973e-02,+2.084451e-01,-6.041413e-02)
+Tree Size: 8540
+MSE (sampled) 4.98226
+Timestep 22 Center of Mass = (-4.709684e-02,+2.190152e-01,-6.237407e-02)
+Tree Size: 8491
+MSE (sampled) 1.82083
+Timestep 23 Center of Mass = (-4.768329e-02,+2.295941e-01,-6.433505e-02)
+Tree Size: 8487
+MSE (sampled) 5.10279
+Timestep 24 Center of Mass = (-4.827164e-02,+2.401856e-01,-6.628906e-02)
+	Conflict aborts: 515528
+	Capacity aborts: 1013
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 517218
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31,T32,T33,T34,T35,T36,T37,T38,T39,T40,T41,T42,T43
+STAT,(NULL),BuildTime,44,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,44,247,247,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,44,58,58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,44,321,321,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,44,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Conflicts,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,44,75000,1506,1700,1524,1730,1915,1758,1688,1693,1852,1704,1690,1791,1727,1649,1577,1690,1789,1677,1675,1870,1832,1770,1638,1606,1683,1634,1632,1808,1641,1639,1708,1764,1787,1690,1868,1741,1697,1668,1781,1768,1645,1714,1794,1287
+STAT,compute,LoopTime,44,247,247,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 44 -n 3000 -steps 30 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 30 time steps
+Tree Size: 11108
+MSE (sampled) 0.00560841
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 11133
+MSE (sampled) 0.0231486
+Timestep 1 Center of Mass = (-3.193751e-02,-6.960599e-03,-1.828672e-02)
+Tree Size: 10628
+MSE (sampled) 0.656297
+Timestep 2 Center of Mass = (-3.237826e-02,-9.675511e-04,-1.910175e-02)
+Tree Size: 10254
+MSE (sampled) 0.135039
+Timestep 3 Center of Mass = (-3.328265e-02,+4.731469e-03,-1.914275e-02)
+Tree Size: 9691
+MSE (sampled) 0.20511
+Timestep 4 Center of Mass = (-3.409605e-02,+1.034335e-02,-1.929453e-02)
+Tree Size: 9535
+MSE (sampled) 0.222023
+Timestep 5 Center of Mass = (-3.490733e-02,+1.583481e-02,-1.934843e-02)
+Tree Size: 9234
+MSE (sampled) 1.0107
+Timestep 6 Center of Mass = (-3.576722e-02,+2.135074e-02,-1.930884e-02)
+Tree Size: 8924
+MSE (sampled) 0.442884
+Timestep 7 Center of Mass = (-3.658086e-02,+2.686434e-02,-1.925643e-02)
+Tree Size: 8632
+MSE (sampled) 0.720731
+Timestep 8 Center of Mass = (-3.740894e-02,+3.235908e-02,-1.920462e-02)
+Tree Size: 8383
+MSE (sampled) 0.408044
+Timestep 9 Center of Mass = (-3.819388e-02,+3.786505e-02,-1.912846e-02)
+Tree Size: 8434
+MSE (sampled) 1.04853
+Timestep 10 Center of Mass = (-3.898120e-02,+4.339498e-02,-1.903951e-02)
+Tree Size: 8512
+MSE (sampled) 0.453771
+Timestep 11 Center of Mass = (-3.977283e-02,+4.892311e-02,-1.895383e-02)
+Tree Size: 8417
+MSE (sampled) 0.336554
+Timestep 12 Center of Mass = (-4.056268e-02,+5.445962e-02,-1.886387e-02)
+Tree Size: 8306
+MSE (sampled) 2.79172
+Timestep 13 Center of Mass = (-4.135182e-02,+6.000490e-02,-1.875136e-02)
+Tree Size: 8359
+MSE (sampled) 3.6745
+Timestep 14 Center of Mass = (-4.214437e-02,+6.557889e-02,-1.862529e-02)
+Tree Size: 8294
+MSE (sampled) 6.08678
+Timestep 15 Center of Mass = (-4.295316e-02,+7.117151e-02,-1.849089e-02)
+Tree Size: 8232
+MSE (sampled) 13.5265
+Timestep 16 Center of Mass = (-4.376665e-02,+7.676194e-02,-1.835243e-02)
+Tree Size: 8321
+MSE (sampled) 2.1586
+Timestep 17 Center of Mass = (-4.458420e-02,+8.235525e-02,-1.820933e-02)
+Tree Size: 8306
+MSE (sampled) 1.77222
+Timestep 18 Center of Mass = (-4.540312e-02,+8.796884e-02,-1.806878e-02)
+Tree Size: 8321
+MSE (sampled) 1.82563
+Timestep 19 Center of Mass = (-4.622977e-02,+9.359026e-02,-1.792496e-02)
+Tree Size: 8396
+MSE (sampled) 3.43174
+Timestep 20 Center of Mass = (-4.705951e-02,+9.921678e-02,-1.777892e-02)
+Tree Size: 8396
+MSE (sampled) 3.85353
+Timestep 21 Center of Mass = (-4.789196e-02,+1.048433e-01,-1.762792e-02)
+Tree Size: 8393
+MSE (sampled) 1.60613
+Timestep 22 Center of Mass = (-4.872667e-02,+1.104672e-01,-1.747455e-02)
+Tree Size: 8363
+MSE (sampled) 1.17453
+Timestep 23 Center of Mass = (-4.956366e-02,+1.160923e-01,-1.732809e-02)
+Tree Size: 8374
+MSE (sampled) 5.75343
+Timestep 24 Center of Mass = (-5.039721e-02,+1.217198e-01,-1.718786e-02)
+Tree Size: 8376
+MSE (sampled) 1.08087
+Timestep 25 Center of Mass = (-5.122808e-02,+1.273489e-01,-1.704529e-02)
+Tree Size: 8381
+MSE (sampled) 1.19329
+Timestep 26 Center of Mass = (-5.205436e-02,+1.329787e-01,-1.690137e-02)
+Tree Size: 8396
+MSE (sampled) 1.46989
+Timestep 27 Center of Mass = (-5.288000e-02,+1.386113e-01,-1.675444e-02)
+Tree Size: 8389
+MSE (sampled) 0.798871
+Timestep 28 Center of Mass = (-5.370784e-02,+1.442464e-01,-1.660550e-02)
+Tree Size: 8328
+MSE (sampled) 0.903384
+Timestep 29 Center of Mass = (-5.453853e-02,+1.498840e-01,-1.645098e-02)
+	Conflict aborts: 661514
+	Capacity aborts: 1255
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 663730
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31,T32,T33,T34,T35,T36,T37,T38,T39,T40,T41,T42,T43
+STAT,(NULL),BuildTime,44,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,44,308,308,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,44,58,58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,44,391,391,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,44,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Conflicts,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,44,90000,1791,2124,1955,2063,2088,2073,2027,2035,2062,2041,2026,2043,2065,2065,1953,2095,2103,2233,2220,2085,2005,2043,2027,2032,2068,2110,2005,2069,1970,1953,2052,2088,1999,2066,2186,2201,2028,2106,2076,2110,2003,2033,2017,1606
+STAT,compute,LoopTime,44,308,308,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Barnshut N-Body Simulator
+Simulates gravitational forces in a galactic cluster using the Barnes-Hut n-body algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/barneshut
+
+INFO: CommandLine ./barneshut -t 44 -n 3000 -steps 35 -seed 0
+INFO: Hostname broady
+Barnes-Hut configuration: dtime: 0.5 eps: 0.05 tol: 0.05
+3000 bodies, 35 time steps
+Tree Size: 11035
+MSE (sampled) 0.00560874
+Timestep 0 Center of Mass = (-3.132340e-02,-1.289698e-02,-1.689731e-02)
+Tree Size: 11173
+MSE (sampled) 0.0174336
+Timestep 1 Center of Mass = (-3.136254e-02,-7.053510e-03,-1.757112e-02)
+Tree Size: 10551
+MSE (sampled) 0.116633
+Timestep 2 Center of Mass = (-2.984938e-02,-1.487492e-03,-1.839958e-02)
+Tree Size: 10217
+MSE (sampled) 0.165064
+Timestep 3 Center of Mass = (-2.860001e-02,+4.122939e-03,-1.874121e-02)
+Tree Size: 9805
+MSE (sampled) 0.18469
+Timestep 4 Center of Mass = (-2.733307e-02,+9.786716e-03,-1.901428e-02)
+Tree Size: 9626
+MSE (sampled) 0.556108
+Timestep 5 Center of Mass = (-2.618491e-02,+1.540326e-02,-1.932400e-02)
+Tree Size: 9252
+MSE (sampled) 0.366529
+Timestep 6 Center of Mass = (-2.508536e-02,+2.102466e-02,-1.958047e-02)
+Tree Size: 8912
+MSE (sampled) 0.647192
+Timestep 7 Center of Mass = (-2.396034e-02,+2.661507e-02,-1.994282e-02)
+Tree Size: 8741
+MSE (sampled) 0.745487
+Timestep 8 Center of Mass = (-2.286117e-02,+3.228258e-02,-2.034357e-02)
+Tree Size: 8487
+MSE (sampled) 0.75264
+Timestep 9 Center of Mass = (-2.176109e-02,+3.794898e-02,-2.075514e-02)
+Tree Size: 8327
+MSE (sampled) 0.329843
+Timestep 10 Center of Mass = (-2.070241e-02,+4.361237e-02,-2.118389e-02)
+Tree Size: 8181
+MSE (sampled) 0.698207
+Timestep 11 Center of Mass = (-1.967099e-02,+4.926684e-02,-2.162082e-02)
+Tree Size: 8272
+MSE (sampled) 1.06061
+Timestep 12 Center of Mass = (-1.866525e-02,+5.492627e-02,-2.207153e-02)
+Tree Size: 8268
+MSE (sampled) 1.53928
+Timestep 13 Center of Mass = (-1.766080e-02,+6.059110e-02,-2.251673e-02)
+Tree Size: 8257
+MSE (sampled) 3.65739
+Timestep 14 Center of Mass = (-1.667270e-02,+6.625606e-02,-2.296214e-02)
+Tree Size: 8171
+MSE (sampled) 1.16764
+Timestep 15 Center of Mass = (-1.568862e-02,+7.194664e-02,-2.342242e-02)
+Tree Size: 8132
+MSE (sampled) 0.690374
+Timestep 16 Center of Mass = (-1.470883e-02,+7.764700e-02,-2.389961e-02)
+Tree Size: 8098
+MSE (sampled) 2.60015
+Timestep 17 Center of Mass = (-1.372676e-02,+8.335800e-02,-2.438269e-02)
+Tree Size: 8074
+MSE (sampled) 1.06403
+Timestep 18 Center of Mass = (-1.274160e-02,+8.907393e-02,-2.487150e-02)
+Tree Size: 8149
+MSE (sampled) 0.786626
+Timestep 19 Center of Mass = (-1.175145e-02,+9.478246e-02,-2.536611e-02)
+Tree Size: 8217
+MSE (sampled) 1.06726
+Timestep 20 Center of Mass = (-1.076124e-02,+1.004883e-01,-2.585980e-02)
+Tree Size: 8196
+MSE (sampled) 3.84895
+Timestep 21 Center of Mass = (-9.769454e-03,+1.061988e-01,-2.634652e-02)
+Tree Size: 8187
+MSE (sampled) 1.26032
+Timestep 22 Center of Mass = (-8.780250e-03,+1.119130e-01,-2.682868e-02)
+Tree Size: 8212
+MSE (sampled) 0.949302
+Timestep 23 Center of Mass = (-7.792254e-03,+1.176266e-01,-2.730736e-02)
+Tree Size: 8207
+MSE (sampled) 0.929921
+Timestep 24 Center of Mass = (-6.809773e-03,+1.233357e-01,-2.778098e-02)
+Tree Size: 8274
+MSE (sampled) 1.03201
+Timestep 25 Center of Mass = (-5.826319e-03,+1.290440e-01,-2.825550e-02)
+Tree Size: 8212
+MSE (sampled) 1.17034
+Timestep 26 Center of Mass = (-4.843111e-03,+1.347563e-01,-2.873396e-02)
+Tree Size: 8231
+MSE (sampled) 1.61989
+Timestep 27 Center of Mass = (-3.859469e-03,+1.404723e-01,-2.921437e-02)
+Tree Size: 8198
+MSE (sampled) 1.38924
+Timestep 28 Center of Mass = (-2.876186e-03,+1.461934e-01,-2.969138e-02)
+Tree Size: 8205
+MSE (sampled) 1.07211
+Timestep 29 Center of Mass = (-1.892457e-03,+1.519177e-01,-3.016405e-02)
+Tree Size: 8234
+MSE (sampled) 1.1519
+Timestep 30 Center of Mass = (-9.069028e-04,+1.576493e-01,-3.063632e-02)
+Tree Size: 8227
+MSE (sampled) 2.4041
+Timestep 31 Center of Mass = (+8.052045e-05,+1.633847e-01,-3.110641e-02)
+Tree Size: 8200
+MSE (sampled) 2.6817
+Timestep 32 Center of Mass = (+1.065780e-03,+1.691249e-01,-3.157300e-02)
+Tree Size: 8202
+MSE (sampled) 2.83094
+Timestep 33 Center of Mass = (+2.051043e-03,+1.748664e-01,-3.203634e-02)
+Tree Size: 8174
+MSE (sampled) 2.78156
+Timestep 34 Center of Mass = (+3.035964e-03,+1.806083e-01,-3.249722e-02)
+	Conflict aborts: 813067
+	Capacity aborts: 1712
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 815823
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31,T32,T33,T34,T35,T36,T37,T38,T39,T40,T41,T42,T43
+STAT,(NULL),BuildTime,44,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),ComputeTime,44,371,371,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),LoopTime,44,58,58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,44,465,465,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,BuildTree,LoopTime,44,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Conflicts,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,compute,Iterations,44,105000,2106,2311,2301,2536,2463,2352,2311,2386,2409,2475,2390,2461,2444,2331,2226,2349,2503,2535,2566,2427,2367,2552,2284,2342,2371,2389,2304,2563,2320,2351,2440,2404,2446,2438,2413,2398,2381,2380,2394,2619,2344,2401,2353,1864
+STAT,compute,LoopTime,44,371,371,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+

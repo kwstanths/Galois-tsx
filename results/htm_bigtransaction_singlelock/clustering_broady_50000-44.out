@@ -1,0 +1,26 @@
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Unordered Agglomerative Clustering
+Clusters data points using the well-known data-mining algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/agglomerative_clustering
+
+INFO: CommandLine ./clustering -t 44 -numPoints 50000
+INFO: Hostname broady
+Starting Clustering app...[50000]
+	Conflict aborts: 4671280
+	Capacity aborts: 2199488
+	Retry aborts: 0
+	Explicit aborts: 162
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 7113982
+Ending Clustering app...[50000]
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31,T32,T33,T34,T35,T36,T37,T38,T39,T40,T41,T42,T43
+STAT,(NULL),Conflicts,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Iterations,44,457133547,10351943,10545351,10545702,10597061,10582948,10595555,10551362,10542914,10601185,10580993,10572352,10582688,10586048,10601279,10535039,10521502,10477182,10596350,10579037,10612188,10533819,10519899,10185594,10207897,10228120,10258358,10237843,10242704,10210220,10211147,10274788,10241564,10247092,10256684,10237403,10255848,10188305,10166668,10163993,10243374,10252489,10266075,10184622,10160362
+STAT,(NULL),LoopTime,44,17698,17698,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,44,394184,394184,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
