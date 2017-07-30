@@ -1,0 +1,260 @@
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Unordered Agglomerative Clustering
+Clusters data points using the well-known data-mining algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/agglomerative_clustering
+
+INFO: CommandLine ./clustering_gs -t 1 -numPoints 3000
+INFO: Hostname broady
+Starting Clustering app...[3000]
+	Total transactions completed: 1573466
+	Conflict aborts: 412
+	Capacity aborts: 606
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 1753
+Ending Clustering app...[3000]
+STATTYPE,LOOP,CATEGORY,n,sum,T0
+STAT,(NULL),Conflicts,1,0,0
+STAT,(NULL),Iterations,1,1573488,1573488
+STAT,(NULL),LoopTime,1,1238,1238
+STAT,(NULL),Threads,1,1,1
+STAT,(NULL),Time,1,2539,2539
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Unordered Agglomerative Clustering
+Clusters data points using the well-known data-mining algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/agglomerative_clustering
+
+INFO: CommandLine ./clustering_gs -t 2 -numPoints 3000
+INFO: Hostname broady
+Starting Clustering app...[3000]
+	Total transactions completed: 1547283
+	Conflict aborts: 763
+	Capacity aborts: 1019
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 3439
+Ending Clustering app...[3000]
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1
+STAT,(NULL),Conflicts,2,0,0,0
+STAT,(NULL),Iterations,2,1547348,794657,752691
+STAT,(NULL),LoopTime,2,450,450,0
+STAT,(NULL),Threads,2,2,2,0
+STAT,(NULL),Time,2,1791,1791,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Unordered Agglomerative Clustering
+Clusters data points using the well-known data-mining algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/agglomerative_clustering
+
+INFO: CommandLine ./clustering_gs -t 4 -numPoints 3000
+INFO: Hostname broady
+Starting Clustering app...[3000]
+	Total transactions completed: 1576050
+	Conflict aborts: 1593
+	Capacity aborts: 8282
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 12329
+Ending Clustering app...[3000]
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3
+STAT,(NULL),Conflicts,4,0,0,0,0,0
+STAT,(NULL),Iterations,4,1576193,404280,386552,390070,395291
+STAT,(NULL),LoopTime,4,138,138,0,0,0
+STAT,(NULL),Threads,4,4,4,0,0,0
+STAT,(NULL),Time,4,1491,1491,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Unordered Agglomerative Clustering
+Clusters data points using the well-known data-mining algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/agglomerative_clustering
+
+INFO: CommandLine ./clustering_gs -t 8 -numPoints 3000
+INFO: Hostname broady
+Starting Clustering app...[3000]
+	Total transactions completed: 1520202
+	Conflict aborts: 3759
+	Capacity aborts: 8187
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 16510
+Ending Clustering app...[3000]
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7
+STAT,(NULL),Conflicts,8,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Iterations,8,1520430,196478,184542,191741,188572,191131,193656,183691,190619
+STAT,(NULL),LoopTime,8,185,185,0,0,0,0,0,0,0
+STAT,(NULL),Threads,8,8,8,0,0,0,0,0,0,0
+STAT,(NULL),Time,8,1372,1372,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Unordered Agglomerative Clustering
+Clusters data points using the well-known data-mining algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/agglomerative_clustering
+
+INFO: CommandLine ./clustering_gs -t 16 -numPoints 3000
+INFO: Hostname broady
+Starting Clustering app...[3000]
+	Total transactions completed: 1580644
+	Conflict aborts: 3151
+	Capacity aborts: 498
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 14185
+Ending Clustering app...[3000]
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15
+STAT,(NULL),Conflicts,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Iterations,16,1580743,102749,100125,99996,94235,100378,96569,96088,99928,99990,95989,100818,100592,98409,97098,99436,98343
+STAT,(NULL),LoopTime,16,72,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,16,16,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,16,1246,1246,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Unordered Agglomerative Clustering
+Clusters data points using the well-known data-mining algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/agglomerative_clustering
+
+INFO: CommandLine ./clustering_gs -t 24 -numPoints 3000
+INFO: Hostname broady
+Starting Clustering app...[3000]
+	Total transactions completed: 1528825
+	Conflict aborts: 985725
+	Capacity aborts: 1500
+	Retry aborts: 0
+	Explicit aborts: 3
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 1009766
+Ending Clustering app...[3000]
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23
+STAT,(NULL),Conflicts,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Iterations,24,1564478,60885,68981,68084,70291,66258,62193,63920,66415,64431,58639,68782,69614,56204,67722,68647,67750,72291,66941,61395,70850,62909,68509,58129,54638
+STAT,(NULL),LoopTime,24,82395,82395,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,24,24,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,24,83799,83799,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Unordered Agglomerative Clustering
+Clusters data points using the well-known data-mining algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/agglomerative_clustering
+
+INFO: CommandLine ./clustering_gs -t 32 -numPoints 3000
+INFO: Hostname broady
+Starting Clustering app...[3000]
+	Total transactions completed: 1595235
+	Conflict aborts: 220352
+	Capacity aborts: 1747
+	Retry aborts: 0
+	Explicit aborts: 1
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 243812
+Ending Clustering app...[3000]
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31
+STAT,(NULL),Conflicts,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Iterations,32,1601362,48186,46938,46617,46968,46199,44758,46773,46804,45684,45939,45587,46515,48690,47634,47346,46961,47985,47727,46670,46443,42598,44323,59198,59384,57647,58658,58571,58150,57976,57568,57086,53779
+STAT,(NULL),LoopTime,32,9963,9963,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,32,32,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,32,11463,11463,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Unordered Agglomerative Clustering
+Clusters data points using the well-known data-mining algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/agglomerative_clustering
+
+INFO: CommandLine ./clustering_gs -t 40 -numPoints 3000
+INFO: Hostname broady
+Starting Clustering app...[3000]
+	Total transactions completed: 1563428
+	Conflict aborts: 324965
+	Capacity aborts: 2030
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 351183
+Ending Clustering app...[3000]
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31,T32,T33,T34,T35,T36,T37,T38,T39
+STAT,(NULL),Conflicts,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Iterations,40,1571799,36034,35970,35841,36096,35999,36446,35325,35709,35773,35772,35772,35868,35707,35803,35579,35451,36410,35642,35737,35641,36313,36344,44567,43956,44337,44303,43980,43142,42848,44027,44080,43806,44067,44038,44542,43619,43894,42335,42231,38795
+STAT,(NULL),LoopTime,40,15376,15376,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,40,40,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,40,16854,16854,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Unordered Agglomerative Clustering
+Clusters data points using the well-known data-mining algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/agglomerative_clustering
+
+INFO: CommandLine ./clustering_gs -t 44 -numPoints 3000
+INFO: Hostname broady
+Starting Clustering app...[3000]
+	Total transactions completed: 1536590
+	Conflict aborts: 443887
+	Capacity aborts: 1772
+	Retry aborts: 0
+	Explicit aborts: 5
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 474334
+Ending Clustering app...[3000]
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31,T32,T33,T34,T35,T36,T37,T38,T39,T40,T41,T42,T43
+STAT,(NULL),Conflicts,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Iterations,44,1550734,34308,34340,34243,34338,34049,34208,34080,34080,34207,34207,34015,34143,34078,34174,34077,34205,34428,33948,34236,34299,34299,34330,37050,36248,36373,36722,37137,37197,36426,36679,36931,36765,36918,37295,36734,36880,36731,37113,36425,36677,36613,35316,34164,30048
+STAT,(NULL),LoopTime,44,24542,24542,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,44,25994,25994,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Unordered Agglomerative Clustering
+Clusters data points using the well-known data-mining algorithm
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/agglomerative_clustering
+
+INFO: CommandLine ./clustering_gs -t 88 -numPoints 3000
+INFO: Hostname broady
+Starting Clustering app...[3000]
+	Total transactions completed: 1567707
+	Conflict aborts: 100252
+	Capacity aborts: 82503
+	Retry aborts: 0
+	Explicit aborts: 4
+	Debug aborts: 0
+	Nested aborts: 1
+	Total aborts: 210250
+Ending Clustering app...[3000]
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31,T32,T33,T34,T35,T36,T37,T38,T39,T40,T41,T42,T43,T44,T45,T46,T47,T48,T49,T50,T51,T52,T53,T54,T55,T56,T57,T58,T59,T60,T61,T62,T63,T64,T65,T66,T67,T68,T69,T70,T71,T72,T73,T74,T75,T76,T77,T78,T79,T80,T81,T82,T83,T84,T85,T86,T87
+STAT,(NULL),Conflicts,88,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Iterations,88,1569186,18380,18348,18347,18410,18377,18376,18407,18374,18374,18373,18277,18372,18372,18403,18403,18402,18370,18338,18401,18369,18400,18336,18336,18239,18303,18335,18366,18270,18270,18365,18237,18173,18269,18268,18300,18268,18363,18203,18298,18362,18297,18297,18264,18359,18327,18326,18356,18323,18352,18351,18349,18347,18345,18280,18373,18373,18403,18335,18331,18327,18289,18311,18308,18337,18269,18198,18221,18208,18228,18216,18138,18114,18060,18096,18032,17801,18039,17941,17813,17652,17537,17121,16809,16161,14750,12201,8051,4136
+STAT,(NULL),LoopTime,88,1852,1852,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Threads,88,88,88,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,88,3475,3475,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

@@ -1,0 +1,449 @@
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Triangulation
+Produces a Delaunay triangulation for a set of points
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_triangulation
+
+INFO: CommandLine ./delaunaytriangulation_gs -t 1 /home/users/kkazatzis/Galois-2.2.1/inputs/meshes/r250k.node
+INFO: Hostname broady
+configuration: 250003 points
+Number of aborts: 45
+mesh size: 500004
+	Total transactions completed: 996495
+	Conflict aborts: 92
+	Capacity aborts: 183602
+	Retry aborts: 0
+	Explicit aborts: 0
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 184181
+Per thread stats:
+conflict,capacity,ret,expl,d,n,total ab, total compl
+92, 183602, 0, 0, 0, 0, 184181, 996495, 
+
+Triangulation OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0
+STAT,(NULL),Conflicts,1,0,0
+STAT,(NULL),Iterations,1,250000,250000
+STAT,(NULL),LoopTime,1,1476,1476
+STAT,(NULL),MeminfoPost,1,185,185
+STAT,(NULL),MeminfoPre,1,185,185
+STAT,(NULL),Threads,1,1,1
+STAT,(NULL),Time,1,1473,1473
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Triangulation
+Produces a Delaunay triangulation for a set of points
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_triangulation
+
+INFO: CommandLine ./delaunaytriangulation_gs -t 2 /home/users/kkazatzis/Galois-2.2.1/inputs/meshes/r250k.node
+INFO: Hostname broady
+configuration: 250003 points
+Number of aborts: 45
+mesh size: 500004
+	Total transactions completed: 995525
+	Conflict aborts: 359673
+	Capacity aborts: 153567
+	Retry aborts: 0
+	Explicit aborts: 3
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 513812
+Per thread stats:
+conflict,capacity,ret,expl,d,n,total ab, total compl
+130367, 72358, 0, 3, 0, 0, 203017, 583439, 
+229306, 81209, 0, 0, 0, 0, 310795, 412086, 
+
+Triangulation OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1
+STAT,(NULL),Conflicts,2,0,0,0
+STAT,(NULL),Iterations,2,250000,146312,103688
+STAT,(NULL),LoopTime,2,1030,1030,0
+STAT,(NULL),MeminfoPost,2,188,94,94
+STAT,(NULL),MeminfoPre,2,188,94,94
+STAT,(NULL),Threads,2,2,2,0
+STAT,(NULL),Time,2,1029,1029,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Triangulation
+Produces a Delaunay triangulation for a set of points
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_triangulation
+
+INFO: CommandLine ./delaunaytriangulation_gs -t 4 /home/users/kkazatzis/Galois-2.2.1/inputs/meshes/r250k.node
+INFO: Hostname broady
+configuration: 250003 points
+Number of aborts: 45
+mesh size: 500004
+	Total transactions completed: 991691
+	Conflict aborts: 927599
+	Capacity aborts: 189161
+	Retry aborts: 0
+	Explicit aborts: 15
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 1117485
+Per thread stats:
+conflict,capacity,ret,expl,d,n,total ab, total compl
+267951, 59171, 0, 5, 0, 0, 327303, 205574, 
+236460, 38493, 0, 6, 0, 0, 275135, 257424, 
+216585, 43798, 0, 2, 0, 0, 260566, 259893, 
+206603, 47699, 0, 2, 0, 0, 254481, 268800, 
+
+Triangulation OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3
+STAT,(NULL),Conflicts,4,0,0,0,0,0
+STAT,(NULL),Iterations,4,250000,52004,64868,65444,67684
+STAT,(NULL),LoopTime,4,708,708,0,0,0
+STAT,(NULL),MeminfoPost,4,192,48,48,48,48
+STAT,(NULL),MeminfoPre,4,192,48,48,48,48
+STAT,(NULL),Threads,4,4,4,0,0,0
+STAT,(NULL),Time,4,707,707,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Triangulation
+Produces a Delaunay triangulation for a set of points
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_triangulation
+
+INFO: CommandLine ./delaunaytriangulation_gs -t 8 /home/users/kkazatzis/Galois-2.2.1/inputs/meshes/r250k.node
+INFO: Hostname broady
+configuration: 250003 points
+Number of aborts: 45
+mesh size: 500004
+	Total transactions completed: 987603
+	Conflict aborts: 1892197
+	Capacity aborts: 151357
+	Retry aborts: 0
+	Explicit aborts: 41
+	Debug aborts: 0
+	Nested aborts: 0
+	Total aborts: 2044759
+Per thread stats:
+conflict,capacity,ret,expl,d,n,total ab, total compl
+358434, 10696, 0, 9, 0, 0, 369295, 64598, 
+213876, 18894, 0, 4, 0, 0, 232916, 132383, 
+225412, 15986, 0, 5, 0, 0, 241551, 133788, 
+223016, 20805, 0, 5, 0, 0, 243970, 128927, 
+233618, 18685, 0, 4, 0, 0, 252450, 132974, 
+223103, 21541, 0, 4, 0, 0, 244791, 130816, 
+209751, 21476, 0, 5, 0, 0, 231376, 131498, 
+204987, 23274, 0, 5, 0, 0, 228410, 132619, 
+
+Triangulation OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7
+STAT,(NULL),Conflicts,8,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Iterations,8,250000,16786,33426,33810,32594,33650,33042,33202,33490
+STAT,(NULL),LoopTime,8,498,498,0,0,0,0,0,0,0
+STAT,(NULL),MeminfoPost,8,200,25,25,25,25,25,25,25,25
+STAT,(NULL),MeminfoPre,8,200,25,25,25,25,25,25,25,25
+STAT,(NULL),Threads,8,8,8,0,0,0,0,0,0,0
+STAT,(NULL),Time,8,498,498,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Triangulation
+Produces a Delaunay triangulation for a set of points
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_triangulation
+
+INFO: CommandLine ./delaunaytriangulation_gs -t 16 /home/users/kkazatzis/Galois-2.2.1/inputs/meshes/r250k.node
+INFO: Hostname broady
+configuration: 250003 points
+Number of aborts: 45
+mesh size: 500004
+	Total transactions completed: 948973
+	Conflict aborts: 4680759
+	Capacity aborts: 77669
+	Retry aborts: 0
+	Explicit aborts: 763
+	Debug aborts: 0
+	Nested aborts: 2
+	Total aborts: 4760856
+Per thread stats:
+conflict,capacity,ret,expl,d,n,total ab, total compl
+407986, 1838, 0, 24, 0, 0, 409970, 21005, 
+293556, 4365, 0, 32, 0, 0, 298053, 61306, 
+280047, 6186, 0, 60, 0, 1, 286396, 63342, 
+289257, 4764, 0, 58, 0, 0, 294187, 60377, 
+300255, 4635, 0, 66, 0, 0, 305054, 60685, 
+303053, 3503, 0, 61, 0, 0, 306717, 62046, 
+288655, 4832, 0, 29, 0, 0, 293618, 60728, 
+273408, 5103, 0, 44, 0, 0, 278655, 61641, 
+283125, 4540, 0, 69, 0, 0, 287838, 62256, 
+285866, 5963, 0, 61, 0, 0, 291997, 59331, 
+284955, 4970, 0, 70, 0, 0, 290091, 62611, 
+287026, 5179, 0, 18, 0, 0, 292335, 62726, 
+287302, 6011, 0, 19, 0, 1, 293431, 61327, 
+276778, 4431, 0, 23, 0, 0, 281342, 63136, 
+264808, 5406, 0, 77, 0, 0, 270391, 63895, 
+274682, 5943, 0, 52, 0, 0, 280781, 62561, 
+
+Triangulation OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15
+STAT,(NULL),Conflicts,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Iterations,16,250000,7177,16105,16553,15817,15913,16265,15913,16105,16265,15561,16361,16393,16073,16489,16649,16361
+STAT,(NULL),LoopTime,16,407,407,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),MeminfoPost,16,224,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14
+STAT,(NULL),MeminfoPre,16,224,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14
+STAT,(NULL),Threads,16,16,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,16,407,407,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Triangulation
+Produces a Delaunay triangulation for a set of points
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_triangulation
+
+INFO: CommandLine ./delaunaytriangulation_gs -t 22 /home/users/kkazatzis/Galois-2.2.1/inputs/meshes/r250k.node
+INFO: Hostname broady
+configuration: 250003 points
+Number of aborts: 45
+mesh size: 500004
+	Total transactions completed: 795186
+	Conflict aborts: 11975191
+	Capacity aborts: 53644
+	Retry aborts: 0
+	Explicit aborts: 1388
+	Debug aborts: 0
+	Nested aborts: 6
+	Total aborts: 12031421
+Per thread stats:
+conflict,capacity,ret,expl,d,n,total ab, total compl
+596068, 1599, 0, 58, 0, 0, 597788, 11634, 
+543022, 2451, 0, 51, 0, 0, 545586, 34892, 
+523372, 2238, 0, 62, 0, 0, 525720, 36819, 
+536148, 2929, 0, 20, 0, 0, 539145, 37471, 
+542283, 2678, 0, 41, 0, 0, 545055, 36276, 
+537878, 2021, 0, 51, 0, 1, 540010, 37107, 
+527393, 3635, 0, 43, 0, 0, 531130, 38282, 
+539545, 1495, 0, 44, 0, 1, 541138, 37714, 
+537090, 2493, 0, 30, 0, 0, 539667, 37792, 
+540272, 2626, 0, 36, 0, 0, 543008, 37670, 
+538850, 1423, 0, 50, 0, 0, 540379, 36917, 
+565115, 3097, 0, 54, 0, 0, 568316, 37127, 
+534750, 2433, 0, 65, 0, 1, 537300, 36306, 
+561046, 2641, 0, 95, 0, 0, 563836, 37982, 
+528587, 2475, 0, 76, 0, 0, 531192, 38065, 
+530197, 1919, 0, 97, 0, 1, 532258, 37245, 
+537094, 3192, 0, 41, 0, 0, 540379, 36423, 
+560907, 2631, 0, 88, 0, 0, 563682, 38195, 
+547894, 1636, 0, 127, 0, 1, 549707, 38589, 
+560396, 2381, 0, 116, 0, 1, 562940, 38004, 
+537633, 2511, 0, 89, 0, 0, 540286, 37386, 
+549651, 3140, 0, 54, 0, 0, 552899, 37290, 
+
+Triangulation OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21
+STAT,(NULL),Conflicts,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Iterations,22,250000,5828,11044,11428,11652,11396,11556,11812,11716,11716,11684,11492,11684,11332,11876,11748,11556,11396,11940,11972,11876,11620,11676
+STAT,(NULL),LoopTime,22,580,580,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),MeminfoPost,22,242,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11
+STAT,(NULL),MeminfoPre,22,242,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11
+STAT,(NULL),Threads,22,22,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,22,581,581,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Triangulation
+Produces a Delaunay triangulation for a set of points
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_triangulation
+
+INFO: CommandLine ./delaunaytriangulation_gs -t 44 /home/users/kkazatzis/Galois-2.2.1/inputs/meshes/r250k.node
+INFO: Hostname broady
+configuration: 250003 points
+Number of aborts: 45
+mesh size: 500002
+	Total transactions completed: 264521
+	Conflict aborts: 37155044
+	Capacity aborts: 20415
+	Retry aborts: 0
+	Explicit aborts: 6882
+	Debug aborts: 0
+	Nested aborts: 16
+	Total aborts: 37183703
+Per thread stats:
+conflict,capacity,ret,expl,d,n,total ab, total compl
+902543, 355, 0, 87, 0, 0, 903181, 1536, 
+868216, 322, 0, 57, 0, 0, 868620, 5746, 
+854591, 359, 0, 62, 0, 0, 855041, 5477, 
+883446, 349, 0, 234, 0, 0, 884054, 5678, 
+877423, 361, 0, 201, 0, 0, 878003, 5514, 
+863889, 325, 0, 183, 0, 0, 864418, 5393, 
+872182, 337, 0, 53, 0, 1, 872605, 5823, 
+858779, 382, 0, 66, 0, 1, 859250, 5547, 
+876885, 356, 0, 203, 0, 0, 877483, 5460, 
+877575, 389, 0, 193, 0, 0, 878237, 5501, 
+880064, 365, 0, 160, 0, 1, 880619, 5807, 
+944841, 471, 0, 121, 0, 1, 945483, 6103, 
+935365, 385, 0, 127, 0, 0, 935899, 5854, 
+892527, 400, 0, 194, 0, 1, 893151, 5431, 
+862576, 372, 0, 153, 0, 1, 863129, 5261, 
+875113, 404, 0, 160, 0, 0, 875696, 5410, 
+884349, 378, 0, 152, 0, 1, 884911, 5638, 
+912732, 453, 0, 160, 0, 1, 913373, 5448, 
+881694, 408, 0, 119, 0, 0, 882251, 5036, 
+894820, 406, 0, 183, 0, 0, 895446, 5658, 
+868867, 375, 0, 138, 0, 0, 869446, 5616, 
+859710, 334, 0, 156, 0, 0, 860253, 5183, 
+788519, 427, 0, 74, 0, 0, 789033, 5385, 
+789715, 513, 0, 56, 0, 0, 790301, 5715, 
+805758, 469, 0, 89, 0, 0, 806336, 6293, 
+797947, 432, 0, 254, 0, 1, 798653, 6651, 
+789018, 506, 0, 215, 0, 1, 789758, 6867, 
+799924, 433, 0, 202, 0, 0, 800574, 7006, 
+781008, 447, 0, 75, 0, 0, 781563, 6999, 
+785789, 579, 0, 79, 0, 0, 786456, 7114, 
+794709, 664, 0, 238, 0, 1, 795627, 6876, 
+801607, 494, 0, 241, 0, 1, 802361, 6998, 
+802324, 543, 0, 208, 0, 0, 803089, 6920, 
+846337, 650, 0, 145, 0, 0, 847158, 6865, 
+840461, 575, 0, 205, 0, 0, 841269, 6709, 
+824789, 464, 0, 227, 0, 0, 825510, 6624, 
+795243, 721, 0, 151, 0, 1, 796128, 6514, 
+790979, 656, 0, 197, 0, 2, 791844, 6629, 
+793517, 541, 0, 149, 0, 0, 794227, 6876, 
+848121, 647, 0, 183, 0, 0, 848982, 6619, 
+836290, 545, 0, 178, 0, 0, 837044, 6884, 
+819324, 561, 0, 210, 0, 0, 820118, 6516, 
+796119, 622, 0, 173, 0, 1, 796939, 6504, 
+799359, 640, 0, 171, 0, 0, 800184, 6837, 
+
+Triangulation OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31,T32,T33,T34,T35,T36,T37,T38,T39,T40,T41,T42,T43
+STAT,(NULL),Conflicts,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Iterations,44,250000,5106,5778,5650,5842,5746,5682,5778,5650,5746,5746,5810,6226,6098,5778,5586,5682,5778,5874,5618,5842,5714,5554,5202,5298,5522,5586,5586,5682,5586,5650,5618,5682,5682,5874,5810,5714,5554,5554,5618,5810,5842,5650,5554,5642
+STAT,(NULL),LoopTime,44,2371,2371,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),MeminfoPost,44,352,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8
+STAT,(NULL),MeminfoPre,44,308,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7
+STAT,(NULL),Threads,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,44,2371,2371,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Galois Benchmark Suite v2.2.1 (r0)
+Copyright (C) 2014 The University of Texas at Austin
+http://iss.ices.utexas.edu/galois/
+
+application: Delaunay Triangulation
+Produces a Delaunay triangulation for a set of points
+http://iss.ices.utexas.edu/?p=projects/galois/benchmarks/delaunay_triangulation
+
+INFO: CommandLine ./delaunaytriangulation_gs -t 88 /home/users/kkazatzis/Galois-2.2.1/inputs/meshes/r250k.node
+INFO: Hostname broady
+configuration: 250003 points
+Number of aborts: 45
+mesh size: 500004
+	Total transactions completed: 98739
+	Conflict aborts: 42959388
+	Capacity aborts: 71979
+	Retry aborts: 0
+	Explicit aborts: 29436
+	Debug aborts: 0
+	Nested aborts: 28
+	Total aborts: 43062233
+Per thread stats:
+conflict,capacity,ret,expl,d,n,total ab, total compl
+723831, 8411, 0, 447, 0, 0, 732756, 608, 
+506100, 595, 0, 387, 0, 1, 507101, 2045, 
+507295, 628, 0, 394, 0, 0, 508336, 2077, 
+452114, 455, 0, 231, 0, 1, 452812, 1753, 
+459168, 904, 0, 247, 0, 0, 460334, 1952, 
+438125, 772, 0, 247, 0, 1, 439155, 1727, 
+506041, 604, 0, 415, 0, 0, 507079, 2047, 
+502330, 568, 0, 341, 0, 0, 503267, 2033, 
+494109, 689, 0, 276, 0, 1, 495090, 2090, 
+463880, 533, 0, 271, 0, 0, 464700, 1869, 
+450037, 721, 0, 230, 0, 0, 450999, 1739, 
+423848, 520, 0, 360, 0, 0, 424742, 1564, 
+443556, 457, 0, 358, 0, 0, 444383, 1634, 
+452230, 485, 0, 333, 0, 0, 453064, 1680, 
+504537, 535, 0, 303, 0, 0, 505388, 1769, 
+529116, 567, 0, 335, 0, 1, 530038, 1807, 
+435755, 591, 0, 336, 0, 0, 436695, 1556, 
+444787, 455, 0, 391, 0, 0, 445647, 1675, 
+452386, 528, 0, 392, 0, 0, 453335, 1721, 
+456137, 447, 0, 362, 0, 0, 456961, 1624, 
+532379, 910, 0, 350, 0, 0, 533656, 2021, 
+533548, 720, 0, 468, 0, 0, 534756, 1968, 
+429790, 966, 0, 216, 0, 3, 430985, 455, 
+426047, 892, 0, 210, 0, 0, 427160, 636, 
+463052, 788, 0, 216, 0, 0, 464065, 456, 
+551067, 769, 0, 317, 0, 0, 552170, 524, 
+532222, 1008, 0, 302, 0, 0, 533547, 619, 
+513759, 952, 0, 292, 0, 0, 515017, 501, 
+427182, 975, 0, 216, 0, 0, 428387, 521, 
+434886, 599, 0, 228, 0, 1, 435725, 342, 
+528841, 980, 0, 298, 0, 1, 530132, 571, 
+539633, 737, 0, 315, 0, 0, 540699, 483, 
+516062, 702, 0, 334, 0, 1, 517112, 395, 
+470648, 679, 0, 253, 0, 0, 471595, 340, 
+472730, 773, 0, 264, 0, 0, 473784, 419, 
+490679, 876, 0, 284, 0, 0, 491856, 422, 
+560764, 975, 0, 238, 0, 1, 561990, 487, 
+563621, 734, 0, 253, 0, 0, 564618, 359, 
+477790, 631, 0, 289, 0, 1, 478742, 426, 
+464944, 616, 0, 267, 0, 0, 465841, 329, 
+481332, 626, 0, 275, 0, 1, 482244, 301, 
+504074, 685, 0, 320, 0, 0, 505095, 342, 
+549901, 731, 0, 281, 0, 0, 550932, 373, 
+563558, 922, 0, 395, 0, 0, 564886, 544, 
+483835, 570, 0, 617, 0, 0, 485038, 1074, 
+524066, 738, 0, 477, 0, 0, 525304, 2043, 
+516011, 656, 0, 460, 0, 0, 517153, 2163, 
+465162, 541, 0, 357, 0, 0, 466074, 1882, 
+434613, 496, 0, 343, 0, 0, 435464, 1832, 
+440789, 480, 0, 294, 0, 0, 441579, 1678, 
+513621, 513, 0, 479, 0, 0, 514634, 1961, 
+508488, 693, 0, 418, 0, 0, 509609, 1994, 
+477709, 578, 0, 364, 0, 0, 478668, 1980, 
+452806, 661, 0, 327, 0, 0, 453801, 1878, 
+427583, 544, 0, 308, 0, 0, 428452, 1672, 
+422191, 449, 0, 444, 0, 0, 423097, 1560, 
+447160, 492, 0, 442, 0, 1, 448105, 1751, 
+462989, 688, 0, 433, 0, 0, 464128, 1855, 
+504762, 613, 0, 395, 0, 0, 505783, 1855, 
+529963, 662, 0, 441, 0, 0, 531079, 1906, 
+424457, 517, 0, 430, 0, 0, 425417, 1526, 
+430621, 471, 0, 430, 0, 0, 431536, 1599, 
+444406, 494, 0, 438, 0, 0, 445353, 1740, 
+458028, 541, 0, 470, 0, 0, 459069, 1695, 
+524714, 702, 0, 393, 0, 0, 525829, 1952, 
+537720, 733, 0, 565, 0, 0, 539039, 2029, 
+421665, 613, 0, 224, 0, 1, 422509, 325, 
+420715, 580, 0, 209, 0, 0, 421516, 341, 
+449288, 653, 0, 228, 0, 1, 450184, 357, 
+542715, 1050, 0, 341, 0, 1, 544126, 721, 
+524276, 1026, 0, 333, 0, 2, 525654, 572, 
+498304, 645, 0, 300, 0, 0, 499265, 332, 
+424538, 731, 0, 204, 0, 0, 425492, 534, 
+440068, 543, 0, 261, 0, 0, 440891, 435, 
+534404, 762, 0, 339, 0, 0, 535520, 477, 
+538278, 774, 0, 329, 0, 1, 539395, 530, 
+508966, 688, 0, 357, 0, 1, 510032, 358, 
+465983, 668, 0, 290, 0, 1, 466961, 365, 
+465074, 3594, 0, 280, 0, 1, 468974, 446, 
+489913, 890, 0, 307, 0, 1, 491120, 541, 
+544567, 773, 0, 267, 0, 1, 545618, 474, 
+557249, 933, 0, 331, 0, 1, 558525, 485, 
+473407, 765, 0, 301, 0, 0, 474487, 363, 
+466161, 849, 0, 297, 0, 1, 467322, 556, 
+475552, 881, 0, 310, 0, 0, 476754, 561, 
+500630, 1091, 0, 323, 0, 0, 502053, 653, 
+546569, 1057, 0, 296, 0, 0, 547934, 487, 
+565481, 870, 0, 447, 0, 0, 566814, 397, 
+
+Triangulation OK
+STATTYPE,LOOP,CATEGORY,n,sum,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31,T32,T33,T34,T35,T36,T37,T38,T39,T40,T41,T42,T43,T44,T45,T46,T47,T48,T49,T50,T51,T52,T53,T54,T55,T56,T57,T58,T59,T60,T61,T62,T63,T64,T65,T66,T67,T68,T69,T70,T71,T72,T73,T74,T75,T76,T77,T78,T79,T80,T81,T82,T83,T84,T85,T86,T87
+STAT,(NULL),Conflicts,88,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Iterations,88,250000,3993,3129,3129,2777,2841,2681,3129,3097,3065,2841,2745,2585,2713,2777,3065,3193,2649,2713,2777,2777,3257,3225,2297,2393,2553,3033,2969,2841,2361,2393,2937,2969,2841,2585,2617,2713,3097,3097,2649,2553,2649,2777,3033,3129,2777,3193,3193,2841,2713,2681,3129,3129,2969,2809,2649,2585,2745,2873,3097,3225,2585,2649,2745,2809,3193,3257,2329,2329,2489,3065,2937,2745,2393,2457,2969,3001,2809,2585,2617,2745,3033,3097,2617,2617,2681,2841,3033,3121
+STAT,(NULL),LoopTime,88,2856,2856,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),MeminfoPost,88,615,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7
+STAT,(NULL),MeminfoPre,88,440,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+STAT,(NULL),Threads,88,88,88,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+STAT,(NULL),Time,88,2856,2856,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
